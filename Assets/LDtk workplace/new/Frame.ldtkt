@@ -1,0 +1,40 @@
+{
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "Def": {
+    "__cHei": 1,
+    "__cWid": 1,
+    "cachedPixelData": {
+      "opaqueTiles": "0",
+      "averageColors": "6bbd"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Frame",
+    "padding": 0,
+    "pxHei": 32,
+    "pxWid": 32,
+    "relPath": "../Resource/柵欄 0.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 71
+  }
+}

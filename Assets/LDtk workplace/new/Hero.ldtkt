@@ -1,0 +1,40 @@
+{
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000000000000",
+      "averageColors": "9aab9aab9aab9aab7a9a8aaa7a9a8aaa7a9a8aaa7a9a8aaa9a9b9a9b9a9b9a9b"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Hero",
+    "padding": 0,
+    "pxHei": 128,
+    "pxWid": 128,
+    "relPath": "../Resource/hero.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 165
+  }
+}

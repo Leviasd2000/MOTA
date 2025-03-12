@@ -1,0 +1,36 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "1111111111111111",
+      "averageColors": "f445f445fd66fd66f68df68dfdd6fdd6fdddfdddf64cf64cf8c5f8c5f115f115"
+    },
+    "customData": [
+      {
+        "data": "animatedSprites 0,1\nanimationSpeed 2\nanimationStartFrame 0",
+        "tileId": 0
+      }
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "TILES2",
+    "padding": 0,
+    "pxHei": 128,
+    "pxWid": 128,
+    "relPath": "../Resource/TILES.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 168
+  }
+}

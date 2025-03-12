@@ -1,0 +1,184 @@
+{
+	"identifier": "Level_0",
+	"uniqueIdentifer": "538c3a90-c210-11ef-9394-b3ff34f71bbd",
+	"x": 0,
+	"y": 0,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "f1750cb0-c210-11ef-a6f9-3194a1c8a542",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities": {
+		"Yellowkey": [
+			{
+				"id": "Yellowkey",
+				"iid": "39f56790-c210-11ef-a514-73021ac5f491",
+				"layer": "Entities",
+				"x": 208,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙"
+				}
+			}
+		],
+		"Bluekey": [
+			{
+				"id": "Bluekey",
+				"iid": "3aa02680-c210-11ef-a514-f9bdc8b39b63",
+				"layer": "Entities",
+				"x": 208,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 39387,
+				"customFields": {
+					"item": "藍鑰匙"
+				}
+			}
+		],
+		"Redkey": [
+			{
+				"id": "Redkey",
+				"iid": "3b788520-c210-11ef-a514-99066028b38d",
+				"layer": "Entities",
+				"x": 208,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"item": "紅鑰匙"
+				}
+			}
+		],
+		"Brave": [
+			{
+				"id": "Brave",
+				"iid": "89863a40-e920-11ef-b012-cf40703c3376",
+				"layer": "Entities",
+				"x": 208,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 6049223,
+				"customFields": {
+					"anime": 2,
+					"Player": "BRAVE"
+				}
+			}
+		],
+		"Frame": [
+			{
+				"id": "Frame",
+				"iid": "70200f70-e920-11ef-adaf-892e6a2037fc",
+				"layer": "Entities",
+				"x": 208,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"ID": "柵欄"
+				}
+			}
+		],
+		"Slime1": [
+			{
+				"id": "Slime1",
+				"iid": "7253df60-e920-11ef-adaf-c5584e3a7bb6",
+				"layer": "Entities",
+				"x": 144,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆"
+				}
+			}
+		],
+		"Potion": [
+			{
+				"id": "Potion",
+				"iid": "73694700-e920-11ef-adaf-0169afe74455",
+				"layer": "Entities",
+				"x": 112,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥"
+				}
+			}
+		],
+		"NPC01": [
+			{
+				"id": "NPC01",
+				"iid": "861ae430-e920-11ef-adaf-1f422074e350",
+				"layer": "Entities",
+				"x": 272,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 3485630,
+				"customFields": {
+					"anime": 2,
+					"NPC": "老人1",
+					"upstair": null
+				}
+			}
+		],
+		"NPC03": [
+			{
+				"id": "NPC03",
+				"iid": "886e9830-e920-11ef-adaf-b544312c23f9",
+				"layer": "Entities",
+				"x": 336,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 12470831,
+				"customFields": {
+					"NPC": "盜賊"
+				}
+			}
+		],
+		"Upstair_v2": [
+			{
+				"id": "Upstair_v2",
+				"iid": "fa133f70-e920-11ef-a564-f9ec790cd05a",
+				"layer": "Entities",
+				"x": 208,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 13818624,
+				"customFields": {
+					"Portal": "上樓",
+					"Hidden": false,
+					"downstair": {
+						"entityIid": "fdbbfc20-e920-11ef-a564-79e6f1bab31e",
+						"layerIid": "f1750cb2-c210-11ef-a6f9-71ecd260be0d",
+						"levelIid": "f1750cb0-c210-11ef-a6f9-3194a1c8a542",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": true
+				}
+			}
+		]
+	}
+}

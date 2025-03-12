@@ -1,0 +1,115 @@
+fileFormatVersion: 2
+guid: e69dea6ca4d2f3c48b77edb18b295924
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aaa16bfc62c086f4fb45da87b6acf9b1, type: 3}
+  _reimportOnDependencyChange: 1
+  _jsonFile: {fileID: -164016180542632921, guid: e69dea6ca4d2f3c48b77edb18b295924, type: 3}
+  _pixelsPerUnit: 32
+  _customLevelPrefab: {instanceID: 0}
+  _intGridValueColorsVisible: 0
+  _useCompositeCollider: 1
+  _geometryType: 0
+  _createBackgroundColor: 1
+  _createLevelBoundsTrigger: 0
+  _useParallax: 1
+  _intGridValues:
+  - _key: Collision_1
+    _asset: {fileID: 11400000, guid: bac927c80528c27469554d22e481da44, type: 2}
+  - _key: Collision_2
+    _asset: {instanceID: 0}
+  - _key: Air_wall_1
+    _asset: {fileID: 11400000, guid: bac927c80528c27469554d22e481da44, type: 2}
+  _entities:
+  - _key: NPC01
+    _asset: {fileID: 7824669851078551596, guid: 670df04ee39fe924499ee36717f2e5b5, type: 3}
+  - _key: NPC02
+    _asset: {instanceID: 0}
+  - _key: NPC03
+    _asset: {fileID: 7824669851078551596, guid: cf926f54b84cb1c4292462fb341734b2, type: 3}
+  - _key: NPC04
+    _asset: {instanceID: 0}
+  - _key: Slime1
+    _asset: {fileID: 7218181432366982181, guid: 83df83443e36dc1489feb0c24821c089, type: 3}
+  - _key: Entity
+    _asset: {instanceID: 0}
+  - _key: NPC05
+    _asset: {instanceID: 0}
+  - _key: Shop1
+    _asset: {fileID: 3888921952822052582, guid: 5a47f00176e4b9c4eb244bd986532963, type: 3}
+  - _key: Shop2
+    _asset: {instanceID: 0}
+  - _key: Slime2
+    _asset: {fileID: 7218181432366982181, guid: 852aeb7e2b69e18458a40ad4df84acdd, type: 3}
+  - _key: Slime3
+    _asset: {fileID: 7218181432366982181, guid: 10675e1f497ae06478505f606c56db80, type: 3}
+  - _key: Slime4
+    _asset: {fileID: 6383236280107664346, guid: d7d519596150cd44199e53c33dca857f, type: 3}
+  - _key: Brave
+    _asset: {fileID: 1295496406240226152, guid: e8d8d4b9c5702b347898ed32741c64ec, type: 3}
+  - _key: Upstair
+    _asset: {fileID: 2807128580113449616, guid: ecdda550a4b20514987c681f264548f5, type: 3}
+  - _key: Downstair
+    _asset: {fileID: 1513876741679030797, guid: 6873008b8117a434b9289a77c61d6bf7, type: 3}
+  - _key: Frame
+    _asset: {fileID: 4799997032652624647, guid: cfdee603f3885e54086fc2652f0137c1, type: 3}
+  - _key: NPC01_v2
+    _asset: {instanceID: 0}
+  - _key: Downstair_v2
+    _asset: {fileID: 1513876741679030797, guid: 6873008b8117a434b9289a77c61d6bf7, type: 3}
+  - _key: Upstair_v2
+    _asset: {fileID: 2807128580113449616, guid: ecdda550a4b20514987c681f264548f5, type: 3}
+  - _key: Yellowkey
+    _asset: {fileID: 714475560607541219, guid: 0ff0b16c867c1f545af5612d5142df04, type: 3}
+  - _key: Bluekey
+    _asset: {fileID: 5333266445683492936, guid: b82e2742ef4737c47b23f4642c53270c, type: 3}
+  - _key: Redkey
+    _asset: {fileID: 2645505098909898732, guid: b75653446d130264d9ab8e8d98c00e02, type: 3}
+  - _key: Greenkey
+    _asset: {instanceID: 0}
+  - _key: Totalkey
+    _asset: {instanceID: 0}
+  - _key: Yellowdoor
+    _asset: {fileID: 762757110794664912, guid: 8afa0c52064bf0242b518a93af6bdee3, type: 3}
+  - _key: Bluedoor
+    _asset: {fileID: 762757110794664912, guid: 4d6ea3d71c6cb924e9c515d097bb90fb, type: 3}
+  - _key: Reddoor
+    _asset: {fileID: 762757110794664912, guid: dd43b8f4f98f8f24c913b5cb4a4e79c1, type: 3}
+  - _key: Gate
+    _asset: {instanceID: 0}
+  - _key: Redgem
+    _asset: {fileID: 3235325310902287645, guid: c5acb1022e5027343827a5d70029983f, type: 3}
+  - _key: Bluegem
+    _asset: {fileID: 6048520137004697396, guid: fc281e96463d0e64da693e72ab7d0e14, type: 3}
+  - _key: Potion
+    _asset: {fileID: 2452201945876396635, guid: ddffbf3ae5837a147914049aa9263aef, type: 3}
+  - _key: HighPotion
+    _asset: {fileID: 3156886124636202960, guid: 33f7728b48bae984194898b397ada61f, type: 3}
+  - _key: Bat1
+    _asset: {instanceID: 0}
+  - _key: Bat2
+    _asset: {instanceID: 0}
+  - _key: Bat3
+    _asset: {instanceID: 0}
+  - _key: Vampire
+    _asset: {instanceID: 0}
+  - _key: Shop1right
+    _asset: {fileID: 4300305542489886807, guid: c552d0debe24f9c489f2b5a58e0c3042, type: 3}
+  - _key: Shop1left
+    _asset: {fileID: 3254035244962849252, guid: 5cba78aab3f6f2c44a7e205cd5caa458, type: 3}
+  - _key: Shop2left
+    _asset: {instanceID: 0}
+  - _key: Shop2right
+    _asset: {instanceID: 0}
+  - _key: Upstair_normal
+    _asset: {fileID: 2807128580113449616, guid: ecdda550a4b20514987c681f264548f5, type: 3}
+  - _key: Downstair_normal
+    _asset: {fileID: 1513876741679030797, guid: 6873008b8117a434b9289a77c61d6bf7, type: 3}
+  _enumGenerate: 0
+  _enumPath: 
+  _enumNamespace: 

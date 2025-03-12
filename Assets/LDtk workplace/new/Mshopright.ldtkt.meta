@@ -1,0 +1,76 @@
+fileFormatVersion: 2
+guid: 6d3cf4ba41b2bc84aa2c5ce59d7ff660
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 32
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: Mshopright_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 32
+      height: 32
+    spriteID: a0e38897e228dbb4e81f20b056e1fe2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Mshopright_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 1
+      width: 1
+      height: 32
+    spriteID: c2de16da4bef68843ad81c246f7bcc91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Mshopright_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 1
+    spriteID: 091b8e10d4ba9ab42ae7522c36ea865f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Mshopright_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 1
+      height: 1
+    spriteID: a3475c18ec78101439bacf3e5418a6fe
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

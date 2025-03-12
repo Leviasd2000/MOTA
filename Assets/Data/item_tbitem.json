@@ -1,0 +1,147 @@
+[
+  {
+    "id": "黃鑰匙",
+    "name": "黃鑰匙",
+    "icon": "Key_0",
+    "type": 0,
+    "use_type": 0,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "得到一把黃鑰匙",
+    "use_tips": "",
+    "desc": "可打開黃門"
+  },
+  {
+    "id": "藍鑰匙",
+    "name": "藍鑰匙",
+    "icon": "",
+    "type": 0,
+    "use_type": 0,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "得到一把藍鑰匙",
+    "use_tips": "",
+    "desc": "可打開藍門"
+  },
+  {
+    "id": "紅鑰匙",
+    "name": "紅鑰匙",
+    "icon": "",
+    "type": 0,
+    "use_type": 0,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "得到一把紅鑰匙",
+    "use_tips": "",
+    "desc": "可打開紅門"
+  },
+  {
+    "id": "鑰匙盒",
+    "name": "鑰匙盒",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [],
+    "percent_properties": [],
+    "items": [
+      {
+        "id": "黃鑰匙",
+        "count": 1
+      },
+      {
+        "id": "藍鑰匙",
+        "count": 1
+      },
+      {
+        "id": "紅鑰匙",
+        "count": 1
+      }
+    ],
+    "system": "",
+    "pick_tips": "三種鑰匙數量+1",
+    "use_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "紅寶石",
+    "name": "紅寶石",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 2
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "得到一顆紅寶石，攻擊+2",
+    "desc": ""
+  },
+  {
+    "id": "藍寶石",
+    "name": "藍寶石",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 2
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "得到一顆藍寶石，防禦+2",
+    "desc": ""
+  },
+  {
+    "id": "普通傷藥",
+    "name": "普通傷藥",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Hp",
+        "count": 150
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "喝到一瓶普通傷藥，生命+150",
+    "desc": ""
+  },
+  {
+    "id": "高級傷藥",
+    "name": "高級傷藥",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Hp",
+        "count": 400
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "喝到一瓶高級傷藥，生命+400",
+    "desc": ""
+  }
+]

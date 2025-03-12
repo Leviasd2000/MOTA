@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "age": 18,
+    "name": "kana",
+    "score": 12
+  },
+  {
+    "id": 2,
+    "age": 13,
+    "name": "aqua",
+    "score": 10
+  },
+  {
+    "id": 3,
+    "age": 12,
+    "name": "akane",
+    "score": 6
+  }
+]

@@ -1,0 +1,1336 @@
+fileFormatVersion: 2
+guid: 4c0d62922dda62040b98bf69e9a0d8da
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 32
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: GROUND_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 32
+      height: 32
+    spriteID: 31c965315b5323d47906a26300975095
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 320
+      width: 32
+      height: 32
+    spriteID: 35df75172fbdc454fac5ff58e85e6e8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 320
+      width: 32
+      height: 32
+    spriteID: d14fe461d930f2642b1740718479ff58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 320
+      width: 32
+      height: 32
+    spriteID: e981ed96998010347b28130e5faaa41b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 320
+      width: 32
+      height: 32
+    spriteID: 6f920821290b0794bb6d7df34a52155d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 320
+      width: 32
+      height: 32
+    spriteID: 8e45552a6267b7a48b24833fddee36c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 320
+      width: 32
+      height: 32
+    spriteID: bef09baef923bf0429538bf4c1fc32a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 320
+      width: 32
+      height: 32
+    spriteID: 76cd29eee05e8a3489e1824ff1e905f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 32
+      height: 32
+    spriteID: 99bb85b539ec1634e8cdd2bca3c71957
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 288
+      width: 32
+      height: 32
+    spriteID: e1406a0cca34b614793091c946ae8f6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 288
+      width: 32
+      height: 32
+    spriteID: 9244d3bd66a4ee74281d99eff9d61c8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 32
+      height: 32
+    spriteID: f27f0f76568f72e4baede3d2fbe03f8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 288
+      width: 32
+      height: 32
+    spriteID: 606bf2ac62c03184ebe979a15ba44f79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 288
+      width: 32
+      height: 32
+    spriteID: 4a7593c865533924cb452053e7d88b2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 32
+      height: 32
+    spriteID: 4fd99bc6523685c408dbd1a8e27b3408
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 288
+      width: 32
+      height: 32
+    spriteID: 82d1f7f5f541e454cb87f8bf2952778a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 252a97ce456f09048b200f2e4a764f9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 3f10f320c4fa53e47881cee7e15f44a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 691c3e35c5dc3984eb3826b34d7c23a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 0f4ab3ea11e537a48b6fecc28b73ae40
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 9eeb2116c09690849849e6259eb2f7df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 4d159bcd62053a544857542b865a3770
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 256
+      width: 32
+      height: 32
+    spriteID: 57c5ada15228ea048b4f0d2c37dd4e7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 256
+      width: 32
+      height: 32
+    spriteID: cc62259ef88bd454794968632bdef973
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 32
+      height: 32
+    spriteID: b96db58c294c222438bbdebf90e4f4be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 32
+      height: 32
+    spriteID: 9dc4fd14887a84041b3b8dca26a43823
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 32
+      height: 32
+    spriteID: 5faa40b8a3bd30048bc864b901b7a7a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 32
+      height: 32
+    spriteID: b0ff7af01ea523c40af83dbb25a8196e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 32
+      height: 32
+    spriteID: 9c9e6b9179db25a40b2cad9f5aebc6c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 32
+      height: 32
+    spriteID: 27760f6ad9ce47b41b19127afea4b540
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 32
+      height: 32
+    spriteID: e88850cbb9b07a04cbbc16de100f74ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 32
+      height: 32
+    spriteID: 2a1fc305703d4124eb17140d31ac427f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 62a37e93941262845af5dba55c916877
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 6223799c5d5efd94dbf9b2e6892d00b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 04febdc5d8e08c74ca950fbc0d1dc5ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 4b0b50f412b8ad647b06bf73401d38c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 969ea68ad6f86554d9aa4fb5655f6665
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 77858a7c405d6dd4fbfe1d4401909f92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 32
+      height: 32
+    spriteID: cafa520cf62680640b49d185ed6458b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 32
+      height: 32
+    spriteID: 3455b2ade402ea447b735961797695d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 32
+      height: 32
+    spriteID: dd7e20174a926ac4ea2d98e7fe174cb0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 32
+      height: 32
+    spriteID: 2da1b5f0da71cae468ba8ee58da3dc36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 32
+      height: 32
+    spriteID: 93f8facb75f1b274e9c47976cd6bb025
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 32
+      height: 32
+    spriteID: 0b969e20d8f8b844daf332d469db762c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 32
+      height: 32
+    spriteID: c7f288d1a2fad064cb74edf9ccac91ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 32
+      height: 32
+    spriteID: 1a61354cbeeab10448fb0c680481f2a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 32
+      height: 32
+    spriteID: 4bcb2ea426f09b24493397b0cb8b14be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 32
+      height: 32
+    spriteID: d3bbf7fdf703c4f4d87596bb0dd144ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 32
+      height: 32
+    spriteID: c5804244193f3f0448b8563ad457d137
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 32
+      height: 32
+    spriteID: 8fffccb59deb1a44f9aa8ca39fc8444b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 32
+      height: 32
+    spriteID: 947841872cf61c74eab53281e59f9de5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 32
+      height: 32
+    spriteID: b5e259118992021469db30bf387dd7fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 32
+      height: 32
+    spriteID: 6a213604859f91f428a8da07c9b0ca4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 32
+      height: 32
+    spriteID: 56c52b0792721944aa3c3b8c9c524f74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 32
+      height: 32
+    spriteID: c4f36f5bcbbe7b048b3fb62a037267bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 32
+      height: 32
+    spriteID: a49c8b8d484c8d54baa2a972843a4ef5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 5ac18a95d735ab54594cbd805a09fb45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 73ec7110de5d5004ba89ef882a4e2ceb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 32
+      height: 32
+    spriteID: fa1473f36f6af0b48ab5d46c44b5754b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 32
+      height: 32
+    spriteID: e78383b43163ff94c92397338570a4e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 32
+      height: 32
+    spriteID: cb9090e988e27254280e1363dc5e3c6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 984d4454172817347bf3d4ab16170bff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 69d51a9993bc5f24aaf30e7ef1f941c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 9c4d802573c5bc54cb2c083d9010af98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 74d6a8cb40dd7d74eb826a886aa65b5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 44690d4f842e3654d9f31209cb3e9339
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 11649608bcf3f37478b1ccf32aa282ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 32
+      height: 32
+    spriteID: ab9279adac191a54d8e6a3f85cd610c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 02a9f997c2dabb14ab6c3fc9e2640889
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 1b9f6c6ba65631d428ab4893efa5d88f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 7500a0eabd05cbc45a0a70fc108c2984
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 3b4331b4126f04a4ea31f6f83a768aa2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 32
+      height: 32
+    spriteID: b16316eb8e6055d4fab5e5eeb96eb175
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 10611c15b09c5da4cb6ab09b3d8d2f1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 32
+      height: 32
+    spriteID: f298eb19238687a49a33c686042a8d00
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 32
+      height: 32
+    spriteID: f4f9e14b9f00ace40a5958cbcdde51b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 32
+      height: 32
+    spriteID: b4e0e5bab2ad90a4da266c9baf171ec0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 363034a8d49ec2b40a38b46b66b1a422
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 32
+      height: 32
+    spriteID: f497cef7636b1a24fb0876d2c9e88541
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 683e24e5056a34b45bf26e6da2a5d3aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 1628ede34085185479b60484d2d902f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 32
+      height: 32
+    spriteID: d65456bc7cef83748814ecce9732559f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 5075f454487a9c0418c06caac95834f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 990356936c654104a914c4ad33071191
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 265de8eab374db74c8113e21733c8483
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 32
+      height: 32
+    spriteID: e37223e6939e24a4d945b235f430b5c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 32
+      height: 32
+    spriteID: ed9be1a679abb2d449d0d1c4f0a9dc80
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: GROUND_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 7d0bcd382cb7a35489a2ac9ca998e0bc
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

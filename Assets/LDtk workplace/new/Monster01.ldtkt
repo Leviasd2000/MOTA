@@ -1,0 +1,58 @@
+{
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000000000000",
+      "averageColors": "4cdc3cdc4cdc3cdc4d884d884d884d8858895889588958898bdb8bdb8bdb8bdb"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Monster01",
+    "padding": 0,
+    "pxHei": 128,
+    "pxWid": 128,
+    "relPath": "../Resource/Monster01-01.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 17
+  }
+}

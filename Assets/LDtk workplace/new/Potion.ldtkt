@@ -1,0 +1,46 @@
+{
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000000000000",
+      "averageColors": "5dbc5ccd5adb5ddb5ebb5ccd5aeb5eeb6e9a69ad6ae96b9e0000000000000000"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Potion",
+    "padding": 0,
+    "pxHei": 128,
+    "pxWid": 128,
+    "relPath": "../Resource/Item01_02.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 99
+  }
+}

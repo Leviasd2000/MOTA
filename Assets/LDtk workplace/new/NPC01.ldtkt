@@ -1,0 +1,58 @@
+{
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000000000000",
+      "averageColors": "9bac9bac9bac9bac9c769c769c769c768a868a868a868a863b993b993b993b99"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "NPC01",
+    "padding": 0,
+    "pxHei": 128,
+    "pxWid": 128,
+    "relPath": "../Resource/NPC01-01.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 16
+  }
+}

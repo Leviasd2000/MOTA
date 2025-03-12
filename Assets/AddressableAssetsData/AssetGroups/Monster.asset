@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Monster
+  m_EditorClassIdentifier: 
+  m_GroupName: Monster
+  m_GUID: d4245ac48a14c744c80e2f768376d326
+  m_SerializeEntries:
+  - m_GUID: 234747251d6714244aa89a61d5543eb8
+    m_Address: Assets/Resource/Monster/Monster02_0_96_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2df43c31ac4758a49984c3b18b8bbc92
+    m_Address: Assets/Resource/Monster/Monster01_0_64_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32a23142972d00641b372ebcf18a5f49
+    m_Address: Assets/Resource/Monster/Monster01_0_32_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3de674d51266ae24ca1b91b8d7669e74
+    m_Address: Assets/Resource/Monster/Monster02_0_64_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60f9790c1d30ace499bca5c7fe26b2c8
+    m_Address: Assets/Resource/Monster/Monster01_0_96_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0cd2d1d4d65d364e9b7d165d86cf66a
+    m_Address: Assets/Resource/Monster/Monster02_0_32_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0b7bb0d6c2bd7a40856a1b7b3c43243
+    m_Address: Assets/Resource/Monster/Monster01_0_0_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e90e9d2a8e63c2647b1bfe35ec42788f
+    m_Address: Assets/Resource/Monster/Monster02_0_0_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 91def1be03b30c14ab3ef3c4ea5837e4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2349d565b9d3c11419586a446b9507f1, type: 2}
+    - {fileID: 11400000, guid: 85c17dd006b6bd540acac3712ba94b31, type: 2}

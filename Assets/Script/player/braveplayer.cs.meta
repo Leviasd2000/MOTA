@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 37de8cd123b90f6429925f72111f081e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - animator: {instanceID: 0}
+  - myBag: {fileID: 3256683772266791855, guid: 9f4d184782675ef4ca59b37d85b075b7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

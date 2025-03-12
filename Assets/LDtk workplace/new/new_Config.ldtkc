@@ -1,0 +1,230 @@
+{
+    "PixelsPerUnit": 32,
+    "CustomLevelPrefab": {
+        "instanceID": 0
+    },
+    "IntGridValueColorsVisible": false,
+    "UseCompositeCollider": true,
+    "GeometryType": 0,
+    "CreateBackgroundColor": true,
+    "CreateLevelBoundsTrigger": false,
+    "UseParallax": true,
+    "IntGridValues": [
+        {
+            "_key": "Collision_1",
+            "_asset": {
+                "fileID": 11400000,
+                "guid": "bac927c80528c27469554d22e481da44",
+                "type": 2
+            }
+        },
+        {
+            "_key": "Collision_2",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Air_wall_1",
+            "_asset": {
+                "fileID": 11400000,
+                "guid": "bac927c80528c27469554d22e481da44",
+                "type": 2
+            }
+        }
+    ],
+    "Entities": [
+        {
+            "_key": "NPC01",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "NPC02",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "NPC03",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "NPC04",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Slime1",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Entity",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "NPC05",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Shop1",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Shop2",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Slime2",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Slime3",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Slime4",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Brave",
+            "_asset": {
+                "fileID": 1295496406240226152,
+                "guid": "e8d8d4b9c5702b347898ed32741c64ec",
+                "type": 3
+            }
+        },
+        {
+            "_key": "Upstair",
+            "_asset": {
+                "fileID": 2807128580113449616,
+                "guid": "ecdda550a4b20514987c681f264548f5",
+                "type": 3
+            }
+        },
+        {
+            "_key": "Downstair",
+            "_asset": {
+                "fileID": 1513876741679030797,
+                "guid": "6873008b8117a434b9289a77c61d6bf7",
+                "type": 3
+            }
+        },
+        {
+            "_key": "Frame",
+            "_asset": {
+                "fileID": 4799997032652624647,
+                "guid": "cfdee603f3885e54086fc2652f0137c1",
+                "type": 3
+            }
+        },
+        {
+            "_key": "NPC01_v2",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Downstair_v2",
+            "_asset": {
+                "fileID": 1513876741679030797,
+                "guid": "6873008b8117a434b9289a77c61d6bf7",
+                "type": 3
+            }
+        },
+        {
+            "_key": "Upstair_v2",
+            "_asset": {
+                "fileID": 2807128580113449616,
+                "guid": "ecdda550a4b20514987c681f264548f5",
+                "type": 3
+            }
+        },
+        {
+            "_key": "Yellowkey",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Bluekey",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Redkey",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Greenkey",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Totalkey",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Yellowdoor",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Bluedoor",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Reddoor",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Gate",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Redgem",
+            "_asset": {
+                "instanceID": 0
+            }
+        },
+        {
+            "_key": "Bluegem",
+            "_asset": {
+                "instanceID": 0
+            }
+        }
+    ]
+}
