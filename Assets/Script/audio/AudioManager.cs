@@ -1,29 +1,26 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.AddressableAssets;
 
 public class AudioManager : MonoBehaviour
 {
     [Header("聲音來源")]
-    public AudioClip upperbg;
-    public AudioClip lowerbg;
-    public AudioClip braveattack;
-    public AudioClip monsterattack;
-    public AudioClip Door;
-    public AudioClip Item;
-    public AudioClip Click;
+    public AudioClip firstone;
 
-    
-    List<AudioSource> audios = new List<AudioSource>();
+    private AudioSource audios;
+
+    Dictionary<string , AudioClip> audioclip = new Dictionary<string, AudioClip>();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for(int i = 0; i<7; i++)
+        audios = this.gameObject.AddComponent<AudioSource>();
+        
+        Addressables.LoadAssetsAsync<AudioClip>("Audio", clip =>
         {
-            var audio = this.gameObject.AddComponent<AudioSource>();
-            audios.Add(audio);
-        }
-    }
+            audioclip[clip.name]=clip; // 存入 List
+            Debug.Log($"載入片段：{clip.name}");
+        }, true);}
 
     // Update is called once per frame
     void Update()
@@ -31,35 +28,21 @@ public class AudioManager : MonoBehaviour
         
     }
 
-    public void Play(int index , string name , bool isLoop)
+    public void Play(string name , bool isLoop)
     {
         var clip = GetAudioClip(name);
         if (clip != null)
-        {
-            var audio = audios[index];
-            audio.clip = clip;
-            audio.loop = isLoop;
-            audio.Play();
+        {   
+            audios.clip = clip;
+            audios.loop = isLoop;
+            audios.Play();
            
         }
     }
 
     AudioClip GetAudioClip(string name)
     {
-        switch (name)
-        {
-            case "upperbg":
-                return upperbg;
-            case "lowerbg":
-                return lowerbg;
-            case "Door":
-                return Door;
-            case "Item":
-                return Item;
-            case "Click":
-                return Click;
-        }
-        return null;
+        return audioclip[name];
     }
       
     

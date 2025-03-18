@@ -18,7 +18,9 @@ public class FloorView : MonoBehaviour
     private int relocation; // �ؼмӼh
     private Dictionary<int, GameObject> DefaultUpfloor = new Dictionary<int, GameObject>();
     private Dictionary<int, GameObject> DefaultDownfloor = new Dictionary<int, GameObject>();
+    private Fade fade;
     private Vector3 vector = new Vector3(0, 13, 0);
+    private AudioManager audioManager;
 
     void Awake()
     {
@@ -38,6 +40,8 @@ public class FloorView : MonoBehaviour
 
         Player = FindFirstObjectByType<Braveplayer>().gameObject;
         player = FindFirstObjectByType<Braveplayer>();
+        fade = FindFirstObjectByType<Fade>();   
+        audioManager = FindFirstObjectByType<AudioManager>();
 
     }
 
@@ -65,19 +69,38 @@ public class FloorView : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.W))
             {
-                Upfloor();
+                if (Braveplayer.maxfloor > relocation)
+                {
+                    Upfloor();
+                    audioManager.Play("Click", false);
+                }
+                else
+                {
+                    audioManager.Play("Stop",false);
+                }
             }
             if (Input.GetKeyDown(KeyCode.S))
             {
-                Downfloor();
+                if (Braveplayer.minfloor < relocation)
+                {
+                    Downfloor();
+                    audioManager.Play("Click", false);
+                }
+                else
+                {
+                    audioManager.Play("Stop", false);
+                }
+                
             }
             if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
             {
                 TeleportPlayer(relocation, Braveplayer.floor);
+                fade.FadeIn();
                 Braveplayer.floor = relocation;
                 platform.SetActive(false);
                 Player.GetComponent<Animator>().enabled = true;
                 player.enabled = true;
+                audioManager.Play("Portal", false);
             }
         }
         if (Input.GetKeyDown(KeyCode.G) && platform.activeSelf == true)

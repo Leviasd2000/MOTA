@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  m_GroupName: Audio
+  m_GUID: 01f9a31d692a34244af7abdc8d8bcd35
+  m_SerializeEntries:
+  - m_GUID: 05ede56c97a31d9409978edddde1b278
+    m_Address: Assets/Audio/decrease breath.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c0f9f42d624afc47a76a14436a47925
+    m_Address: Assets/Audio/critical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12d80c177c5fbf84899adcb223b291af
+    m_Address: Assets/Audio/leave.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30d708ca3fe5d28408b06e4a5657037c
+    m_Address: Assets/Audio/batcritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34ec82368908d1a4b89a8c6adaeb37ec
+    m_Address: Assets/Audio/door.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e3982952fc70c943808fe8fcbbe57d4
+    m_Address: Assets/Audio/Stop.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ad4d1a4feb66a942b439e2afe685e2e
+    m_Address: Assets/Audio/lava.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e0deb489b3b71c4eaa217c50be74757
+    m_Address: Assets/Audio/walk.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5eb4eb83062c8b442861f89cc04b24ea
+    m_Address: Assets/Audio/punch.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ec122a2839d4df4cb30a04566f01514
+    m_Address: Assets/Audio/portal.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 808141b66fefd8148a9db23f31c7b7a4
+    m_Address: Assets/Audio/loss.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88c77b933cf0c7446aa73dd3acec8d61
+    m_Address: Assets/Audio/choose.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95b2078323e0a404aa7b3aeb38e5b444
+    m_Address: Assets/Audio/Gold.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba64187d312c3c644880ecceb7ff2690
+    m_Address: Assets/Audio/wind.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba65d2c137829094da4d77a1874c3c9e
+    m_Address: Assets/Audio/potion heal.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: becb8bafbcf434e4785de7dddd26c6a8
+    m_Address: Assets/Audio/punch critical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1640f5beac4a8a43a97e39eb4120242
+    m_Address: Assets/Audio/Stairs.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8371c2e4a6f04841a622fc1fc142d65
+    m_Address: Assets/Audio/evil slime.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e285bbac169936445b72ed00959cb2ce
+    m_Address: Assets/Audio/sword attack.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3fa084a04d66f745bc0b55013607080
+    m_Address: Assets/Audio/miss.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f687729c5f8236b4bbf60f89f18cb772
+    m_Address: Assets/Audio/Item.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 91def1be03b30c14ab3ef3c4ea5837e4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d8f7a01fefacd524184bd38a2441245b, type: 2}
+    - {fileID: 11400000, guid: eae59db497434a044a3aa3724d8b1204, type: 2}

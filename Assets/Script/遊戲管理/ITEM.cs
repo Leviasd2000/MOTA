@@ -119,7 +119,7 @@ public class ItemComponent : MonoBehaviour
             }
             ItemUI(gameObject.GetComponent<ItemComponent>(), Itemui, Itemname);
             Destroy(gameObject); // 拾取后销毁道具
-            audiomanager.Play(5,"Item",false);
+            audiomanager.Play("Item",false);
             Debug.Log(inventory.GetItemQuantity(Name));
             Debug.Log(Name);
         }

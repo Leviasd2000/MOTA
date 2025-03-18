@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using LDtkUnity;
 using System.Collections;
 
@@ -12,6 +13,9 @@ public class Portalup : MonoBehaviour
     private float minDistance = 0.9f; // 最小距离（大于此距离才触发传送）
     private Vector3 objectPosition;
     private Camera mainCamera;
+    private AudioManager audiomanager;
+    public Fade fade;
+    public GameObject Player;
 
 
     void Awake()
@@ -53,8 +57,11 @@ public class Portalup : MonoBehaviour
         }
         playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         objectPosition = transform.position;
+        audiomanager = FindFirstObjectByType<AudioManager>();
+        fade = FindFirstObjectByType<Fade>();
+        Player = FindFirstObjectByType<Braveplayer>().gameObject;
 
-    }
+}
 
     // Update is called once per frame
     void Update()
@@ -87,6 +94,7 @@ public class Portalup : MonoBehaviour
             Debug.Log("Player到了");
             TeleportPlayer();
             Braveplayer.floor += 1;
+            Braveplayer.maxfloor = Braveplayer.floor;
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -106,6 +114,16 @@ public class Portalup : MonoBehaviour
 
         // 傳送玩家到目標傳送門的位置
         playerTransform.position = goup.position;
+
+        Player.GetComponent<Braveplayer>().StopCurrentRepeatMovement();
+        Player.GetComponent<Braveplayer>().StopMoving();
+        Player.GetComponent<Braveplayer>().enabled = false;
+        Player.GetComponent<Braveplayer>().enabled = true;
+
+        audiomanager.Play("Stairs", false);
+
+        fade.FadeIn();
+
 
         // 標記玩家進入傳送範圍，防止重複觸發
         upstairs = true;

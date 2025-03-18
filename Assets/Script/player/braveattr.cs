@@ -10,8 +10,8 @@ public class Braveattr : MonoBehaviour
     public static Dictionary<string, int> attributes = new Dictionary<string, int>();
     public TextMeshProUGUI bravename;
     public GameObject currentMonster;  // 記錄當前接觸的怪物
-    public string Sword;
-    public string Shield;
+    public string Sword ;
+    public string Shield ;
     public float actionSpeed;
 
     public static int AttackCritical;
@@ -46,8 +46,8 @@ public class Braveattr : MonoBehaviour
         attributes["Exp"] = 0;
         attributes["Fatigue"] = 0;
         attributes["Breath"] = 0;
-        Sword = null;
-        Shield = null;
+        Sword = "None";
+        Shield = "None";
         actionSpeed = 2;
         AttackCritical = 5;
         DefenseCritical = 45;
@@ -105,7 +105,7 @@ public class Braveattr : MonoBehaviour
     {
         if (critical == true)
         {
-            return 2*monster_atk - attributes["Def"];
+            return 2*(monster_atk - attributes["Def"]);
         }
         else
         {

@@ -20,6 +20,7 @@ public class Pamphlet : MonoBehaviour
     private List<GameObject> temp = new List<GameObject>();
     private Dictionary<string, Sprite> spriteDict = new Dictionary<string, Sprite>();
     public static int initialocation = 1; // 圖鑑頁面位置
+    public AudioManager audioManager;
 
     [Header("箭頭")]
     public GameObject Leftarrow;
@@ -45,6 +46,7 @@ public class Pamphlet : MonoBehaviour
     {
         Player = FindFirstObjectByType<Braveplayer>().gameObject;
         player = FindFirstObjectByType<Braveplayer>();
+        audioManager = FindFirstObjectByType<AudioManager>();
         Addressables.LoadAssetsAsync<Sprite>("Monster", sprite =>
         {
             spriteDict[sprite.name] = sprite; // 存入 List
@@ -108,11 +110,13 @@ public class Pamphlet : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.RightArrow) && Rightarrow.activeSelf)
             {
                 initialocation += 1;
+                audioManager.Play("Click",false);
                 Show(Braveplayer.floor, initialocation , monsterinstances);
             }
             if (Input.GetKeyDown(KeyCode.LeftArrow) && Leftarrow.activeSelf)
             {
                 initialocation -= 1;
+                audioManager.Play("Click", false);
                 Show(Braveplayer.floor, initialocation , monsterinstances);
             }
             if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
@@ -120,6 +124,7 @@ public class Pamphlet : MonoBehaviour
                 platform.SetActive(false);
                 Player.GetComponent<Animator>().enabled = true;
                 player.enabled = true;
+                audioManager.Play("Leave", false);
                 initialocation = 1;
             }
 
@@ -216,11 +221,11 @@ public class Pamphlet : MonoBehaviour
         attrword[1].text = $"<color=#17E7E3>{attr.System}</color>";
         attrword[2].text = "生命:\n" + $"<color=#26D109>{attr.Hp}</color>";
         attrword[3].text = "攻擊力:\n" + $"<color=#FD6364>{attr.Atk}</color>"; 
-        attrword[4].text = "防禦力:\n" + $"<color=#0D4A90>{attr.Def}</color>";
+        attrword[4].text = "防禦力:\n" + $"<color=#EC7A13>{attr.Def}</color>";
         attrword[5].text = "氣息容量:\n" + $"<color=#068C1A>{attr.Breath}</color>";
         attrword[6].text = "攻擊次數:\n" + $"<color=#EE54D2>{attr.Atktimes}</color>";
         attrword[7].text = DamageEstimate(attr);
-        attrword[8].text = "EXP:\n" + $"<color=#780EE7>{attr.Exp}</color>";
+        attrword[8].text = "EXP:\n" + $"<color=#05CD82>{attr.Exp}</color>";
         attrword[9].text = "GOLD:\n" + $"<color=#EEF311>{attr.Gold}</color>";
     }
 

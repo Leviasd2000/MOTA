@@ -91,7 +91,7 @@ ScriptedImporter:
   - _key: HighPotion
     _asset: {fileID: 3156886124636202960, guid: 33f7728b48bae984194898b397ada61f, type: 3}
   - _key: Bat1
-    _asset: {instanceID: 0}
+    _asset: {fileID: 1680108904959307285, guid: d0ea5fb6f6d25de4fb5584f842ef769c, type: 3}
   - _key: Bat2
     _asset: {instanceID: 0}
   - _key: Bat3

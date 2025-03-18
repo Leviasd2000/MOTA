@@ -10,7 +10,7 @@ public class MONSTER : MonoBehaviour
 {
     // 怪物屬性字段
     public string Name { get; private set; }
-    public string Icon { get; private set; }
+    public string Anime { get; private set; }
     public List<int> Properties { get; private set; }
     public cfg.ItemData[] Items { get; private set; }
     public string System { get; private set; }
@@ -60,7 +60,7 @@ public class MONSTER : MonoBehaviour
     {
         Debug.Log($"正在設置屬性: {monster.Id}");
         Name = monster.Name;
-        Icon = monster.Icon;
+        Anime = monster.Anime;
         Hp = monster.Properties[0];
         Atk = monster.Properties[1];
         Def = monster.Properties[2];
@@ -79,7 +79,7 @@ public class MONSTER : MonoBehaviour
         Animation = Name;
 
 
-        Debug.Log($"已設置物件屬性: Name = {Name}, Icon = {Icon}, Hp = {Hp}, Atk = {Atk}, Def = {Def}, Gold = {Gold}, Exp = {Exp}");
+        Debug.Log($"已設置物件屬性: Name = {Name}, Anime = {Anime}, Hp = {Hp}, Atk = {Atk}, Def = {Def}, Gold = {Gold}, Exp = {Exp}");
     }
 
     private void Awake()

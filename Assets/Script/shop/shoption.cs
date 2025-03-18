@@ -14,6 +14,7 @@ public class shoption : MonoBehaviour
     private Braveplayer Playermovement;
     private int k = 0; // 選擇依據
     public int expense; // 花費金錢
+    public AudioManager audioManager;
 
     private void Awake()
     {
@@ -54,6 +55,7 @@ public class shoption : MonoBehaviour
         {
             EShopUI.SetActive(false);
         }
+        audioManager = FindFirstObjectByType<AudioManager>();
     }
 
     void Update()
@@ -65,18 +67,21 @@ public class shoption : MonoBehaviour
 
         if (MShopUI.activeSelf)
         {
-            Player.GetComponent<Animator>().enabled = false;
-            Playermovement.enabled = false;
+            Player.GetComponent<Braveplayer>().StopCurrentRepeatMovement();
+            Player.GetComponent<Braveplayer>().StopMoving();
+            Player.GetComponent<Braveplayer>().enabled = false;
 
             if (Input.GetKeyDown(KeyCode.W))
             {
                 k--;
+                audioManager.Play("Click", false);
                 if (k < 0) k = battleChoosePos.Length - 1;
                 MoveChooseAction();
             }
             if (Input.GetKeyDown(KeyCode.S))
             {
                 k++;
+                audioManager.Play("Click", false);
                 if (k >= battleChoosePos.Length) k = 0;
                 MoveChooseAction();
             }
@@ -132,10 +137,12 @@ public class shoption : MonoBehaviour
             expense += 1;
             player.IncreaseAttribute(stat, amount);
             RefreshGoldText();
+            audioManager.Play("Gold", false);
         }
         else
         {
             Debug.Log("錢不夠!");
+            audioManager.Play("Stop", false);
         }
     }
 
@@ -143,6 +150,7 @@ public class shoption : MonoBehaviour
     {
         k = 0;
         MoveChooseAction();
+        audioManager.Play("Leave", false);
         MShopUI.SetActive(false);
         Player.GetComponent<Animator>().enabled = true;
         Playermovement.enabled = true;

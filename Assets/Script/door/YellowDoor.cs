@@ -8,6 +8,7 @@ public class YellowDoor : MonoBehaviour
     private bool hasPlayed = false; // 紀錄動畫是否已經播放
     public float animelength = 0.9f;
     private Inventory inventory;
+    private AudioManager audiomanager;
     int key;
 
     private void Start()
@@ -15,6 +16,7 @@ public class YellowDoor : MonoBehaviour
         // 確保 animator 被正確分配
         animator = GetComponent<Animator>();
         inventory = FindFirstObjectByType<Inventory>();
+        audiomanager = FindFirstObjectByType<AudioManager>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -30,13 +32,21 @@ public class YellowDoor : MonoBehaviour
                 animator.SetBool("bump", true);
                 Debug.Log("有撞到");
 
+                audiomanager.Play("Door", false);
+
                 // 播放動畫並在動畫結束後銷毀物件
                 StartCoroutine(DestroyAfterAnimation(animelength));
 
                 // 記錄動畫已播放
                 hasPlayed = true;
+
+                inventory.RemoveItem("黃鑰匙", 1);
             }
-            inventory.RemoveItem("黃鑰匙", 1);
+            else
+            {
+                audiomanager.Play("Stop", false);
+            }
+            
         }
     }
 

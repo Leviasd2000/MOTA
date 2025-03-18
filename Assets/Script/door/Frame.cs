@@ -6,12 +6,14 @@ public class Frame1 : MonoBehaviour
     public Animator animator; // 將 Animator 組件拖入此欄位
     public string triggerName = "StartAnimation"; // Animator 中的觸發器名稱
     private bool hasPlayed = false; // 紀錄動畫是否已經播放
+    private AudioManager audiomanager;
     public float animelength = 0.9f;
 
     private void Start()
     {
         // 確保 animator 被正確分配
         animator = GetComponent<Animator>();
+        audiomanager = FindFirstObjectByType<AudioManager>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -22,6 +24,8 @@ public class Frame1 : MonoBehaviour
             // 播放動畫
             animator.SetBool("bump", true);
             Debug.Log("有撞到");
+
+            audiomanager.Play("Door", false);
 
             // 播放動畫並在動畫結束後銷毀物件
             StartCoroutine(DestroyAfterAnimation(animelength));

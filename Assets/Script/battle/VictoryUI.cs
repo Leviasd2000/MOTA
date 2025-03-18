@@ -8,7 +8,7 @@ public class VictoryUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public RectTransform imageRect; // UI Image 的 RectTransform
     public GameObject TextContainer;             // 要顯示的文字
-    public float moveDuration = 1f; // 移動時間
+    public float moveDuration = 0.3f; // 移動時間
 
     void OnEnable()
     {

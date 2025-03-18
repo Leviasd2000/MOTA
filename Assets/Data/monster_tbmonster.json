@@ -2,7 +2,7 @@
   {
     "id": "勇者",
     "name": "勇者",
-    "icon": "",
+    "anime": "",
     "properties": [
       1000,
       10,
@@ -21,7 +21,7 @@
   {
     "id": "綠色史萊姆",
     "name": "綠色史萊姆",
-    "icon": "",
+    "anime": "slime",
     "properties": [
       20,
       18,
@@ -40,7 +40,7 @@
   {
     "id": "紅色史萊姆",
     "name": "紅色史萊姆",
-    "icon": "",
+    "anime": "slime",
     "properties": [
       25,
       15,
@@ -59,7 +59,7 @@
   {
     "id": "黑色史萊姆",
     "name": "黑色史萊姆",
-    "icon": "",
+    "anime": "slime",
     "properties": [
       35,
       28,
@@ -78,7 +78,7 @@
   {
     "id": "史萊姆王",
     "name": "史萊姆王",
-    "icon": "",
+    "anime": "",
     "properties": [
       300,
       120,
@@ -97,7 +97,7 @@
   {
     "id": "小蝙蝠",
     "name": "小蝙蝠",
-    "icon": "",
+    "anime": "bat",
     "properties": [
       28,
       30,
@@ -116,7 +116,7 @@
   {
     "id": "大蝙蝠",
     "name": "大蝙蝠",
-    "icon": "",
+    "anime": "bat",
     "properties": [
       70,
       64,
@@ -135,7 +135,7 @@
   {
     "id": "紅蝙蝠",
     "name": "紅蝙蝠",
-    "icon": "",
+    "anime": "bat",
     "properties": [
       220,
       180,

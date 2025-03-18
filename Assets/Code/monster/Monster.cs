@@ -19,7 +19,7 @@ public sealed partial class Monster : Luban.BeanBase
     {
         { if(!_buf["id"].IsString) { throw new SerializationException(); }  Id = _buf["id"]; }
         { if(!_buf["name"].IsString) { throw new SerializationException(); }  Name = _buf["name"]; }
-        { if(!_buf["icon"].IsString) { throw new SerializationException(); }  Icon = _buf["icon"]; }
+        { if(!_buf["anime"].IsString) { throw new SerializationException(); }  Anime = _buf["anime"]; }
         { var __json0 = _buf["properties"]; if(!__json0.IsArray) { throw new SerializationException(); } Properties = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  Properties.Add(__v0); }   }
         { var __json0 = _buf["items"]; if(!__json0.IsArray) { throw new SerializationException(); } int _n0 = __json0.Count; Items = new ItemData[_n0]; int __index0=0; foreach(JSONNode __e0 in __json0.Children) { ItemData __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = ItemData.DeserializeItemData(__e0);  }  Items[__index0++] = __v0; }   }
         { if(!_buf["system"].IsString) { throw new SerializationException(); }  System = _buf["system"]; }
@@ -41,9 +41,9 @@ public sealed partial class Monster : Luban.BeanBase
     /// </summary>
     public readonly string Name;
     /// <summary>
-    /// 圖標
+    /// 動畫
     /// </summary>
-    public readonly string Icon;
+    public readonly string Anime;
     /// <summary>
     /// 屬性(hp/atk/def/gold/exp/fatigue/breath/times)
     /// </summary>
@@ -78,7 +78,7 @@ public sealed partial class Monster : Luban.BeanBase
         return "{ "
         + "id:" + Id + ","
         + "name:" + Name + ","
-        + "icon:" + Icon + ","
+        + "anime:" + Anime + ","
         + "properties:" + Luban.StringUtil.CollectionToString(Properties) + ","
         + "items:" + Luban.StringUtil.CollectionToString(Items) + ","
         + "system:" + System + ","

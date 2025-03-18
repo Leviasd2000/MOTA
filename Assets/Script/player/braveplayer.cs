@@ -23,6 +23,8 @@ public class Braveplayer : MonoBehaviour
     /// 玩家當前樓層
     /// </summary>
     public static int floor = 0;
+    public static int maxfloor = 0;
+    public static int minfloor = 0;
 
 
     /// <summary>

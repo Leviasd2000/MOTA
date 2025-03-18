@@ -16,6 +16,9 @@ public class Portaldown : MonoBehaviour
     private float minDistance = 0.9f; // 最小距离（大于此距离才触发传送）
     private Vector3 objectPosition;
     private Camera mainCamera;
+    private AudioManager audiomanager;
+    public Fade fade;
+    public GameObject Player;
 
     void Awake()
     {
@@ -63,7 +66,9 @@ public class Portaldown : MonoBehaviour
         }
         playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         objectPosition = transform.position;
-
+        audiomanager = FindFirstObjectByType<AudioManager>();
+        fade = FindFirstObjectByType<Fade>();
+        Player = FindFirstObjectByType<Braveplayer>().gameObject;
 
     }
     // Update is called once per frame
@@ -89,6 +94,7 @@ public class Portaldown : MonoBehaviour
             Debug.Log("Player到了");
             TeleportPlayer();
             Braveplayer.floor -= 1;
+            Braveplayer.minfloor = Braveplayer.floor;
             Debug.Log(Braveplayer.floor);
             
         }
@@ -107,6 +113,17 @@ public class Portaldown : MonoBehaviour
         mainCamera.transform.position += new Vector3(0, -13, 0);
         // 傳送玩家到目標傳送門的位置
         playerTransform.position = godown.position;
+
+        Player.GetComponent<Braveplayer>().StopCurrentRepeatMovement();
+        Player.GetComponent<Braveplayer>().StopMoving();
+        Player.GetComponent<Braveplayer>().enabled = false;
+        Player.GetComponent<Braveplayer>().enabled = true;
+        
+        audiomanager.Play( "Stairs", false);
+
+        fade.FadeIn();
+
+
 
         // 標記玩家進入傳送範圍，防止重複觸發
         downstairs = false;
