@@ -21,6 +21,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a6febbf1237ae84da06bb285b4d1547
+    m_Address: Assets/Audio/thundercritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0c0f9f42d624afc47a76a14436a47925
     m_Address: Assets/Audio/critical.wav
     m_ReadOnly: 0
@@ -87,8 +93,20 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95940ba97d63bc746994b2900423cc05
+    m_Address: Assets/Audio/thunder.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95b2078323e0a404aa7b3aeb38e5b444
     m_Address: Assets/Audio/Gold.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8f5fe5d49c89964f89ce0a838a9ce57
+    m_Address: Assets/Audio/bat.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio

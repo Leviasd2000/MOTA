@@ -99,23 +99,34 @@ public class MONSTER : MonoBehaviour
         animator.SetTrigger(Animation); // 播放攻擊動畫
     }
 
-
-    public virtual int MonsterAttack_Damage(int brave_def)
+    /*補充：
+    1.虛擬方法必須實作。
+    2.虛擬方法中必須為公開(public)。因為允許子類別複寫。
+    3.子類別可以直接引用或選擇複寫(override)虛擬方法
+    */
+    public virtual int MonsterAttack_Damage(int brave_def)  
     {
         return Atk - brave_def;
     }
 
     public virtual int MonsterDefense_Damage(int brave_atk , string skill , bool critical)
     {
-        if (critical == true)
+        if (brave_atk + Braveattr.AttackCritical > Def)
         {
-            return 2*(brave_atk - Def);
+            if (critical)
+            {
+                return 2 * (brave_atk - Def);
+            }
+            else
+            {
+                return brave_atk - Def;
+            }
         }
         else
         {
-            return brave_atk - Def;
+            return 0;
         }
-       
+
     }
 
     private void OnCollisionEnter2D( Collision2D other)

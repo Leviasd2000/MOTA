@@ -47,9 +47,6 @@ TextureImporter:
   - first:
       213: -309343313041018473
     second: AniBg_14
-  - first:
-      213: -7266134738006937794
-    second: AniBg_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -271,8 +268,8 @@ TextureImporter:
       name: AniBg_5
       rect:
         serializedVersion: 2
-        x: 351
-        y: 255
+        x: 63
+        y: 223
         width: 34
         height: 34
       alignment: 0
@@ -293,7 +290,7 @@ TextureImporter:
       name: AniBg_6
       rect:
         serializedVersion: 2
-        x: 63
+        x: 159
         y: 223
         width: 34
         height: 34
@@ -315,7 +312,7 @@ TextureImporter:
       name: AniBg_7
       rect:
         serializedVersion: 2
-        x: 159
+        x: 223
         y: 223
         width: 34
         height: 34
@@ -337,8 +334,8 @@ TextureImporter:
       name: AniBg_8
       rect:
         serializedVersion: 2
-        x: 223
-        y: 223
+        x: 287
+        y: 191
         width: 34
         height: 34
       alignment: 0
@@ -359,8 +356,8 @@ TextureImporter:
       name: AniBg_9
       rect:
         serializedVersion: 2
-        x: 287
-        y: 191
+        x: 31
+        y: 159
         width: 34
         height: 34
       alignment: 0
@@ -381,7 +378,7 @@ TextureImporter:
       name: AniBg_10
       rect:
         serializedVersion: 2
-        x: 31
+        x: 159
         y: 159
         width: 34
         height: 34
@@ -403,8 +400,8 @@ TextureImporter:
       name: AniBg_11
       rect:
         serializedVersion: 2
-        x: 159
-        y: 159
+        x: 223
+        y: 127
         width: 34
         height: 34
       alignment: 0
@@ -425,8 +422,8 @@ TextureImporter:
       name: AniBg_12
       rect:
         serializedVersion: 2
-        x: 223
-        y: 127
+        x: 63
+        y: 63
         width: 34
         height: 34
       alignment: 0
@@ -447,10 +444,10 @@ TextureImporter:
       name: AniBg_13
       rect:
         serializedVersion: 2
-        x: 63
-        y: 63
-        width: 34
-        height: 34
+        x: 223
+        y: 31
+        width: 66
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,28 +466,6 @@ TextureImporter:
       name: AniBg_14
       rect:
         serializedVersion: 2
-        x: 223
-        y: 31
-        width: 66
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7913c8055edf4bbf0800000000000000
-      internalID: -309343313041018473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AniBg_15
-      rect:
-        serializedVersion: 2
         x: 351
         y: 31
         width: 34
@@ -503,8 +478,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3f68f214f0892b90800000000000000
-      internalID: -7266134738006937794
+      spriteID: 7913c8055edf4bbf0800000000000000
+      internalID: -309343313041018473
       vertices: []
       indices: 
       edges: []

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using System.Collections;
 using LDtkUnity;
 using System.Security.Cryptography;
 
@@ -194,4 +195,5 @@ public class FloorView : MonoBehaviour
        
         Debug.Log("Main Camera Position: " + mainCamera.transform.position);
     }
+
 }

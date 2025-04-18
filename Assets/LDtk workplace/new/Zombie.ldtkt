@@ -1,5 +1,30 @@
 {
-  "Rects": null,
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    }
+  ],
   "Def": {
     "__cHei": 4,
     "__cWid": 4,
@@ -18,7 +43,7 @@
     "padding": 0,
     "pxHei": 128,
     "pxWid": 128,
-    "relPath": "../../../Downloads/Monster09-01.png",
+    "relPath": "../Resource/Monster09-01.png",
     "savedSelections": [
 
     ],

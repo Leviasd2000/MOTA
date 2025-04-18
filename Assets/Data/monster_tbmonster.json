@@ -1,27 +1,8 @@
 [
   {
-    "id": "勇者",
-    "name": "勇者",
-    "anime": "",
-    "properties": [
-      1000,
-      10,
-      10,
-      0,
-      0,
-      0,
-      40,
-      1
-    ],
-    "items": [],
-    "system": "",
-    "skill_tips": "",
-    "desc": ""
-  },
-  {
     "id": "綠色史萊姆",
     "name": "綠色史萊姆",
-    "anime": "slime",
+    "anime": "punch",
     "properties": [
       20,
       18,
@@ -40,7 +21,7 @@
   {
     "id": "紅色史萊姆",
     "name": "紅色史萊姆",
-    "anime": "slime",
+    "anime": "punch",
     "properties": [
       25,
       15,
@@ -59,7 +40,7 @@
   {
     "id": "黑色史萊姆",
     "name": "黑色史萊姆",
-    "anime": "slime",
+    "anime": "punch",
     "properties": [
       35,
       28,
@@ -97,7 +78,7 @@
   {
     "id": "小蝙蝠",
     "name": "小蝙蝠",
-    "anime": "bat",
+    "anime": "splatter",
     "properties": [
       28,
       30,
@@ -116,7 +97,7 @@
   {
     "id": "大蝙蝠",
     "name": "大蝙蝠",
-    "anime": "bat",
+    "anime": "splatter",
     "properties": [
       70,
       64,
@@ -128,14 +109,14 @@
       2
     ],
     "items": [],
-    "system": "多段攻擊",
+    "system": "無",
     "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
     "id": "紅蝙蝠",
     "name": "紅蝙蝠",
-    "anime": "bat",
+    "anime": "splatter",
     "properties": [
       220,
       180,
@@ -149,6 +130,365 @@
     "items": [],
     "system": "多段攻擊",
     "skill_tips": "無特別注意的點",
+    "desc": ""
+  },
+  {
+    "id": "德古拉",
+    "name": "德古拉",
+    "anime": "vampire",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "喪屍",
+    "name": "喪屍",
+    "anime": "claw",
+    "properties": [
+      130,
+      90,
+      25,
+      12,
+      2,
+      0,
+      25,
+      1
+    ],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "喪屍武士",
+    "name": "喪屍武士",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "毒喪屍",
+    "name": "毒喪屍",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "烈焰喪屍",
+    "name": "烈焰喪屍",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "骷髏",
+    "name": "骷髏",
+    "anime": "punch",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "骷髏士兵",
+    "name": "骷髏士兵",
+    "anime": "sword",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "高級骷髏士兵",
+    "name": "高級骷髏士兵",
+    "anime": "sword",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "冥骷髏",
+    "name": "冥骷髏",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "初級守衛",
+    "name": "初級守衛",
+    "anime": "punch",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "中級守衛",
+    "name": "中級守衛",
+    "anime": "punch",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "高級守衛",
+    "name": "高級守衛",
+    "anime": "punch",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "終極守衛",
+    "name": "終極守衛",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "初級法師",
+    "name": "初級法師",
+    "anime": "water",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "中級法師",
+    "name": "中級法師",
+    "anime": "thunder",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "高級法師",
+    "name": "高級法師",
+    "anime": "fire",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "血法師",
+    "name": "血法師",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "初級巫師",
+    "name": "初級巫師",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "高級巫師",
+    "name": "高級巫師",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "石怪",
+    "name": "石怪",
+    "anime": "punch",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "鐵怪",
+    "name": "鐵怪",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "史萊姆人",
+    "name": "史萊姆人",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "水銀人",
+    "name": "水銀人",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "熔岩人",
+    "name": "熔岩人",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "暗物質人",
+    "name": "暗物質人",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "騎士",
+    "name": "騎士",
+    "anime": "sword",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "鐵騎士",
+    "name": "鐵騎士",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "近衛騎士",
+    "name": "近衛騎士",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "滅盡騎士",
+    "name": "滅盡騎士",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "雙手劍士",
+    "name": "雙手劍士",
+    "anime": "sword",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "劍王",
+    "name": "劍王",
+    "anime": "swordking",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "光劍士",
+    "name": "光劍士",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "冥劍士",
+    "name": "冥劍士",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "自己",
+    "name": "自己",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "假公主",
+    "name": "假公主",
+    "anime": "",
+    "properties": [],
+    "items": [],
+    "system": "",
+    "skill_tips": "",
     "desc": ""
   }
 ]

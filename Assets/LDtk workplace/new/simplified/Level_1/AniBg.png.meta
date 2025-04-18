@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: 134590965686555173
     second: AniBg_0
+  - first:
+      213: 4398916159199890405
+    second: AniBg_1
+  - first:
+      213: 4387934435306146191
+    second: AniBg_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,10 +122,10 @@ TextureImporter:
       name: AniBg_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 416
-        height: 416
+        x: 319
+        y: 287
+        width: 66
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,6 +136,50 @@ TextureImporter:
       bones: []
       spriteID: 52259bb25c92ed100800000000000000
       internalID: 134590965686555173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AniBg_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 127
+        width: 162
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebc5d9b0f61c0d30800000000000000
+      internalID: 4398916159199890405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AniBg_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 162
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f898022ee1315ec30800000000000000
+      internalID: 4387934435306146191
       vertices: []
       indices: 
       edges: []

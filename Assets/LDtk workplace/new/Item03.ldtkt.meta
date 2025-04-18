@@ -11,6 +11,246 @@ ScriptedImporter:
   _reimportOnDependencyChange: 1
   _pixelsPerUnit: 32
   _overrideTexture: {instanceID: 0}
-  _sprites: []
+  _sprites:
+  - name: Item03_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 32
+      height: 32
+    spriteID: d0829a50f4c2a1443ad9d4bb93efeff5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 5cad024210661f240821bec937f31d3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 9642d03ee77411b44a0d73ce452b0138
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 55e34a4a64228a94d81d6c5374280067
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 32
+      height: 32
+    spriteID: c611017f220d4404fb0c701075a2a1a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 1a8d1dac47fd99248880aae0fe9ed71a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 32
+      height: 32
+    spriteID: ff33d7468b89a1641895b1f3bbc031d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 32
+      height: 32
+    spriteID: e7e78e95ed949d14d914e0dc287c157c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 13b84cac38041a34e86e55be674cdfe9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 18265ce38ec44024eb1dfa5eb077f609
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 139af71df2211da46b8702ffd87d7555
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 32
+      height: 32
+    spriteID: fa5db215dc582814babc568cf4142830
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 32
+    spriteID: fbceb6d9984909040b8c81b719155190
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 0a0a8c9280c6861469d4981da9c82cdc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 4a445ca7ccda04f428883c1a6f5a0132
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Item03_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 64f9caf8603ee7e4494112229fbf0564
+    spriteOutline: []
+    tessellationDetail: 0
   _secondaryTextures: []
   _artifacts: {instanceID: 0}

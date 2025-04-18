@@ -153,16 +153,23 @@ public class BattleManager : MonoBehaviour
             braveAnime.enabled = false;
         }
 
-        StartCoroutine(SetNativeSizeDelayed());
+        if (monsterVFX.enabled == true)
+        {
+            monsterVFX.SetNativeSize(); // 設定原始大小
+        }
+
+        if (braveVFX.enabled == true)
+        {
+            braveVFX.SetNativeSize();
+        }
 
     }
 
     private IEnumerator SetNativeSizeDelayed()
     {
-        yield return new WaitForEndOfFrame(); // 等待 UI 更新完畢
+        yield return new WaitForEndOfFrame();
         monsterVFX.SetNativeSize(); // 設定原始大小
         braveVFX.SetNativeSize();
-
     }
 
     private IEnumerator VFXplay(Animator who, Image whose, string name, bool critical)
@@ -172,21 +179,18 @@ public class BattleManager : MonoBehaviour
 
         if (critical){
             who.Play(name+"critical");
+            audioManager.Play(name+"critical", false);
         }
         else{
             who.Play(name);
+            audioManager.Play(name,false);
         }
-        // **等待一幀，確保 Animator 更新狀態**
-        yield return null;
 
-        // **等待動畫播放完畢**
-        float animationLength = who.GetCurrentAnimatorStateInfo(0).length;
-
-        yield return new WaitForSeconds(animationLength-0.01f);  // 避免回到一開始的動畫圖片(延遲1幀)
+        float waittime = (who.GetCurrentAnimatorStateInfo(0).length - 0.05f);
+        yield return new WaitForSeconds(waittime);
 
         who.enabled = false;
         whose.enabled = false;
-
     }
 
     private void OnEnable()
@@ -226,16 +230,17 @@ public class BattleManager : MonoBehaviour
         if (enemy.System.Contains("先攻"))
         {
             state = BattleState.MonsterTurn;
-            Debug.Log("怪物先攻!");
             StartCoroutine(MonsterTurn());
         }
         else
         {
             state = BattleState.PlayerTurn;
-            Debug.Log("玩家先攻!");
             StartCoroutine(PlayerAttack());
-            // BattleChoose();
         }
+        Debug.Log("玩家先攻!");
+        
+        // BattleChoose();
+        
     }
 
     private void PlayerAttackcalculate(bool critical)
@@ -265,18 +270,33 @@ public class BattleManager : MonoBehaviour
         UI.BraveUpdateBreath(player);
         UI.MonsterUpdateBreath(enemy);
     }
-    private IEnumerator PlayerAttack()
+
+    public IEnumerator MonsterAttackRoutine( bool Monstercritical, Animator monsterAnime, Image monsterVFX, MONSTER enemy)
     {
+        int MonsterAttackCount = enemy.Atktimes;
+        for (int i = 0; i < MonsterAttackCount; i++)
+        {
+            MonsterAttackcalculate(Monstercritical);
+            yield return StartCoroutine(VFXplay(monsterAnime, monsterVFX, enemy.Anime, Monstercritical));
+            if (Monstercritical)
+            {
+                Monstercritical = false;
+            }
+        }
+    }
+
+    private IEnumerator PlayerAttack()
+    {   
         myText.text = "勇者對" + enemy.name + "使用了攻擊!";
         myText.ForceMeshUpdate(); // 強制更新 UI
-        yield return new WaitForSeconds(0.5f);
         PlayerAttackcalculate(critic);
-        StartCoroutine(VFXplay(braveAnime, braveVFX, player.Sword , critic));
-        audioManager.Play(player.Sword,false); 
+        yield return StartCoroutine(VFXplay(braveAnime, braveVFX, player.Sword , critic));
+        if (critic) // 爆擊重置
+        {
+            critic = !critic;
+            CriticalOK.gameObject.SetActive(false);
+        }
         BraveDamage.gameObject.SetActive(false);
-        CriticalOK.gameObject.SetActive(false);
-        yield return new WaitForSeconds(0.5f); // 等待 UI 更新
-        Debug.Log(enemy.CurrentHp);
 
         if (enemy.CurrentHp <= 0)
         {
@@ -285,7 +305,6 @@ public class BattleManager : MonoBehaviour
         }
         else
         {
-            critic = false;
             state = BattleState.MonsterTurn;
             StartCoroutine(NextTurn());
         }
@@ -294,22 +313,13 @@ public class BattleManager : MonoBehaviour
     private IEnumerator MonsterTurn()
     {
         myText.text = enemy.name + "對" + player.name + "使用了攻擊!";
-        yield return new WaitForSeconds(0.5f);
         if (enemy.CurrentBreath == enemy.Breath)  // 怪物自動爆擊
         {
             enemy.CurrentBreath -= enemy.Breath;
             Monstercritical = true;
         }
-        MonsterAttackcalculate(Monstercritical);
-        StartCoroutine(VFXplay(monsterAnime, monsterVFX , enemy.Anime , Monstercritical));
-        audioManager.Play(enemy.Anime, false);
+        yield return StartCoroutine(MonsterAttackRoutine(Monstercritical,monsterAnime,monsterVFX,enemy));
         MonsterDamage.gameObject.SetActive(false);
-        yield return new WaitForSeconds(0.5f); // 等待 UI 更新
-
-        if (Monstercritical == true)
-        {
-            Monstercritical = false;
-        }
 
         if (Braveattr.attributes["Hp"] <= 0)
         {
@@ -327,8 +337,7 @@ public class BattleManager : MonoBehaviour
     // 用這個來處理回合轉換，避免遞歸問題
     private IEnumerator NextTurn()
     {
-        yield return new WaitForSeconds(0f);
-
+        yield return new WaitForSeconds(0.4f);
         if (state == BattleState.PlayerTurn)
         {
             choosePlane.SetActive(true); // 顯示選擇介面

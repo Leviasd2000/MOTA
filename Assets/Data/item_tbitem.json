@@ -143,5 +143,24 @@
     "pick_tips": "",
     "use_tips": "喝到一瓶高級傷藥，生命+400",
     "desc": ""
+  },
+  {
+    "id": "鐵劍",
+    "name": "鐵劍",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 10
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "獲得鐵劍，攻擊+10",
+    "desc": ""
   }
 ]

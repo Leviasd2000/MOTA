@@ -50,7 +50,7 @@ public class Braveattr : MonoBehaviour
         Shield = "None";
         actionSpeed = 2;
         AttackCritical = 5;
-        DefenseCritical = 45;
+        DefenseCritical = 35;
 
         // 測試: 讀取屬性
         Debug.Log("勇者等級: " + GetAttribute("Level"));
@@ -103,14 +103,22 @@ public class Braveattr : MonoBehaviour
 
     public int BraveDefense_Damage(int monster_atk , bool critical , string skill )
     {
-        if (critical == true)
+        if (monster_atk + DefenseCritical > attributes["Def"])
         {
-            return 2*(monster_atk - attributes["Def"]);
+            if (critical)
+            {
+                return 2 * (monster_atk - attributes["Def"]);
+            }
+            else
+            {
+                return monster_atk - attributes["Def"];
+            }
         }
         else
         {
-            return monster_atk - attributes["Def"];
+            return 0;
         }
+            
     }
 
     // Update is called once per frame

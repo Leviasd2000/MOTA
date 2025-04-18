@@ -8,7 +8,10 @@
       "averageColors": "f445f445fd66fd66f68df68dfdd6fdd6fdddfdddf64cf64cf8c5f8c5f115f115"
     },
     "customData": [
-
+      {
+        "data": "animatedSprites 0,1\nanimationSpeed 2\nanimationStartFrame 0",
+        "tileId": 0
+      }
     ],
     "embedAtlas": null,
     "enumTags": [
@@ -18,7 +21,7 @@
     "padding": 0,
     "pxHei": 128,
     "pxWid": 128,
-    "relPath": "../../../Desktop/素材圖塊/TILES.png",
+    "relPath": "../Resource/TILES.png",
     "savedSelections": [
 
     ],

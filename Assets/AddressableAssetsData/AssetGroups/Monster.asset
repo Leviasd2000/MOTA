@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Monster
   m_GUID: d4245ac48a14c744c80e2f768376d326
   m_SerializeEntries:
+  - m_GUID: 02de836f54cfc094da4f2d0256c4c68e
+    m_Address: "Assets/Resource/Monster/\u51A5\u9AB7\u9ACF.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 234747251d6714244aa89a61d5543eb8
     m_Address: Assets/Resource/Monster/Monster02_0_96_32_32.asset
     m_ReadOnly: 0
@@ -23,6 +29,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2df43c31ac4758a49984c3b18b8bbc92
     m_Address: Assets/Resource/Monster/Monster01_0_64_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 326f4956577de9b419ef0a3672fdabd4
+    m_Address: "Assets/Resource/Monster/\u9AD8\u7D1A\u9AB7\u9ACF\u58EB\u5175.asset"
     m_ReadOnly: 0
     m_SerializedLabels:
     - Monster
@@ -39,14 +51,50 @@ MonoBehaviour:
     m_SerializedLabels:
     - Monster
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44381228abb84da4b93f3e76024cb313
+    m_Address: Assets/Resource/Monster/Zombie_4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f47584c9c87f974194199d14598c7b0
+    m_Address: "Assets/Resource/Monster/\u55AA\u5C4D.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60f9790c1d30ace499bca5c7fe26b2c8
     m_Address: Assets/Resource/Monster/Monster01_0_96_32_32.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Monster
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79b3df66120882242bc6b36d8cd143fa
+    m_Address: "Assets/Resource/Monster/\u9AB7\u9ACF.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97ca765f3d68c1243a0b8b47e163be15
+    m_Address: Assets/Resource/Monster/Zombie_12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f96e3c7c57cbbe418b016d7d9167c7a
+    m_Address: "Assets/Resource/Monster/\u6BD2\u55AA\u5C4D.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b0cd2d1d4d65d364e9b7d165d86cf66a
     m_Address: Assets/Resource/Monster/Monster02_0_32_32_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2e8dbc7d1df3c746a771bd60e70bf56
+    m_Address: "Assets/Resource/Monster/\u9AB7\u9ACF\u58EB\u5175.asset"
     m_ReadOnly: 0
     m_SerializedLabels:
     - Monster

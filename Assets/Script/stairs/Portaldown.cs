@@ -1,9 +1,5 @@
 ﻿using UnityEngine;
 using LDtkUnity;
-using System.Collections;
-using static UnityEngine.Rendering.DebugUI;
-using static UnityEngine.UI.Image;
-using UnityEngine.InputSystem;
 
 public class Portaldown : MonoBehaviour
 {
@@ -19,6 +15,7 @@ public class Portaldown : MonoBehaviour
     private AudioManager audiomanager;
     public Fade fade;
     public GameObject Player;
+    public FloorView floorView;
 
     void Awake()
     {
@@ -69,6 +66,7 @@ public class Portaldown : MonoBehaviour
         audiomanager = FindFirstObjectByType<AudioManager>();
         fade = FindFirstObjectByType<Fade>();
         Player = FindFirstObjectByType<Braveplayer>().gameObject;
+        floorView = FindFirstObjectByType<FloorView>();
 
     }
     // Update is called once per frame
@@ -94,7 +92,10 @@ public class Portaldown : MonoBehaviour
             Debug.Log("Player到了");
             TeleportPlayer();
             Braveplayer.floor -= 1;
-            Braveplayer.minfloor = Braveplayer.floor;
+            if (Braveplayer.minfloor > Braveplayer.floor)
+            {
+                Braveplayer.minfloor = Braveplayer.floor;
+            }
             Debug.Log(Braveplayer.floor);
             
         }

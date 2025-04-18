@@ -36,7 +36,7 @@ ScriptedImporter:
     _asset: {instanceID: 0}
   - _key: Slime1
     _asset: {fileID: 7218181432366982181, guid: 83df83443e36dc1489feb0c24821c089, type: 3}
-  - _key: Entity
+  - _key: Lava
     _asset: {instanceID: 0}
   - _key: NPC05
     _asset: {instanceID: 0}
@@ -93,9 +93,9 @@ ScriptedImporter:
   - _key: Bat1
     _asset: {fileID: 1680108904959307285, guid: d0ea5fb6f6d25de4fb5584f842ef769c, type: 3}
   - _key: Bat2
-    _asset: {instanceID: 0}
+    _asset: {fileID: 3489549558536964895, guid: 4a37f18b8de7c96418a7028c42af80a5, type: 3}
   - _key: Bat3
-    _asset: {instanceID: 0}
+    _asset: {fileID: 4062355439217933290, guid: 7e1ee34b554b0374a8c5a9674be3b76d, type: 3}
   - _key: Vampire
     _asset: {instanceID: 0}
   - _key: Shop1right
@@ -110,6 +110,122 @@ ScriptedImporter:
     _asset: {fileID: 2807128580113449616, guid: ecdda550a4b20514987c681f264548f5, type: 3}
   - _key: Downstair_normal
     _asset: {fileID: 1513876741679030797, guid: 6873008b8117a434b9289a77c61d6bf7, type: 3}
+  - _key: Entity2
+    _asset: {fileID: 6699973943373359957, guid: a2c8d0c8b9d02bb49857a64ab3675650, type: 3}
+  - _key: Entity3
+    _asset: {instanceID: 0}
+  - _key: Entity4
+    _asset: {instanceID: 0}
+  - _key: Entity5
+    _asset: {instanceID: 0}
+  - _key: Entity6
+    _asset: {instanceID: 0}
+  - _key: Entity7
+    _asset: {instanceID: 0}
+  - _key: Entity8
+    _asset: {instanceID: 0}
+  - _key: Entity9
+    _asset: {instanceID: 0}
+  - _key: Entity10
+    _asset: {instanceID: 0}
+  - _key: Entity11
+    _asset: {instanceID: 0}
+  - _key: Entity12
+    _asset: {instanceID: 0}
+  - _key: Entity13
+    _asset: {instanceID: 0}
+  - _key: Entity14
+    _asset: {instanceID: 0}
+  - _key: Entity16
+    _asset: {instanceID: 0}
+  - _key: Entity15
+    _asset: {instanceID: 0}
+  - _key: Entity17
+    _asset: {instanceID: 0}
+  - _key: Entity18
+    _asset: {instanceID: 0}
+  - _key: Entity19
+    _asset: {instanceID: 0}
+  - _key: Entity20
+    _asset: {instanceID: 0}
+  - _key: Entity21
+    _asset: {instanceID: 0}
+  - _key: Entity22
+    _asset: {instanceID: 0}
+  - _key: Entity23
+    _asset: {instanceID: 0}
+  - _key: Entity24
+    _asset: {instanceID: 0}
+  - _key: Entity25
+    _asset: {instanceID: 0}
+  - _key: Entity26
+    _asset: {instanceID: 0}
+  - _key: Entity27
+    _asset: {instanceID: 0}
+  - _key: Entity28
+    _asset: {instanceID: 0}
+  - _key: Entity29
+    _asset: {instanceID: 0}
+  - _key: Entity33
+    _asset: {instanceID: 0}
+  - _key: Entity30
+    _asset: {instanceID: 0}
+  - _key: Entity31
+    _asset: {instanceID: 0}
+  - _key: Entity32
+    _asset: {instanceID: 0}
+  - _key: Entity34
+    _asset: {instanceID: 0}
+  - _key: Entity35
+    _asset: {instanceID: 0}
+  - _key: Entity36
+    _asset: {instanceID: 0}
+  - _key: Entity37
+    _asset: {instanceID: 0}
+  - _key: Entity38
+    _asset: {instanceID: 0}
+  - _key: Wood
+    _asset: {instanceID: 0}
+  - _key: Entity
+    _asset: {instanceID: 0}
+  - _key: Entity39
+    _asset: {instanceID: 0}
+  - _key: Entity40
+    _asset: {instanceID: 0}
+  - _key: Entity41
+    _asset: {instanceID: 0}
+  - _key: Entity42
+    _asset: {instanceID: 0}
+  - _key: Entity43
+    _asset: {instanceID: 0}
+  - _key: Entity44
+    _asset: {instanceID: 0}
+  - _key: Entity45
+    _asset: {instanceID: 0}
+  - _key: Entity46
+    _asset: {instanceID: 0}
+  - _key: Entity47
+    _asset: {instanceID: 0}
+  - _key: Entity48
+    _asset: {instanceID: 0}
+  - _key: Entity49
+    _asset: {instanceID: 0}
+  - _key: Entity50
+    _asset: {instanceID: 0}
+  - _key: Entity51
+    _asset: {instanceID: 0}
+  - _key: Entity52
+    _asset: {instanceID: 0}
+  - _key: Entity53
+    _asset: {instanceID: 0}
+  - _key: Entity54
+    _asset: {instanceID: 0}
+  - _key: Entity55
+    _asset: {instanceID: 0}
+  - _key: Entity56
+    _asset: {instanceID: 0}
+  - _key: Entity57
+    _asset: {instanceID: 0}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 

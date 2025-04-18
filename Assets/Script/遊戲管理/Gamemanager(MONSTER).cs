@@ -32,8 +32,6 @@ public class MainMonster : MonoBehaviour
            monster_names.Add(member.Id);
         }
 
-        Debug.Log(monster_names[0]+"¦b­þ¸Ì");
-
     }
 
     /// <summary>
@@ -123,6 +121,7 @@ public class MainMonster : MonoBehaviour
 
         foreach (var member in table.Tbmonster.DataList)
         {
+            print(member.Name);
             if (name == member.Id)
             {
                 MonsterComponent.SetProperties(member, table);

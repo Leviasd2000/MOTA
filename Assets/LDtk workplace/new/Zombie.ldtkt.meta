@@ -11,6 +11,246 @@ ScriptedImporter:
   _reimportOnDependencyChange: 1
   _pixelsPerUnit: 32
   _overrideTexture: {instanceID: 0}
-  _sprites: []
+  _sprites:
+  - name: Zombie_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 536a60533a311c148b016ef388a9d007
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 32
+      height: 32
+    spriteID: d43c14d0eb5a2da4c8b51af325cb0ac3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 56e2e3f3330c499449be0e4ba14363c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 32
+      height: 32
+    spriteID: 4edc91181fa0bc04c948197c92a6744a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 7b15d27c747451845993f6724421c9c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 32
+      height: 32
+    spriteID: 037ba4e614deb114882b94fbbbf247f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 32
+      height: 32
+    spriteID: e06218fdbd86af7488613e64d8bc1d83
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 32
+      height: 32
+    spriteID: fafe6210e90255644b321f5280a90484
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 32
+      height: 32
+    spriteID: e662f973ca3298b4db25b32d6534c2bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 32
+      height: 32
+    spriteID: acbdd3f89cc5f684d8a7605079558319
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 32
+      height: 32
+    spriteID: 320d28de5da228b4ebd65e160b0af2fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 32
+      height: 32
+    spriteID: d4b7f464e25b1fe4599b1dc7091e9be6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 32
+    spriteID: bd51e10cf51eb434b95911e34d485c50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 1d846a9b542ec12458d824ed13bd2326
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 32
+      height: 32
+    spriteID: db2a1f45941166345b1db801adbaee90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Zombie_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 32
+      height: 32
+    spriteID: 48ab35b64ed516c4598218a5b3990fd4
+    spriteOutline: []
+    tessellationDetail: 0
   _secondaryTextures: []
   _artifacts: {instanceID: 0}

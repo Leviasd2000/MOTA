@@ -104,7 +104,7 @@ public class UIManager : MonoBehaviour
         mfatigue.text = "¯h³Ò:\u00A0" + monster.Fatigue;
         mmoney.text = "ª÷¿ú:\u00A0" + "<color=#FFD700>" + monster.Gold + "</color>";
         mexp.text = "¸gÅç­È:\u00A0" + "<color=#F37DBF>" + monster.Exp + "</color>";
-        MonsterbreathSlider.value = 0 % monster.Breath;
+        MonsterbreathSlider.value = 0;
         MonsterbreathSlider.maxValue = monster.Breath;
         yield return null;
 

@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: e518712208bb7b44f8fcbf6f8723c090
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fade: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - floorView: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

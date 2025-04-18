@@ -18,67 +18,6 @@
 		"AniBg.png"
 	],
 	"entities": {
-		"Yellowkey": [
-			{
-				"id": "Yellowkey",
-				"iid": "39f56790-c210-11ef-a514-73021ac5f491",
-				"layer": "Entities",
-				"x": 208,
-				"y": 272,
-				"width": 32,
-				"height": 32,
-				"color": 16705377,
-				"customFields": {
-					"item": "黃鑰匙"
-				}
-			}
-		],
-		"Bluekey": [
-			{
-				"id": "Bluekey",
-				"iid": "3aa02680-c210-11ef-a514-f9bdc8b39b63",
-				"layer": "Entities",
-				"x": 208,
-				"y": 304,
-				"width": 32,
-				"height": 32,
-				"color": 39387,
-				"customFields": {
-					"item": "藍鑰匙"
-				}
-			}
-		],
-		"Redkey": [
-			{
-				"id": "Redkey",
-				"iid": "3b788520-c210-11ef-a514-99066028b38d",
-				"layer": "Entities",
-				"x": 208,
-				"y": 336,
-				"width": 32,
-				"height": 32,
-				"color": 16711748,
-				"customFields": {
-					"item": "紅鑰匙"
-				}
-			}
-		],
-		"Brave": [
-			{
-				"id": "Brave",
-				"iid": "89863a40-e920-11ef-b012-cf40703c3376",
-				"layer": "Entities",
-				"x": 208,
-				"y": 368,
-				"width": 32,
-				"height": 32,
-				"color": 6049223,
-				"customFields": {
-					"anime": 2,
-					"Player": "BRAVE"
-				}
-			}
-		],
 		"Frame": [
 			{
 				"id": "Frame",
@@ -125,42 +64,56 @@
 				}
 			}
 		],
-		"NPC01": [
+		"Reddoor": [
 			{
-				"id": "NPC01",
-				"iid": "861ae430-e920-11ef-adaf-1f422074e350",
-				"layer": "Entities",
-				"x": 272,
-				"y": 80,
-				"width": 32,
-				"height": 32,
-				"color": 3485630,
-				"customFields": {
-					"anime": 2,
-					"NPC": "老人1",
-					"upstair": null
-				}
-			}
-		],
-		"NPC03": [
-			{
-				"id": "NPC03",
-				"iid": "886e9830-e920-11ef-adaf-b544312c23f9",
+				"id": "Reddoor",
+				"iid": "b53ebc70-e920-11ef-acfb-c53e71f9928e",
 				"layer": "Entities",
 				"x": 336,
 				"y": 144,
 				"width": 32,
 				"height": 32,
-				"color": 12470831,
+				"color": 16711748,
 				"customFields": {
-					"NPC": "盜賊"
+					"Door": "紅門"
+				}
+			}
+		],
+		"Wood": [
+			{
+				"id": "Wood",
+				"iid": "c8e56800-e920-11ef-acfb-1193307baa19",
+				"layer": "Entities",
+				"x": 368,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 7552569,
+				"customFields": {
+					"ID": "暗牆"
+				}
+			}
+		],
+		"Brave": [
+			{
+				"id": "Brave",
+				"iid": "e007c220-e920-11ef-857a-7f55f83800a2",
+				"layer": "Entities",
+				"x": 208,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 6049223,
+				"customFields": {
+					"anime": 2,
+					"Player": "BRAVE"
 				}
 			}
 		],
 		"Upstair_v2": [
 			{
 				"id": "Upstair_v2",
-				"iid": "fa133f70-e920-11ef-a564-f9ec790cd05a",
+				"iid": "ee84c410-e920-11ef-ba7d-e9adcd236066",
 				"layer": "Entities",
 				"x": 208,
 				"y": 48,
@@ -171,12 +124,28 @@
 					"Portal": "上樓",
 					"Hidden": false,
 					"downstair": {
-						"entityIid": "fdbbfc20-e920-11ef-a564-79e6f1bab31e",
+						"entityIid": "f3d2a540-e920-11ef-ba7d-0d491cc1702d",
 						"layerIid": "f1750cb2-c210-11ef-a6f9-71ecd260be0d",
 						"levelIid": "f1750cb0-c210-11ef-a6f9-3194a1c8a542",
 						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
 					},
 					"Default": true
+				}
+			}
+		],
+		"Slime2": [
+			{
+				"id": "Slime2",
+				"iid": "60249430-e920-11ef-8a97-596b231f322b",
+				"layer": "Entities",
+				"x": 208,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"anime": 2,
+					"Monster": "紅色史萊姆"
 				}
 			}
 		]

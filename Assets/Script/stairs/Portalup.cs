@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using LDtkUnity;
-using System.Collections;
 
 public class Portalup : MonoBehaviour
 {
@@ -16,6 +14,7 @@ public class Portalup : MonoBehaviour
     private AudioManager audiomanager;
     public Fade fade;
     public GameObject Player;
+    public FloorView floorView;
 
 
     void Awake()
@@ -55,28 +54,20 @@ public class Portalup : MonoBehaviour
             goup = GameObject.Find(result).transform;
             Debug.Log(goup);
         }
+
+
         playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         objectPosition = transform.position;
         audiomanager = FindFirstObjectByType<AudioManager>();
         fade = FindFirstObjectByType<Fade>();
         Player = FindFirstObjectByType<Braveplayer>().gameObject;
-
-}
+        floorView = FindFirstObjectByType<FloorView>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (playerTransform == null)
-        {
-            Debug.Log("找不到player");
-            Debug.Log(transform.position);
-            return;
-        }
-        else if (objectPosition == null)
-        {
-            Debug.Log("找不到object");
-            return;
-        }
+        
         float distance = Vector2.Distance(playerTransform.position, objectPosition);
 
         // 如果距离小于等于 0.9，则禁止传送
@@ -94,7 +85,10 @@ public class Portalup : MonoBehaviour
             Debug.Log("Player到了");
             TeleportPlayer();
             Braveplayer.floor += 1;
-            Braveplayer.maxfloor = Braveplayer.floor;
+            if (Braveplayer.maxfloor < Braveplayer.floor)
+            {
+                Braveplayer.maxfloor = Braveplayer.floor;
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D other)
