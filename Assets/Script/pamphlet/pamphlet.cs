@@ -10,6 +10,8 @@ using System.Drawing.Text;
 using cfg.monster;
 using UnityEngine.AddressableAssets;
 using UnityEngine.TextCore.Text;
+using static UnityEngine.EventSystems.EventTrigger;
+using UnityEngine.EventSystems;
 
 public class Pamphlet : MonoBehaviour
 {
@@ -40,6 +42,11 @@ public class Pamphlet : MonoBehaviour
     public Image Image1;
     public Image Image2;
     public Image Image3;
+
+    [Header("動畫")]
+    public Animator animator1;
+    public Animator animator2;
+    public Animator animator3;
         
 
     void Start()
@@ -85,7 +92,7 @@ public class Pamphlet : MonoBehaviour
 
                 if (itemValue != null) // 檢查 item 是否匹配
                 {
-                    Debug.Log($"Monster '{itemValue}' found: {child.name} 找到了!!!!!!");
+                    Debug.Log($"Monster '{itemValue}' found: {child.name} 找到了 {level.name}");
                     temp.Add(child.gameObject);
                 }
                 
@@ -100,23 +107,20 @@ public class Pamphlet : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.H) && platform.activeSelf != true)
         {
-            platform.SetActive(true);
-            Show(Braveplayer.floor, initialocation , monsterinstances);
-            Player.GetComponent<Animator>().enabled = false;
-            player.enabled = false;
+            OnClick_ShowmanualPlatform();
         }
         if (platform.activeSelf == true)
         {
             if (Input.GetKeyDown(KeyCode.RightArrow) && Rightarrow.activeSelf)
             {
                 initialocation += 1;
-                audioManager.Play("Click",false);
+                audioManager.PlaySFX("Click");
                 Show(Braveplayer.floor, initialocation , monsterinstances);
             }
             if (Input.GetKeyDown(KeyCode.LeftArrow) && Leftarrow.activeSelf)
             {
                 initialocation -= 1;
-                audioManager.Play("Click", false);
+                audioManager.PlaySFX("Click");
                 Show(Braveplayer.floor, initialocation , monsterinstances);
             }
             if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
@@ -124,7 +128,7 @@ public class Pamphlet : MonoBehaviour
                 platform.SetActive(false);
                 Player.GetComponent<Animator>().enabled = true;
                 player.enabled = true;
-                audioManager.Play("Leave", false);
+                audioManager.PlaySFX("Leave");
                 initialocation = 1;
             }
 
@@ -188,6 +192,7 @@ public class Pamphlet : MonoBehaviour
             attr1.SetActive(true);
             Setproperties(attributes1, monsterpair[monsterName[3 * page - 3]].GetComponent<MONSTER>());
             Image1.sprite = spriteDict[monsterpair[monsterName[3 * page - 3]].GetComponent<MONSTER>().Name];
+            animator1.Play(monsterpair[monsterName[3 * page - 3]].GetComponent<MONSTER>().Name + "image");
         }
         else
         {
@@ -198,6 +203,7 @@ public class Pamphlet : MonoBehaviour
             attr2.SetActive(true);
             Setproperties(attributes2, monsterpair[monsterName[3 * page - 2]].GetComponent<MONSTER>());
             Image2.sprite = spriteDict[monsterpair[monsterName[3 * page - 2]].GetComponent<MONSTER>().Name];
+            animator2.Play(monsterpair[monsterName[3 * page - 2]].GetComponent<MONSTER>().Name + "image");
         }
         else
         {
@@ -208,6 +214,7 @@ public class Pamphlet : MonoBehaviour
             attr3.SetActive(true);
             Setproperties(attributes3, monsterpair[monsterName[3 * page - 1]].GetComponent<MONSTER>());
             Image3.sprite = spriteDict[monsterpair[monsterName[3 * page - 1]].GetComponent<MONSTER>().Name];
+            animator3.Play(monsterpair[monsterName[3 * page - 1]].GetComponent<MONSTER>().Name + "image");
         }
         else
         {
@@ -257,6 +264,18 @@ public class Pamphlet : MonoBehaviour
                 
         }
         return "估計傷害:\n" + $"<color=#FA0408>{"？"}</color>";
+    }
+
+    public void OnClick_ShowmanualPlatform()
+    {
+        if (!platform.activeSelf)
+        {
+            platform.SetActive(true);
+            Show(Braveplayer.floor, initialocation, monsterinstances);
+            Player.GetComponent<Animator>().enabled = false;
+            player.enabled = false;
+            EventSystem.current.SetSelectedGameObject(null);
+        }
     }
 
 }

@@ -7,8 +7,8 @@ public class Fade : MonoBehaviour
 {
     public Image fadeImage; // 绑定到 Canvas 下的 Image
     private TextMeshProUGUI[] childImages; // 用来存储所有子物体的 Image
-    [SerializeReference] private float fadeDuration = 1f; // 淡入/淡出的持续时间
-    [SerializeReference] private float fadeDurationText = 0.5f; // 淡入/淡出的持续时间
+    [SerializeReference] private float fadeDuration = 1.5f; // 淡入/淡出的持续时间
+    [SerializeReference] private float fadeDurationText = 0.4f; // 淡入/淡出的持续时间
     private Coroutine fadeCoroutine; // 用于保存当前的协程
     public void Start()
     {

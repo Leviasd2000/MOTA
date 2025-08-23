@@ -1,0 +1,70 @@
+{
+	"identifier": "Level_10",
+	"uniqueIdentifer": "fab2ce60-1030-11f0-9b0d-b597f740b06e",
+	"x": 0,
+	"y": -4160,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "85935250-1030-11f0-9b0d-417f8f29dde6",
+			"dir": "s"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities": {
+		"Downstair_normal": [
+			{
+				"id": "Downstair_normal",
+				"iid": "46f24660-1030-11f0-8d82-314a7f64ba74",
+				"layer": "Entities",
+				"x": 368,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 4657801,
+				"customFields": {
+					"Portal": "下樓",
+					"Hidden": false,
+					"upstair": {
+						"entityIid": "42b2a0e0-1030-11f0-8d82-135f7dd58b45",
+						"layerIid": "85935251-1030-11f0-9b0d-e18ba5961d01",
+						"levelIid": "85935250-1030-11f0-9b0d-417f8f29dde6",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": false,
+					"ID": null
+				}
+			}
+		],
+		"Downstair_v2": [
+			{
+				"id": "Downstair_v2",
+				"iid": "703b6d80-1030-11f0-8d82-d3f2e686c9af",
+				"layer": "Entities",
+				"x": 48,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 8988690,
+				"customFields": {
+					"Portal": "下樓",
+					"upstair": {
+						"entityIid": "eb275060-1030-11f0-9b0d-9d90a01872e2",
+						"layerIid": "85935251-1030-11f0-9b0d-e18ba5961d01",
+						"levelIid": "85935250-1030-11f0-9b0d-417f8f29dde6",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Hidden": false,
+					"Default": true,
+					"ID": null
+				}
+			}
+		]
+	}
+}

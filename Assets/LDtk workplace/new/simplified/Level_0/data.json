@@ -29,23 +29,8 @@
 				"height": 32,
 				"color": 9149364,
 				"customFields": {
-					"ID": "柵欄"
-				}
-			}
-		],
-		"Slime1": [
-			{
-				"id": "Slime1",
-				"iid": "7253df60-e920-11ef-adaf-c5584e3a7bb6",
-				"layer": "Entities",
-				"x": 144,
-				"y": 80,
-				"width": 32,
-				"height": 32,
-				"color": 12561130,
-				"customFields": {
-					"anime": 2,
-					"Monster": "綠色史萊姆"
+					"tile": "柵欄",
+					"ID": null
 				}
 			}
 		],
@@ -60,7 +45,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			}
 		],
@@ -75,7 +61,8 @@
 				"height": 32,
 				"color": 16711748,
 				"customFields": {
-					"Door": "紅門"
+					"Door": "紅門",
+					"ID": null
 				}
 			}
 		],
@@ -90,7 +77,8 @@
 				"height": 32,
 				"color": 7552569,
 				"customFields": {
-					"ID": "暗牆"
+					"tile": "暗牆",
+					"ID": null
 				}
 			}
 		],
@@ -145,7 +133,127 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
+				}
+			}
+		],
+		"Yellowkey": [
+			{
+				"id": "Yellowkey",
+				"iid": "5e3c4860-1030-11f0-b4cc-67efe717ca51",
+				"layer": "Entities",
+				"x": 208,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"Bluekey": [
+			{
+				"id": "Bluekey",
+				"iid": "5f18ecc0-1030-11f0-b4cc-6b41cf64df3e",
+				"layer": "Entities",
+				"x": 208,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 39387,
+				"customFields": {
+					"item": "藍鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"Redkey": [
+			{
+				"id": "Redkey",
+				"iid": "604eada0-1030-11f0-b4cc-f9dc7aa558cf",
+				"layer": "Entities",
+				"x": 208,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"item": "紅鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"Gate": [
+			{
+				"id": "Gate",
+				"iid": "4b03a010-1030-11f0-8f36-8718455ba62d",
+				"layer": "Entities",
+				"x": 272,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 4098376,
+				"customFields": {
+					"Door": "轉閘門",
+					"unlock": {
+						"entityIid": "a095b210-3740-11f0-9fe5-0d03fd1fa8c7",
+						"layerIid": "538c3a92-c210-11ef-9394-df0f7a20e4bf",
+						"levelIid": "538c3a90-c210-11ef-9394-b3ff34f71bbd",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"ID": null
+				}
+			}
+		],
+		"Streamstone": [
+			{
+				"id": "Streamstone",
+				"iid": "58930c00-3740-11f0-aff0-470dd8b18955",
+				"layer": "Entities",
+				"x": 176,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 7552569,
+				"customFields": {
+					"item": "流石",
+					"ID": null
+				}
+			}
+		],
+		"Crimson": [
+			{
+				"id": "Crimson",
+				"iid": "59a0ab70-3740-11f0-aff0-cf8263c08497",
+				"layer": "Entities",
+				"x": 176,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 11882632,
+				"customFields": {
+					"item": "深紅",
+					"ID": null
+				}
+			}
+		],
+		"Slime1": [
+			{
+				"id": "Slime1",
+				"iid": "a095b210-3740-11f0-9fe5-0d03fd1fa8c7",
+				"layer": "Entities",
+				"x": 144,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆",
+					"ID": null
 				}
 			}
 		]

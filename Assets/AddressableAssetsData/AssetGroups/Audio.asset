@@ -15,8 +15,20 @@ MonoBehaviour:
   m_GroupName: Audio
   m_GUID: 01f9a31d692a34244af7abdc8d8bcd35
   m_SerializeEntries:
+  - m_GUID: 046aaacc9ce843b4781dfdcf85a498ae
+    m_Address: Assets/Audio/monsterattack/flamecritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05ede56c97a31d9409978edddde1b278
     m_Address: Assets/Audio/decrease breath.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a052e4f71f8cbc458c9d37e66dc94af
+    m_Address: Assets/Audio/monsterattack/icewitch.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
@@ -33,8 +45,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ce9b6f430ea52e408332594adcd7c9a
+    m_Address: Assets/Audio/mirrorshield.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 12d80c177c5fbf84899adcb223b291af
     m_Address: Assets/Audio/leave.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1455f69638cb22549a83ee82684e8ab7
+    m_Address: Assets/Audio/braveattack/mundane.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ef7c7d5499f70044bd61615dccc72e9
+    m_Address: Assets/Audio/braveattack/sage1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bfde1d0f2f2f194bbc3648b4c3a1077
+    m_Address: Assets/Audio/monsterattack/ring.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
@@ -51,14 +87,38 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37ba8d5252848834ba7982621f6fb271
+    m_Address: Assets/Audio/braveattack/sage3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3e3982952fc70c943808fe8fcbbe57d4
     m_Address: Assets/Audio/Stop.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4387d4eafa282bd468dd0f23e00b8b0a
+    m_Address: Assets/Audio/braveattack/spirit2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ad4d1a4feb66a942b439e2afe685e2e
     m_Address: Assets/Audio/lava.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e8259bf76ee615499e47d5b3362aabb
+    m_Address: Assets/Audio/braveattack/reflection2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 506d73798a5a87543bc947106c799978
+    m_Address: Assets/Audio/braveattack/spirit3.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
@@ -75,8 +135,80 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64db0f15f82b14343ab50ad26120d5b4
+    m_Address: Assets/Audio/braveattack/reflection1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 657b391ee927da5438db0065ede83e64
+    m_Address: Assets/Audio/death.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65d07cb1eddb2ba4ba3f0b9834d0e61c
+    m_Address: Assets/Audio/monsterattack/whitewitch.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ac8a687add8be0499a7be0cabdfb6c4
+    m_Address: Assets/Audio/monsterattack/sword.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b5901e2b1a17b541a7e15032282860c
+    m_Address: Assets/Audio/monsterattack/patcritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ec122a2839d4df4cb30a04566f01514
     m_Address: Assets/Audio/portal.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70b8a58f1193cde45bd97a02595f7fb3
+    m_Address: Assets/Audio/monsterattack/icecitical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70ff3a4d5a5376141888ca5940a44aa1
+    m_Address: Assets/Audio/monsterattack/blood.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ba5bce400c217419bade0ac596c5ce
+    m_Address: Assets/Audio/exhaust.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 753365b2baabd904c8a897e903dec185
+    m_Address: Assets/Audio/monsterattack/flame.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ac1de7cd5fd72447923a7589008cd25
+    m_Address: Assets/Audio/braveattack/sage2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e0fea0899fd22941b08ed5b9eeae92e
+    m_Address: Assets/Audio/braveattack/crystalite2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f90542b10c0d56408ea093d1f99aa86
+    m_Address: Assets/Audio/monsterattack/archer.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
@@ -93,6 +225,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92e5f34b523f64c4982da961b589a795
+    m_Address: Assets/Audio/monsterattack/clawcritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95940ba97d63bc746994b2900423cc05
     m_Address: Assets/Audio/thunder.wav
     m_ReadOnly: 0
@@ -105,8 +243,38 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e1bcf633ef600f42b6e68667b76bce0
+    m_Address: Assets/Audio/monsterattack/claw.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f14f6bf6dc84674885f51e385167442
+    m_Address: Assets/Audio/braveattack/spirit1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1bf18156f487a34f94386cde1b46a3c
+    m_Address: Assets/Audio/braveattack/fairy1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a851bf90221048343a32305b6b5119c3
+    m_Address: Assets/Audio/plusatk.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a8f5fe5d49c89964f89ce0a838a9ce57
     m_Address: Assets/Audio/bat.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1b054787220aeb46ac9a847b0ad3eaf
+    m_Address: Assets/Audio/braveattack/crimson1.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
@@ -129,14 +297,86 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf2ca45e14e018146bca8f72eac7b48a
+    m_Address: Assets/Audio/braveattack/crimson2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c36c3f8f1a5a1ea4ea4e2b0fa28bc93f
+    m_Address: Assets/Audio/braveattack/streamstone2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7e06d88e09d29344840914c8459ec92
+    m_Address: Assets/Audio/bossdeath.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c81f438350fe02441b5d263a003dc3bf
+    m_Address: Assets/Audio/monsterattack/firecitical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cce5e015e26d30b4a9af6238d44b2277
+    m_Address: Assets/Audio/braveattack/fairy2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce56f8dc635dc95488e959c9a7ff8061
+    m_Address: Assets/Audio/braveattack/streamstone.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d1640f5beac4a8a43a97e39eb4120242
     m_Address: Assets/Audio/Stairs.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d351143682f44de4cba6998ab5c5b273
+    m_Address: Assets/Audio/braveattack/sage4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3db2dbbc13d78c469d8c3b8b70e6258
+    m_Address: Assets/Audio/fall.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8371c2e4a6f04841a622fc1fc142d65
     m_Address: Assets/Audio/evil slime.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df93a82de99e1ca498b6dc91dee62726
+    m_Address: Assets/Audio/monsterattack/blackexplode.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfcc118d215e11e4485f984bb40fdab7
+    m_Address: Assets/Audio/monsterattack/swordcritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e19e7a380d38c15459439bee749d8f93
+    m_Address: Assets/Audio/monsterattack/blackexplodecritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e21bbcad542ad0141b63d32c296c81eb
+    m_Address: Assets/Audio/braveattack/soverign.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio
@@ -153,8 +393,44 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5c5f06f4c63b244aabd2f907b76f982
+    m_Address: Assets/Audio/monsterattack/watercritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7181901380d58f4284b95f9ac47d0cb
+    m_Address: Assets/Audio/monsterattack/fire.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e759a501b702e7d4aa93a8a4c8b60914
+    m_Address: Assets/Audio/braveattack/crystalite1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f05c22333934d1443b55ab3e11adb693
+    m_Address: Assets/Audio/monsterattack/water.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0b1b3df72911a34fadd9d13f7e8ceac
+    m_Address: Assets/Audio/monsterattack/swordking.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f687729c5f8236b4bbf60f89f18cb772
     m_Address: Assets/Audio/Item.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fce7041a2503e834985a1f08b6aedfe1
+    m_Address: Assets/Audio/monsterattack/pat.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio

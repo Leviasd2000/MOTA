@@ -32,7 +32,7 @@ public class RedDoor : MonoBehaviour
                 animator.SetBool("bump", true);
                 Debug.Log("有撞到");
 
-                audiomanager.Play( "Door", false);
+                audiomanager.PlaySFX("Door");
 
                 // 播放動畫並在動畫結束後銷毀物件
                 StartCoroutine(DestroyAfterAnimation(animelength));
@@ -44,7 +44,7 @@ public class RedDoor : MonoBehaviour
             }
             else
             {
-                audiomanager.Play("Stop", false);
+                audiomanager.PlaySFX("Stop");
             }
             
             

@@ -10,8 +10,18 @@ public class Braveattr : MonoBehaviour
     public static Dictionary<string, int> attributes = new Dictionary<string, int>();
     public TextMeshProUGUI bravename;
     public GameObject currentMonster;  // 記錄當前接觸的怪物
-    public string Sword ;
-    public string Shield ;
+    
+    public static List<string> Sword;
+    public static List<string> Shield;
+
+    public static bool RecentSword;
+    public static bool RecentShield;
+    public static string HoldSword;
+    public static string HoldShield;
+
+    public static Sword EquippedSword;
+    public static Shield EquippedShield;
+
     public float actionSpeed;
 
     public static int AttackCritical;
@@ -32,8 +42,13 @@ public class Braveattr : MonoBehaviour
     public int Exp { get; private set; }
     public int Fatigue { get; private set; }
     public int Breath { get; private set; }
+    
+    public static int Tempatk { get; set; } // 臨時加(減)攻
+    public static int Tempdef { get; set; } // 臨時加(減)防
 
+    public static int Tempbreath { get; set; } // 臨時加(減)氣息
 
+    public static int Freeze { get; set; } // 等待回合
 
     void Start()
     {
@@ -46,18 +61,27 @@ public class Braveattr : MonoBehaviour
         attributes["Exp"] = 0;
         attributes["Fatigue"] = 0;
         attributes["Breath"] = 0;
-        Sword = "None";
-        Shield = "None";
+        Sword = new List<string> { "None" }; 
+        Shield = new List<string> { "None" };
+        HoldSword = "None";
+        HoldShield = "None";
+        RecentSword = false;
+        RecentShield = false;
+        
         actionSpeed = 2;
-        AttackCritical = 5;
+        AttackCritical = 25;
         DefenseCritical = 35;
+        Tempatk = 0;
+        Tempdef = 0;
+        Tempbreath = 0;
+        Freeze = 0;
 
         // 測試: 讀取屬性
         Debug.Log("勇者等級: " + GetAttribute("Level"));
     }
 
     // 設定屬性
-    public void SetAttribute(string type, int value)
+    public static void SetAttribute(string type, int value)
     {
         attributes[type] = value;
     }
@@ -72,12 +96,20 @@ public class Braveattr : MonoBehaviour
     public void IncreaseAttribute(string type, int amount)
     {
         if (attributes.ContainsKey(type))
+        {
             attributes[type] += amount;
+            if (type == "Level")
+            {
+                attributes["Hp"] += 400;
+                attributes["Atk"] += 3;
+                attributes["Def"] += 3;
+            }
+        }
     }
 
     public void DecreaseAttribute(string type, int amount)
     {
-        if (attributes.ContainsKey(type) && attributes[type]>=amount)
+        if (attributes.ContainsKey(type) && attributes[type] >= amount)
         {
             attributes[type] -= amount;
         }
@@ -99,26 +131,6 @@ public class Braveattr : MonoBehaviour
             return attributes["Atk"]- monster_def ;
         }
 
-    }
-
-    public int BraveDefense_Damage(int monster_atk , bool critical , string skill )
-    {
-        if (monster_atk + DefenseCritical > attributes["Def"])
-        {
-            if (critical)
-            {
-                return 2 * (monster_atk - attributes["Def"]);
-            }
-            else
-            {
-                return monster_atk - attributes["Def"];
-            }
-        }
-        else
-        {
-            return 0;
-        }
-            
     }
 
     // Update is called once per frame

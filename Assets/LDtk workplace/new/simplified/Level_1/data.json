@@ -34,7 +34,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			},
 			{
@@ -48,7 +49,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			},
 			{
@@ -62,7 +64,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			}
 		],
@@ -77,7 +80,8 @@
 				"height": 32,
 				"color": 14957380,
 				"customFields": {
-					"item": "紅寶石"
+					"item": "紅寶石",
+					"ID": null
 				}
 			},
 			{
@@ -90,7 +94,8 @@
 				"height": 32,
 				"color": 14957380,
 				"customFields": {
-					"item": "紅寶石"
+					"item": "紅寶石",
+					"ID": null
 				}
 			}
 		],
@@ -105,7 +110,8 @@
 				"height": 32,
 				"color": 1199753,
 				"customFields": {
-					"item": "藍寶石"
+					"item": "藍寶石",
+					"ID": null
 				}
 			},
 			{
@@ -118,7 +124,8 @@
 				"height": 32,
 				"color": 1199753,
 				"customFields": {
-					"item": "藍寶石"
+					"item": "藍寶石",
+					"ID": null
 				}
 			}
 		],
@@ -134,7 +141,38 @@
 				"color": 12561130,
 				"customFields": {
 					"anime": 2,
-					"Monster": "綠色史萊姆"
+					"Monster": "綠色史萊姆",
+					"ID": null
+				}
+			},
+			{
+				"id": "Slime1",
+				"iid": "0c575f70-1030-11f0-8157-59eef54d0d8e",
+				"layer": "Entities",
+				"x": 112,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆",
+					"ID": null
+				}
+			},
+			{
+				"id": "Slime1",
+				"iid": "0e2e6960-1030-11f0-8157-11486e5e0fd0",
+				"layer": "Entities",
+				"x": 112,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆",
+					"ID": null
 				}
 			}
 		],
@@ -149,7 +187,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"item": "黃鑰匙"
+					"item": "黃鑰匙",
+					"ID": null
 				}
 			},
 			{
@@ -162,7 +201,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"item": "黃鑰匙"
+					"item": "黃鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -177,7 +217,8 @@
 				"height": 32,
 				"color": 16711748,
 				"customFields": {
-					"item": "紅鑰匙"
+					"item": "紅鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -192,7 +233,8 @@
 				"height": 32,
 				"color": 12087120,
 				"customFields": {
-					"item": "高級傷藥"
+					"item": "高級傷藥",
+					"ID": null
 				}
 			}
 		],
@@ -207,7 +249,8 @@
 				"height": 32,
 				"color": 39387,
 				"customFields": {
-					"item": "藍鑰匙"
+					"item": "藍鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -222,7 +265,8 @@
 				"height": 32,
 				"color": 9149364,
 				"customFields": {
-					"ID": "柵欄"
+					"tile": "柵欄",
+					"ID": null
 				}
 			},
 			{
@@ -235,7 +279,8 @@
 				"height": 32,
 				"color": 9149364,
 				"customFields": {
-					"ID": "柵欄"
+					"tile": "柵欄",
+					"ID": null
 				}
 			}
 		],
@@ -250,7 +295,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			},
 			{
@@ -263,7 +309,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			}
 		],
@@ -278,7 +325,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"Door": "黃門"
+					"Door": "黃門",
+					"ID": null
 				}
 			}
 		],
@@ -293,7 +341,22 @@
 				"height": 32,
 				"color": 16777215,
 				"customFields": {
-					"Monster": "小蝙蝠"
+					"Monster": "小蝙蝠",
+					"ID": null
+				}
+			},
+			{
+				"id": "Bat1",
+				"iid": "0d582da0-1030-11f0-8157-b9bb34fb35ca",
+				"layer": "Entities",
+				"x": 112,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "小蝙蝠",
+					"ID": null
 				}
 			}
 		],
@@ -308,7 +371,6 @@
 				"height": 32,
 				"color": 3485630,
 				"customFields": {
-					"anime": 2,
 					"NPC": "老人1",
 					"upstair": null
 				}
@@ -333,7 +395,8 @@
 						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
 					},
 					"Hidden": false,
-					"Default": true
+					"Default": true,
+					"ID": null
 				}
 			}
 		],
@@ -357,6 +420,39 @@
 						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
 					},
 					"Default": true
+				}
+			}
+		],
+		"Entity22": [
+			{
+				"id": "Entity22",
+				"iid": "c5a58d80-3740-11f0-b4d0-5391eebf8d1d",
+				"layer": "Entities",
+				"x": 336,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"Monster": "史萊姆人",
+					"ID": null
+				}
+			}
+		],
+		"Slime3": [
+			{
+				"id": "Slime3",
+				"iid": "c914eab0-3740-11f0-b4d0-992ed538bfbb",
+				"layer": "Entities",
+				"x": 304,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "黑色史萊姆",
+					"anime": 0,
+					"ID": null
 				}
 			}
 		]

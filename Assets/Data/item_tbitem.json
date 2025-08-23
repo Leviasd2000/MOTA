@@ -145,6 +145,63 @@
     "desc": ""
   },
   {
+    "id": "小飛羽",
+    "name": "小飛羽",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Level",
+        "count": 1
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "得到小飛羽，等級+1",
+    "desc": ""
+  },
+  {
+    "id": "綠寶石",
+    "name": "綠寶石",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Breath",
+        "count": 40
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "得到一顆紅寶石，攻擊+2",
+    "desc": ""
+  },
+  {
+    "id": "黃寶石",
+    "name": "黃寶石",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Breath",
+        "count": 40
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "得到一顆紅寶石，攻擊+2",
+    "desc": ""
+  },
+  {
     "id": "鐵劍",
     "name": "鐵劍",
     "icon": "",
@@ -160,7 +217,197 @@
     "items": [],
     "system": "",
     "pick_tips": "",
-    "use_tips": "獲得鐵劍，攻擊+10",
+    "use_tips": "裝備上一把鐵劍，攻擊+10",
+    "desc": ""
+  },
+  {
+    "id": "凡骨",
+    "name": "凡骨",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "凡骨,劍技",
+    "pick_tips": "",
+    "use_tips": "解鎖凡骨劍技",
+    "desc": ""
+  },
+  {
+    "id": "流石",
+    "name": "流石",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "流石,劍技",
+    "pick_tips": "",
+    "use_tips": "解鎖流石劍技",
+    "desc": ""
+  },
+  {
+    "id": "深紅",
+    "name": "深紅",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "深紅,劍技",
+    "pick_tips": "",
+    "use_tips": "解鎖深紅劍技",
+    "desc": ""
+  },
+  {
+    "id": "天靈",
+    "name": "天靈",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "天靈,劍技",
+    "pick_tips": "",
+    "use_tips": "解鎖天靈劍技",
+    "desc": ""
+  },
+  {
+    "id": "皇者",
+    "name": "皇者",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "皇者,劍技",
+    "pick_tips": "",
+    "use_tips": "解鎖皇者劍技",
+    "desc": ""
+  },
+  {
+    "id": "鏡膜",
+    "name": "鏡膜",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "鏡膜,盾術",
+    "pick_tips": "",
+    "use_tips": "解鎖鏡膜盾術",
+    "desc": ""
+  },
+  {
+    "id": "結晶",
+    "name": "結晶",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "結晶,盾術",
+    "pick_tips": "",
+    "use_tips": "解鎖結晶盾術",
+    "desc": ""
+  },
+  {
+    "id": "反射",
+    "name": "反射",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "反射,盾術",
+    "pick_tips": "",
+    "use_tips": "解鎖反射盾術",
+    "desc": ""
+  },
+  {
+    "id": "精靈",
+    "name": "精靈",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "精靈,盾術",
+    "pick_tips": "",
+    "use_tips": "解鎖精靈罩盾術",
+    "desc": ""
+  },
+  {
+    "id": "賢者",
+    "name": "賢者",
+    "icon": "",
+    "type": 1,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 5
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "賢者,盾術",
+    "pick_tips": "",
+    "use_tips": "解鎖賢者結界盾術",
     "desc": ""
   }
 ]

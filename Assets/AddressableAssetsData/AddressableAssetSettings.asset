@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: a80ff66a0b1518e468fd06215a336283
   m_currentHash:
     serializedVersion: 2
-    Hash: b30111b5d7aaf8fed832e2a4a119f0ce
+    Hash: d199ac907e0979058053807a0e526641
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -61,6 +61,8 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 50222d8f5c94cb64c8c30e16e85086d1, type: 2}
   - {fileID: 11400000, guid: dff694e7daa246d468a44915f0005254, type: 2}
+  - {fileID: 11400000, guid: 3c1f80dec159da64ca35ac76f6ad7397, type: 2}
+  - {fileID: 11400000, guid: 2defbdc46dee6be4b9c0b9f2b0e8d0c2, type: 2}
   - {fileID: 11400000, guid: ff8cf61bccc66274eb5fa387ba86140d, type: 2}
   - {fileID: 11400000, guid: fcf95f92f101e6b47852156615a19d0e, type: 2}
   m_BuildSettings:
@@ -106,6 +108,8 @@ MonoBehaviour:
     - Monster
     - VFX
     - Audio
+    - Tool
+    - Map
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 59ab6e239e7a17848b4d4c46c1853d05, type: 2}

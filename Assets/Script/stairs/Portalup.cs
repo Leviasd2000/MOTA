@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using LDtkUnity;
+using System.Collections;
 
 public class Portalup : MonoBehaviour
 {
@@ -83,7 +84,7 @@ public class Portalup : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && other.GetType().ToString() == "UnityEngine.BoxCollider2D" && upstairs)
         {
             Debug.Log("Player到了");
-            TeleportPlayer();
+            StartCoroutine(TeleportPlayer());
             Braveplayer.floor += 1;
             if (Braveplayer.maxfloor < Braveplayer.floor)
             {
@@ -100,7 +101,7 @@ public class Portalup : MonoBehaviour
         }
 
     }
-    private void TeleportPlayer()
+    private IEnumerator TeleportPlayer()
     {
         mainCamera.transform.position += new Vector3(0, +13, 0);
         Debug.Log("Main Camera Position: " + mainCamera.transform.position);
@@ -112,11 +113,15 @@ public class Portalup : MonoBehaviour
         Player.GetComponent<Braveplayer>().StopCurrentRepeatMovement();
         Player.GetComponent<Braveplayer>().StopMoving();
         Player.GetComponent<Braveplayer>().enabled = false;
-        Player.GetComponent<Braveplayer>().enabled = true;
+        
 
-        audiomanager.Play("Stairs", false);
+        audiomanager.PlaySFX("Stairs");
 
         fade.FadeIn();
+
+        yield return new WaitForSeconds(1f);
+
+        Player.GetComponent<Braveplayer>().enabled = true;
 
 
         // 標記玩家進入傳送範圍，防止重複觸發

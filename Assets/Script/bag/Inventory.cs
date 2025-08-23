@@ -58,6 +58,7 @@ public class Inventory : MonoBehaviour
     }
     public void AddItem(string itemName, int quantity)
     {
+        Debug.Log(itemName);
         if (itemDictionary.ContainsKey(itemName))
         {
             itemDictionary[itemName] += quantity;
@@ -82,6 +83,16 @@ public class Inventory : MonoBehaviour
     public int GetItemQuantity(string itemName)
     {
         return itemDictionary.ContainsKey(itemName) ? itemDictionary[itemName] : 0;
+    }
+
+    public Dictionary<string, int> GetItemDictionary()
+    {
+        return new Dictionary<string, int>(itemDictionary);
+    }
+
+    public void ClearAllItems()
+    {
+        itemDictionary.Clear();
     }
 
 }

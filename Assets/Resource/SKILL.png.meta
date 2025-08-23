@@ -1,0 +1,1958 @@
+fileFormatVersion: 2
+guid: 301d57a622dea684ea9c8c37cdfc15df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4425602733248193194
+    second: SKILL_0
+  - first:
+      213: -7084978566134238391
+    second: SKILL_1
+  - first:
+      213: -1615558121113718387
+    second: SKILL_2
+  - first:
+      213: -5716471291571417254
+    second: SKILL_3
+  - first:
+      213: 2326666858136754711
+    second: SKILL_4
+  - first:
+      213: 7339614343932910476
+    second: SKILL_5
+  - first:
+      213: 4878988459187971701
+    second: SKILL_6
+  - first:
+      213: -3329133326665837517
+    second: SKILL_7
+  - first:
+      213: -1019849530297131504
+    second: SKILL_8
+  - first:
+      213: 6478895703781403747
+    second: SKILL_9
+  - first:
+      213: 2267136316119229361
+    second: SKILL_10
+  - first:
+      213: -528977355458637543
+    second: SKILL_11
+  - first:
+      213: -6679376003614865341
+    second: SKILL_12
+  - first:
+      213: -5403749539089717108
+    second: SKILL_13
+  - first:
+      213: 8117680689756432580
+    second: SKILL_14
+  - first:
+      213: 4730642623917390181
+    second: SKILL_15
+  - first:
+      213: 74329889834833175
+    second: SKILL_16
+  - first:
+      213: 2787019309569838420
+    second: SKILL_17
+  - first:
+      213: 7225151597126090330
+    second: SKILL_18
+  - first:
+      213: 8169027178684085171
+    second: SKILL_19
+  - first:
+      213: -6896692731196254374
+    second: SKILL_20
+  - first:
+      213: 4751923888167191621
+    second: SKILL_21
+  - first:
+      213: -5537664603662899796
+    second: SKILL_22
+  - first:
+      213: 3011522353508278047
+    second: SKILL_23
+  - first:
+      213: 121350154033963622
+    second: SKILL_24
+  - first:
+      213: -8963445408829250971
+    second: SKILL_25
+  - first:
+      213: 6830028284348658017
+    second: SKILL_26
+  - first:
+      213: 7562280565195321211
+    second: SKILL_27
+  - first:
+      213: -6734914804778579257
+    second: SKILL_28
+  - first:
+      213: 6762984962191298254
+    second: SKILL_29
+  - first:
+      213: -6085979657668855029
+    second: SKILL_30
+  - first:
+      213: -2351480679263253534
+    second: SKILL_31
+  - first:
+      213: -5109974204416687765
+    second: SKILL_32
+  - first:
+      213: -5500768844831655264
+    second: SKILL_33
+  - first:
+      213: -770777791769188538
+    second: SKILL_34
+  - first:
+      213: -370236152379170869
+    second: SKILL_35
+  - first:
+      213: -4694049925361519501
+    second: SKILL_36
+  - first:
+      213: 2975271518918724297
+    second: SKILL_37
+  - first:
+      213: 4972453009804896708
+    second: SKILL_38
+  - first:
+      213: -1787184456460904627
+    second: SKILL_39
+  - first:
+      213: -1327038203529373051
+    second: SKILL_40
+  - first:
+      213: 3575952499361153070
+    second: SKILL_41
+  - first:
+      213: 4295756898177661535
+    second: SKILL_42
+  - first:
+      213: -8858683924421064465
+    second: SKILL_43
+  - first:
+      213: -5622967358696060390
+    second: SKILL_44
+  - first:
+      213: 5937637258245355124
+    second: SKILL_45
+  - first:
+      213: 8384289356050065925
+    second: SKILL_46
+  - first:
+      213: 8948942675618775172
+    second: SKILL_47
+  - first:
+      213: -1118786321377994125
+    second: SKILL_48
+  - first:
+      213: -1817576938535281761
+    second: SKILL_49
+  - first:
+      213: -4486828887921343875
+    second: SKILL_50
+  - first:
+      213: 353669430495327373
+    second: SKILL_51
+  - first:
+      213: 1717547492459079819
+    second: SKILL_52
+  - first:
+      213: 8008510641828139094
+    second: SKILL_53
+  - first:
+      213: 7146825404522605404
+    second: SKILL_54
+  - first:
+      213: -4609712590895027603
+    second: SKILL_55
+  - first:
+      213: 5961518980857130127
+    second: SKILL_56
+  - first:
+      213: 7141275227950050745
+    second: SKILL_57
+  - first:
+      213: -3573771878098925172
+    second: SKILL_58
+  - first:
+      213: -804958749150897137
+    second: SKILL_59
+  - first:
+      213: 6377624720316915248
+    second: SKILL_60
+  - first:
+      213: 3710620143705172216
+    second: SKILL_61
+  - first:
+      213: -9213945004762185767
+    second: SKILL_62
+  - first:
+      213: 6058467656585614603
+    second: SKILL_63
+  - first:
+      213: 6810117124878545355
+    second: SKILL_64
+  - first:
+      213: -850534368885949799
+    second: SKILL_65
+  - first:
+      213: -5551602042386585876
+    second: SKILL_66
+  - first:
+      213: -5062312883123006802
+    second: SKILL_67
+  - first:
+      213: -7057256020048880692
+    second: SKILL_68
+  - first:
+      213: -7289378268476836491
+    second: SKILL_69
+  - first:
+      213: -974211573610395650
+    second: SKILL_70
+  - first:
+      213: -6111546079757099006
+    second: SKILL_71
+  - first:
+      213: 102709358027012385
+    second: SKILL_72
+  - first:
+      213: 7472290178874239238
+    second: SKILL_73
+  - first:
+      213: -610575744294401319
+    second: SKILL_74
+  - first:
+      213: 3597958562910318345
+    second: SKILL_75
+  - first:
+      213: 2822968796344866019
+    second: SKILL_76
+  - first:
+      213: -8763832566986528398
+    second: SKILL_77
+  - first:
+      213: -2814051577701217430
+    second: SKILL_78
+  - first:
+      213: 6346240481953649589
+    second: SKILL_79
+  - first:
+      213: -7447012208542778419
+    second: SKILL_80
+  - first:
+      213: 706159575600047475
+    second: SKILL_81
+  - first:
+      213: -5649429058360703587
+    second: SKILL_82
+  - first:
+      213: -1307624477428023274
+    second: SKILL_83
+  - first:
+      213: -7036035660215943965
+    second: SKILL_84
+  - first:
+      213: -1012578130825196449
+    second: SKILL_85
+  - first:
+      213: -319204508220601126
+    second: SKILL_86
+  - first:
+      213: -7058891297846288509
+    second: SKILL_87
+  - first:
+      213: 3971919210205608899
+    second: SKILL_88
+  - first:
+      213: -2437721103582167087
+    second: SKILL_89
+  - first:
+      213: -8131407301897143224
+    second: SKILL_90
+  - first:
+      213: 763784295493690681
+    second: SKILL_91
+  - first:
+      213: -4013181269610793118
+    second: SKILL_92
+  - first:
+      213: -161525319530692742
+    second: SKILL_93
+  - first:
+      213: 721732178159960724
+    second: SKILL_94
+  - first:
+      213: 6451115945000691654
+    second: SKILL_95
+  - first:
+      213: 5860747394008025843
+    second: SKILL_96
+  - first:
+      213: -4698326414547000318
+    second: SKILL_97
+  - first:
+      213: 403084124569515797
+    second: SKILL_98
+  - first:
+      213: 6139445702190338869
+    second: SKILL_99
+  - first:
+      213: -573541088986380902
+    second: SKILL_100
+  - first:
+      213: -2282124891111653831
+    second: SKILL_101
+  - first:
+      213: -6095996881512668474
+    second: SKILL_102
+  - first:
+      213: 7647355639194572700
+    second: SKILL_103
+  - first:
+      213: 3141126960106942503
+    second: SKILL_104
+  - first:
+      213: 996949479407636455
+    second: SKILL_105
+  - first:
+      213: -7976132143759759666
+    second: SKILL_106
+  - first:
+      213: -4606916889808264710
+    second: SKILL_107
+  - first:
+      213: 2237115035320419652
+    second: SKILL_108
+  - first:
+      213: 6213299639499821845
+    second: SKILL_109
+  - first:
+      213: 1226227781703691976
+    second: SKILL_110
+  - first:
+      213: -3048359026705419522
+    second: SKILL_111
+  - first:
+      213: 2929713609215686660
+    second: SKILL_112
+  - first:
+      213: 2333526372533943796
+    second: SKILL_113
+  - first:
+      213: 1127345766288558786
+    second: SKILL_114
+  - first:
+      213: 5512788510071698952
+    second: SKILL_115
+  - first:
+      213: 7821438760226822100
+    second: SKILL_116
+  - first:
+      213: 4352192485193160629
+    second: SKILL_117
+  - first:
+      213: 8066191527326497992
+    second: SKILL_118
+  - first:
+      213: -1711970182693333593
+    second: SKILL_119
+  - first:
+      213: -4606471641960830964
+    second: SKILL_120
+  - first:
+      213: -3916359020983207797
+    second: SKILL_121
+  - first:
+      213: 1876936884961260643
+    second: SKILL_122
+  - first:
+      213: 2608986511040123419
+    second: SKILL_123
+  - first:
+      213: 1941222893197371557
+    second: SKILL_124
+  - first:
+      213: -5102818163527282721
+    second: SKILL_125
+  - first:
+      213: -174860459159058045
+    second: SKILL_126
+  - first:
+      213: -1709496715344859665
+    second: SKILL_127
+  - first:
+      213: 1393150324153640539
+    second: SKILL_128
+  - first:
+      213: 6660202821106718158
+    second: SKILL_129
+  - first:
+      213: 3063145520519261292
+    second: SKILL_130
+  - first:
+      213: 6797183054865326779
+    second: SKILL_131
+  - first:
+      213: 516805287177653590
+    second: SKILL_132
+  - first:
+      213: -5488103925990359349
+    second: SKILL_133
+  - first:
+      213: -4913761299640708379
+    second: SKILL_134
+  - first:
+      213: -7979606735991668611
+    second: SKILL_135
+  - first:
+      213: 1444184432441371077
+    second: SKILL_136
+  - first:
+      213: 2995238362270488824
+    second: SKILL_137
+  - first:
+      213: 387807062726237937
+    second: SKILL_138
+  - first:
+      213: 1053540383921052398
+    second: SKILL_139
+  - first:
+      213: 2306695130536743585
+    second: SKILL_140
+  - first:
+      213: -5451714040041690218
+    second: SKILL_141
+  - first:
+      213: 9147554115053667336
+    second: SKILL_142
+  - first:
+      213: 6459001383115553544
+    second: SKILL_143
+  - first:
+      213: -1411311138196905806
+    second: SKILL_144
+  - first:
+      213: 7377725874825217922
+    second: SKILL_145
+  - first:
+      213: 5438390741346325028
+    second: SKILL_146
+  - first:
+      213: 4770991946317778914
+    second: SKILL_147
+  - first:
+      213: -76869320549654580
+    second: SKILL_148
+  - first:
+      213: -168318860251037138
+    second: SKILL_149
+  - first:
+      213: -8236161952296991062
+    second: SKILL_150
+  - first:
+      213: 291179629610851318
+    second: SKILL_151
+  - first:
+      213: 8385464943558602064
+    second: SKILL_152
+  - first:
+      213: 1365764518084600891
+    second: SKILL_153
+  - first:
+      213: 3194846485974544532
+    second: SKILL_154
+  - first:
+      213: -3891271827204782078
+    second: SKILL_155
+  - first:
+      213: 9126437993975030046
+    second: SKILL_156
+  - first:
+      213: -6910733066049086586
+    second: SKILL_157
+  - first:
+      213: -52738679308175303
+    second: SKILL_158
+  - first:
+      213: -9074135847291061117
+    second: SKILL_159
+  - first:
+      213: -7807612478369298754
+    second: SKILL_160
+  - first:
+      213: 4569450115245276494
+    second: SKILL_161
+  - first:
+      213: -7043112822032914526
+    second: SKILL_162
+  - first:
+      213: -3882375163425672547
+    second: SKILL_163
+  - first:
+      213: -6481363730101106462
+    second: SKILL_164
+  - first:
+      213: -3093116907514912408
+    second: SKILL_165
+  - first:
+      213: 1545032666788412502
+    second: SKILL_166
+  - first:
+      213: 380800023229576304
+    second: SKILL_167
+  - first:
+      213: -4956051587761777772
+    second: SKILL_168
+  - first:
+      213: 5413380554750097209
+    second: SKILL_169
+  - first:
+      213: 6132407475094107173
+    second: SKILL_170
+  - first:
+      213: -6859869024201288243
+    second: SKILL_171
+  - first:
+      213: 651503380473468513
+    second: SKILL_172
+  - first:
+      213: 5984717910580769802
+    second: SKILL_173
+  - first:
+      213: 778077318590281128
+    second: SKILL_174
+  - first:
+      213: -5272203987939185593
+    second: SKILL_175
+  - first:
+      213: 7526735991216152337
+    second: SKILL_176
+  - first:
+      213: 7803056836609303315
+    second: SKILL_177
+  - first:
+      213: 2037770402187467360
+    second: SKILL_178
+  - first:
+      213: 6524504175839647447
+    second: SKILL_179
+  - first:
+      213: 2710910130667994536
+    second: SKILL_180
+  - first:
+      213: 6291586169398995822
+    second: SKILL_181
+  - first:
+      213: -5393892310674726412
+    second: SKILL_182
+  - first:
+      213: -4260609693482579058
+    second: SKILL_183
+  - first:
+      213: 730636377957573831
+    second: SKILL_184
+  - first:
+      213: -8119020519499548723
+    second: SKILL_185
+  - first:
+      213: 8909891716045376933
+    second: SKILL_186
+  - first:
+      213: -9202019491329204883
+    second: SKILL_187
+  - first:
+      213: -140430233914130424
+    second: SKILL_188
+  - first:
+      213: 7949094380928134671
+    second: SKILL_189
+  - first:
+      213: -6057830764624390017
+    second: SKILL_190
+  - first:
+      213: -5395420938026442814
+    second: SKILL_191
+  - first:
+      213: 2406503572338276521
+    second: SKILL_192
+  - first:
+      213: -685199356798762625
+    second: SKILL_193
+  - first:
+      213: -8365607642689613996
+    second: SKILL_194
+  - first:
+      213: -8396402129382090520
+    second: SKILL_195
+  - first:
+      213: -6312534691423136651
+    second: SKILL_196
+  - first:
+      213: 5352963221544509487
+    second: SKILL_197
+  - first:
+      213: 8649136828625963755
+    second: SKILL_198
+  - first:
+      213: -7925932534106273066
+    second: SKILL_199
+  - first:
+      213: -6889985768293090157
+    second: SKILL_200
+  - first:
+      213: -9036337289721159325
+    second: SKILL_201
+  - first:
+      213: 2748226400575632544
+    second: SKILL_202
+  - first:
+      213: 2267189000685536490
+    second: SKILL_203
+  - first:
+      213: 5812777402487657656
+    second: SKILL_204
+  - first:
+      213: -8360729788600815924
+    second: SKILL_205
+  - first:
+      213: -4265244442330454759
+    second: SKILL_206
+  - first:
+      213: 6936737308253367595
+    second: SKILL_207
+  - first:
+      213: 2109733961318890294
+    second: SKILL_208
+  - first:
+      213: -6160233003913423601
+    second: SKILL_209
+  - first:
+      213: -8568303798755674810
+    second: SKILL_210
+  - first:
+      213: -5781975111053314139
+    second: SKILL_211
+  - first:
+      213: 728161198707807576
+    second: SKILL_212
+  - first:
+      213: 8741820268351840639
+    second: SKILL_213
+  - first:
+      213: 176492962782186937
+    second: SKILL_214
+  - first:
+      213: -2026091098737415945
+    second: SKILL_215
+  - first:
+      213: 96967574766183993
+    second: SKILL_216
+  - first:
+      213: 4624053901177255661
+    second: SKILL_217
+  - first:
+      213: -336780300640187463
+    second: SKILL_218
+  - first:
+      213: 3584776808813425501
+    second: SKILL_219
+  - first:
+      213: -8237524936203989328
+    second: SKILL_220
+  - first:
+      213: -8631673550271198925
+    second: SKILL_221
+  - first:
+      213: -2048928690303428474
+    second: SKILL_222
+  - first:
+      213: 5237863362006381470
+    second: SKILL_223
+  - first:
+      213: 8436419736860581354
+    second: SKILL_224
+  - first:
+      213: 5086004749276808781
+    second: SKILL_225
+  - first:
+      213: -8214808206437480563
+    second: SKILL_226
+  - first:
+      213: 1788012016357499781
+    second: SKILL_227
+  - first:
+      213: 6647216116607042988
+    second: SKILL_228
+  - first:
+      213: 5968995062503298068
+    second: SKILL_229
+  - first:
+      213: 3545868623252702406
+    second: SKILL_230
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SKILL_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 912
+        width: 43
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2a140fc36ea6d30800000000000000
+      internalID: 4425602733248193194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 913
+        width: 49
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943ff4c28891dad90800000000000000
+      internalID: -7084978566134238391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 929
+        width: 46
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81f40dc2726499e0800000000000000
+      internalID: -1615558121113718387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 929
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fca21c5a30ba0b0800000000000000
+      internalID: -5716471291571417254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_4
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 928
+        width: 127
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a5ae52e2bf94020800000000000000
+      internalID: 2326666858136754711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_7
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 939
+        width: 171
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3341b2eb0ea8cc1d0800000000000000
+      internalID: -3329133326665837517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_43
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 659
+        width: 149
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe84b63f7e1af0580800000000000000
+      internalID: -8858683924421064465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_48
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 666
+        width: 106
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ad2bea4c54970f0800000000000000
+      internalID: -1118786321377994125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_94
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 509
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4928136979b140a00800000000000000
+      internalID: 721732178159960724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_95
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 495
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7ef92c5c7f68950800000000000000
+      internalID: 6451115945000691654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_96
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 495
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa052a04be855150800000000000000
+      internalID: 5860747394008025843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_125
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 384
+        width: 165
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf8b898ae52f29b0800000000000000
+      internalID: -5102818163527282721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_127
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 388
+        width: 165
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed2c217bc5a648e0800000000000000
+      internalID: -1709496715344859665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_128
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 388
+        width: 172
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56e5eda6d6755310800000000000000
+      internalID: 1393150324153640539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cf3921681321280800000000000000
+      internalID: -9074135847291061117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 630
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7d6a725ec777e448ea0e1fa1344ec0
+      internalID: 872540223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 620
+        width: 133
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d6bab2376322d40a79f1ad904dc88f
+      internalID: 1200472095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_26
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 619
+        width: 134
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466b6fa08a53f404d8a7431c0b498aab
+      internalID: 1310340669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_27
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 628
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bcd03e6bcd5984bbb2ea55b792fd9f
+      internalID: -671106844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 646
+        width: 135
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d946225d415824b45980a7e873b2a1ba
+      internalID: 1317235675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_29
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 645
+        width: 135
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca1b5a6d416b1548befe00a3896c5c3
+      internalID: -926705351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 646
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05575892ae6170f4c858a2660f4d39ee
+      internalID: 449884118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_31
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 649
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d2a76a95a8fdd438c288147f74b001
+      internalID: -1012998139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_33
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 420
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafec36450cea284ca37c7ae2543dc88
+      internalID: 2037889465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_32
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 419
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051e8b679990f084ba3e2f20286d33d8
+      internalID: -1169517116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_34
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 497
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9471ff966a25e419e3dd005ed43a72
+      internalID: 788931897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 496
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc38d1dd26dfdb64cab94ac1a7b70408
+      internalID: 584995960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_36
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 496
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df57695dc85ebac46b0ee7919ebcd89f
+      internalID: 1425936338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_37
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 496
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5441712265e0b84283e3cc2f3d6afd9
+      internalID: 1393825845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_38
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 500
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af72caeb8dfddb45bab9ee9f82e96bd
+      internalID: -1155504924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_11
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 874
+        width: 128
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f191189fe6de62f43b8c7451801270ce
+      internalID: 353271914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_12
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 878
+        width: 125
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f60f78fc33b74986ce5a9287f2be7
+      internalID: -1648099615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_8
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 934
+        width: 174
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05806c7a5d3fa54458a534c89cc14de8
+      internalID: -56702723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 943
+        width: 248
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fa649dcf7ba6b42b9b492377ab9b23
+      internalID: 2048685200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 944
+        width: 234
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deaedbc257068042acdc09335df10b0
+      internalID: -572680365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 383
+        width: 172
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2241227c935cd324baf2315852acfb2c
+      internalID: 1215832633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 383
+        width: 172
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f0610f36ff65d44adb0e97afbc1af5
+      internalID: -1593883700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_13
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 388
+        width: 172
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a665fe240f91a4b812bbe38c389ff2
+      internalID: -703369171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 136
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6c0055ac687aa4f8c67e848259272d
+      internalID: -1909849572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_15
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 138
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf0f6fd4a3254c4883e7108cbfb84fe
+      internalID: 157752253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_16
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 191
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7822b0d9befb2498323264478ce008
+      internalID: 609505198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 138
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bd51f0f8fc4a04a90ccaf847a7ad08
+      internalID: 12061216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 269
+        width: 163
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b71f91ef16089642bf371da4e4d2ad3
+      internalID: -275788560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 270
+        width: 167
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1e1d56426e91b4f8e32b597212f3fa
+      internalID: -695860864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_20
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 271
+        width: 164
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d1ff8531918524d9987debe1b74159
+      internalID: 403727062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_21
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 270
+        width: 163
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db7a7aba79a7e64e8708f05fb5ca466
+      internalID: 1989858952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_23
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 268
+        width: 173
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28004f8d5ba6b7c46af242dd2ee62734
+      internalID: 295986659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_24
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 270
+        width: 174
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a1e8f198902f74b82dbaf20f0829f7
+      internalID: -1650931832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_39
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 270
+        width: 163
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aee1f02ef0663544851e9b52124c785
+      internalID: -1379807483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SKILL_40
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 269
+        width: 164
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c9263288651934b97341feb989763f
+      internalID: -2110291992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9300aef052257df4d96b9274e24c4ac7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SKILL_10: -1593883700
+      SKILL_11: 353271914
+      SKILL_12: -1648099615
+      SKILL_13: -703369171
+      SKILL_14: -1909849572
+      SKILL_15: 157752253
+      SKILL_16: 609505198
+      SKILL_17: 12061216
+      SKILL_18: -275788560
+      SKILL_19: -695860864
+      SKILL_20: 403727062
+      SKILL_21: 1989858952
+      SKILL_22: 872540223
+      SKILL_23: 295986659
+      SKILL_24: -1650931832
+      SKILL_25: 1200472095
+      SKILL_26: 1310340669
+      SKILL_27: -671106844
+      SKILL_28: 1317235675
+      SKILL_29: -926705351
+      SKILL_30: 449884118
+      SKILL_31: -1012998139
+      SKILL_32: -1169517116
+      SKILL_33: 2037889465
+      SKILL_34: 788931897
+      SKILL_35: 584995960
+      SKILL_36: 1425936338
+      SKILL_37: 1393825845
+      SKILL_38: -1155504924
+      SKILL_39: -1379807483
+      SKILL_40: -2110291992
+      SKILL_5: 2048685200
+      SKILL_6: -572680365
+      SKILL_8: -56702723
+      SKILL_9: 1215832633
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,272 @@
+{
+	"identifier": "Level_5",
+	"uniqueIdentifer": "0a14c710-1030-11f0-b4cc-ff017017c69b",
+	"x": 0,
+	"y": -2080,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "9795fb90-e920-11ef-bca8-e58d6cc5f4f0",
+			"dir": "s"
+		},
+		{
+			"levelIid": "0afd0430-1030-11f0-b4cc-6d52a0cf331d",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities": {
+		"Downstair_v2": [
+			{
+				"id": "Downstair_v2",
+				"iid": "839f2080-1030-11f0-b4cc-a58a196cdaad",
+				"layer": "Entities",
+				"x": 240,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 8988690,
+				"customFields": {
+					"Portal": "下樓",
+					"upstair": {
+						"entityIid": "71680a80-1030-11f0-b4cc-a3da1deff2d2",
+						"layerIid": "9795fb91-e920-11ef-bca8-71ca3d873874",
+						"levelIid": "9795fb90-e920-11ef-bca8-e58d6cc5f4f0",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Hidden": false,
+					"Default": true,
+					"ID": null
+				}
+			}
+		],
+		"Upstair_v2": [
+			{
+				"id": "Upstair_v2",
+				"iid": "52520370-1030-11f0-b4cc-5b0c2f52c760",
+				"layer": "Entities",
+				"x": 240,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 13818624,
+				"customFields": {
+					"Portal": "上樓",
+					"Hidden": false,
+					"downstair": {
+						"entityIid": "b94f85c0-1030-11f0-b4cc-6f65caf4dfb1",
+						"layerIid": "0afd0431-1030-11f0-b4cc-d57399cf45c2",
+						"levelIid": "0afd0430-1030-11f0-b4cc-6d52a0cf331d",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": true
+				}
+			}
+		],
+		"Frame": [
+			{
+				"id": "Frame",
+				"iid": "75e96c50-1030-11f0-9b0d-fbe08326ae85",
+				"layer": "Entities",
+				"x": 144,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"tile": "柵欄",
+					"ID": null
+				}
+			},
+			{
+				"id": "Frame",
+				"iid": "cd131d00-1030-11f0-9b0d-f1b644c5ba29",
+				"layer": "Entities",
+				"x": 112,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"tile": "柵欄",
+					"ID": null
+				}
+			}
+		],
+		"Bluedoor": [
+			{
+				"id": "Bluedoor",
+				"iid": "9beeda20-1030-11f0-9b0d-41a2925936fa",
+				"layer": "Entities",
+				"x": 304,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 39387,
+				"customFields": {
+					"Door": "藍門",
+					"ID": null
+				}
+			}
+		],
+		"Redgem": [
+			{
+				"id": "Redgem",
+				"iid": "bea718c0-1030-11f0-9b0d-81dc3388e5e4",
+				"layer": "Entities",
+				"x": 80,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
+			}
+		],
+		"Bluegem": [
+			{
+				"id": "Bluegem",
+				"iid": "bfb97320-1030-11f0-9b0d-4dc25b463510",
+				"layer": "Entities",
+				"x": 112,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
+			}
+		],
+		"Slime3": [
+			{
+				"id": "Slime3",
+				"iid": "c6410cd0-1030-11f0-9b0d-77ed80ce30b8",
+				"layer": "Entities",
+				"x": 80,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "黑色史萊姆",
+					"anime": 0,
+					"ID": null
+				}
+			}
+		],
+		"Bat2": [
+			{
+				"id": "Bat2",
+				"iid": "cacef960-1030-11f0-9b0d-6f631b60c85c",
+				"layer": "Entities",
+				"x": 112,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "大蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Yellowkey": [
+			{
+				"id": "Yellowkey",
+				"iid": "a937c960-1030-11f0-a1b9-298a46a6c7a3",
+				"layer": "Entities",
+				"x": 304,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			},
+			{
+				"id": "Yellowkey",
+				"iid": "a96ff060-1030-11f0-a1b9-676f2d87cf4a",
+				"layer": "Entities",
+				"x": 336,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			},
+			{
+				"id": "Yellowkey",
+				"iid": "aba34b20-1030-11f0-a1b9-894ede3666ef",
+				"layer": "Entities",
+				"x": 368,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"Entity6": [
+			{
+				"id": "Entity6",
+				"iid": "49decd00-1030-11f0-a1b9-5d6d1f648f84",
+				"layer": "Entities",
+				"x": 304,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"Monster": "骷髏",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity6",
+				"iid": "4a084e00-1030-11f0-a1b9-3180162d8bad",
+				"layer": "Entities",
+				"x": 336,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"Monster": "骷髏",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity6",
+				"iid": "4a31a7f0-1030-11f0-a1b9-47f10d7dff81",
+				"layer": "Entities",
+				"x": 368,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"Monster": "骷髏",
+					"ID": null
+				}
+			}
+		]
+	}
+}

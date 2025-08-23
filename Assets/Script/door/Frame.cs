@@ -25,7 +25,7 @@ public class Frame1 : MonoBehaviour
             animator.SetBool("bump", true);
             Debug.Log("有撞到");
 
-            audiomanager.Play("Door", false);
+            audiomanager.PlaySFX("Door");
 
             // 播放動畫並在動畫結束後銷毀物件
             StartCoroutine(DestroyAfterAnimation(animelength));

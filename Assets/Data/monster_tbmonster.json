@@ -59,7 +59,7 @@
   {
     "id": "史萊姆王",
     "name": "史萊姆王",
-    "anime": "",
+    "anime": "punch",
     "properties": [
       300,
       120,
@@ -128,7 +128,7 @@
       3
     ],
     "items": [],
-    "system": "多段攻擊",
+    "system": "無",
     "skill_tips": "無特別注意的點",
     "desc": ""
   },
@@ -157,18 +157,27 @@
       1
     ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
     "id": "喪屍武士",
     "name": "喪屍武士",
-    "anime": "",
-    "properties": [],
+    "anime": "sword",
+    "properties": [
+      450,
+      320,
+      275,
+      30,
+      4,
+      0,
+      25,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
@@ -195,30 +204,57 @@
     "id": "骷髏",
     "name": "骷髏",
     "anime": "punch",
-    "properties": [],
+    "properties": [
+      90,
+      75,
+      0,
+      5,
+      1,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
     "id": "骷髏士兵",
     "name": "骷髏士兵",
     "anime": "sword",
-    "properties": [],
+    "properties": [
+      250,
+      175,
+      15,
+      15,
+      2,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
     "id": "高級骷髏士兵",
     "name": "高級骷髏士兵",
     "anime": "sword",
-    "properties": [],
+    "properties": [
+      375,
+      350,
+      50,
+      25,
+      4,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
@@ -235,30 +271,57 @@
     "id": "初級守衛",
     "name": "初級守衛",
     "anime": "punch",
-    "properties": [],
+    "properties": [
+      40,
+      35,
+      50,
+      6,
+      1,
+      0,
+      40,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
     "id": "中級守衛",
     "name": "中級守衛",
     "anime": "punch",
-    "properties": [],
+    "properties": [
+      300,
+      125,
+      175,
+      20,
+      3,
+      0,
+      40,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
     "id": "高級守衛",
     "name": "高級守衛",
     "anime": "punch",
-    "properties": [],
+    "properties": [
+      860,
+      650,
+      720,
+      45,
+      7,
+      0,
+      40,
+      1
+    ],
     "items": [],
-    "system": "",
-    "skill_tips": "",
+    "system": "無",
+    "skill_tips": "無特別注意的點",
     "desc": ""
   },
   {
@@ -275,59 +338,95 @@
     "id": "初級法師",
     "name": "初級法師",
     "anime": "water",
-    "properties": [],
+    "properties": [
+      50,
+      20,
+      8,
+      4,
+      1,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "魔法攻擊",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "中級法師",
     "name": "中級法師",
-    "anime": "thunder",
-    "properties": [],
+    "anime": "electric",
+    "properties": [
+      150,
+      35,
+      50,
+      8,
+      2,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "魔法攻擊",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "高級法師",
     "name": "高級法師",
-    "anime": "fire",
-    "properties": [],
+    "anime": "flame",
+    "properties": [
+      400,
+      90,
+      180,
+      15,
+      3,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "魔法攻擊",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "血法師",
     "name": "血法師",
-    "anime": "",
+    "anime": "blood",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "魔法攻擊",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "初級巫師",
     "name": "初級巫師",
-    "anime": "",
-    "properties": [],
+    "anime": "wind",
+    "properties": [
+      350,
+      120,
+      220,
+      18,
+      3,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "魔法攻擊",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "高級巫師",
     "name": "高級巫師",
-    "anime": "",
+    "anime": "fire",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "魔法攻擊",
     "skill_tips": "",
     "desc": ""
   },
@@ -335,9 +434,18 @@
     "id": "石怪",
     "name": "石怪",
     "anime": "punch",
-    "properties": [],
+    "properties": [
+      10,
+      70,
+      115,
+      8,
+      2,
+      0,
+      40,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "無",
     "skill_tips": "",
     "desc": ""
   },
@@ -354,20 +462,38 @@
   {
     "id": "史萊姆人",
     "name": "史萊姆人",
-    "anime": "",
-    "properties": [],
+    "anime": "punch",
+    "properties": [
+      150,
+      115,
+      70,
+      8,
+      2,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "黏液拳",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "水銀人",
     "name": "水銀人",
-    "anime": "",
-    "properties": [],
+    "anime": "punch",
+    "properties": [
+      1000,
+      850,
+      780,
+      52,
+      8,
+      0,
+      30,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "液銀拳",
     "skill_tips": "",
     "desc": ""
   },
@@ -377,7 +503,7 @@
     "anime": "",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "熔流拳",
     "skill_tips": "",
     "desc": ""
   },
@@ -395,19 +521,37 @@
     "id": "騎士",
     "name": "騎士",
     "anime": "sword",
-    "properties": [],
+    "properties": [
+      230,
+      125,
+      50,
+      10,
+      2,
+      0,
+      25,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "必殺劍",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "鐵騎士",
     "name": "鐵騎士",
-    "anime": "",
-    "properties": [],
+    "anime": "ironsword",
+    "properties": [
+      400,
+      225,
+      160,
+      15,
+      3,
+      0,
+      25,
+      1
+    ],
     "items": [],
-    "system": "",
+    "system": "必殺劍",
     "skill_tips": "",
     "desc": ""
   },
@@ -437,7 +581,7 @@
     "anime": "sword",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "無",
     "skill_tips": "",
     "desc": ""
   },
@@ -447,7 +591,7 @@
     "anime": "swordking",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "無",
     "skill_tips": "",
     "desc": ""
   },
@@ -474,20 +618,39 @@
   {
     "id": "自己",
     "name": "自己",
-    "anime": "",
+    "anime": "sword",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "無",
     "skill_tips": "",
     "desc": ""
   },
   {
     "id": "假公主",
     "name": "假公主",
-    "anime": "",
+    "anime": "punch",
     "properties": [],
     "items": [],
-    "system": "",
+    "system": "無",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "暗黑大法師",
+    "name": "暗黑大法師",
+    "anime": "blackmagic",
+    "properties": [
+      750,
+      175,
+      250,
+      100,
+      10,
+      0,
+      25,
+      1
+    ],
+    "items": [],
+    "system": "魔法攻擊,黑魔法",
     "skill_tips": "",
     "desc": ""
   }

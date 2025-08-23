@@ -43,7 +43,7 @@ ScriptedImporter:
   - _key: Shop1
     _asset: {fileID: 3888921952822052582, guid: 5a47f00176e4b9c4eb244bd986532963, type: 3}
   - _key: Shop2
-    _asset: {instanceID: 0}
+    _asset: {fileID: 8267690603731041755, guid: b5bdf37a79fe399428889613cf5399ae, type: 3}
   - _key: Slime2
     _asset: {fileID: 7218181432366982181, guid: 852aeb7e2b69e18458a40ad4df84acdd, type: 3}
   - _key: Slime3
@@ -81,7 +81,7 @@ ScriptedImporter:
   - _key: Reddoor
     _asset: {fileID: 762757110794664912, guid: dd43b8f4f98f8f24c913b5cb4a4e79c1, type: 3}
   - _key: Gate
-    _asset: {instanceID: 0}
+    _asset: {fileID: 2976814617024447741, guid: c44197482822a05459546fb22a6b03ee, type: 3}
   - _key: Redgem
     _asset: {fileID: 3235325310902287645, guid: c5acb1022e5027343827a5d70029983f, type: 3}
   - _key: Bluegem
@@ -103,9 +103,9 @@ ScriptedImporter:
   - _key: Shop1left
     _asset: {fileID: 3254035244962849252, guid: 5cba78aab3f6f2c44a7e205cd5caa458, type: 3}
   - _key: Shop2left
-    _asset: {instanceID: 0}
+    _asset: {fileID: 598252761674938589, guid: 0a08d6a4e9f75ba428b0e813ed6a913e, type: 3}
   - _key: Shop2right
-    _asset: {instanceID: 0}
+    _asset: {fileID: 4570194501290292701, guid: c83629a11184c664cb8945d427deca79, type: 3}
   - _key: Upstair_normal
     _asset: {fileID: 2807128580113449616, guid: ecdda550a4b20514987c681f264548f5, type: 3}
   - _key: Downstair_normal
@@ -113,67 +113,67 @@ ScriptedImporter:
   - _key: Entity2
     _asset: {fileID: 6699973943373359957, guid: a2c8d0c8b9d02bb49857a64ab3675650, type: 3}
   - _key: Entity3
-    _asset: {instanceID: 0}
+    _asset: {fileID: 3137146043940650450, guid: 0a4b13a6e9de12c4f8688a232e6dd5d3, type: 3}
   - _key: Entity4
-    _asset: {instanceID: 0}
+    _asset: {fileID: 8583272358817409731, guid: e52a5c75775c43e48976659480a6024d, type: 3}
   - _key: Entity5
-    _asset: {instanceID: 0}
+    _asset: {fileID: 6364611895854169768, guid: 45cb78e53ece8814a9fd6ffaee6815cf, type: 3}
   - _key: Entity6
-    _asset: {instanceID: 0}
+    _asset: {fileID: 569224504755087089, guid: a2f82aed8a7870c428a34ea49cac365d, type: 3}
   - _key: Entity7
-    _asset: {instanceID: 0}
+    _asset: {fileID: 3035933651313196669, guid: ebc30a3105c3ed4448a8e207c08ea4a7, type: 3}
   - _key: Entity8
-    _asset: {instanceID: 0}
+    _asset: {fileID: 6050839229415423863, guid: 1e8ab577d51ab60479e62cb5b7866ebb, type: 3}
   - _key: Entity9
-    _asset: {instanceID: 0}
+    _asset: {fileID: 3717441717047903559, guid: 415daa06c57b59741b9822dc8d4a39c9, type: 3}
   - _key: Entity10
-    _asset: {instanceID: 0}
+    _asset: {fileID: 370989982676715686, guid: 2f4663249b5e336478c192517aaa2d86, type: 3}
   - _key: Entity11
-    _asset: {instanceID: 0}
+    _asset: {fileID: 5607917480800351922, guid: e13e51c29c263c2478287a56f4bb71d4, type: 3}
   - _key: Entity12
-    _asset: {instanceID: 0}
+    _asset: {fileID: 7306631734345313912, guid: d59ad5a2a5bb3544c9fd17b44fc9ac86, type: 3}
   - _key: Entity13
-    _asset: {instanceID: 0}
+    _asset: {fileID: 7863892664777044074, guid: 369c5f7d3f0cc9f46b5ce06e492b0454, type: 3}
   - _key: Entity14
-    _asset: {instanceID: 0}
+    _asset: {fileID: 8535985575600817237, guid: e1eb3d01722dd7640a5133fba38de118, type: 3}
   - _key: Entity16
-    _asset: {instanceID: 0}
+    _asset: {fileID: 1929825925840821636, guid: 6777512a2f4848348a6abd62f2032412, type: 3}
   - _key: Entity15
-    _asset: {instanceID: 0}
+    _asset: {fileID: 262664424901006922, guid: 347ae372a6b3182438caf2f042a6d847, type: 3}
   - _key: Entity17
-    _asset: {instanceID: 0}
+    _asset: {fileID: 6443083530809199555, guid: 6aadd3c5377e7284ca0f3eaffafa7725, type: 3}
   - _key: Entity18
-    _asset: {instanceID: 0}
+    _asset: {fileID: 6848869914182648012, guid: 1a48d0b754223c246a40ff4cf6bd9cb3, type: 3}
   - _key: Entity19
-    _asset: {instanceID: 0}
+    _asset: {fileID: 8267138583882304889, guid: d7a96b577b0cc544cb20ef1d037c8218, type: 3}
   - _key: Entity20
-    _asset: {instanceID: 0}
+    _asset: {fileID: 3229140250306475953, guid: 9a7ae6b10004d614e87d50dc171dfef2, type: 3}
   - _key: Entity21
-    _asset: {instanceID: 0}
+    _asset: {fileID: 1359565095339405331, guid: 3b11ae729885062489147ee1dcf86a65, type: 3}
   - _key: Entity22
-    _asset: {instanceID: 0}
+    _asset: {fileID: 7031845140796031470, guid: 4075bb454cc854943a2a406b5e64df44, type: 3}
   - _key: Entity23
-    _asset: {instanceID: 0}
+    _asset: {fileID: 5132012036683449731, guid: 099c88bde315d3949bb5ded789d58d68, type: 3}
   - _key: Entity24
-    _asset: {instanceID: 0}
+    _asset: {fileID: 6408823752233053612, guid: cdcd406452397ba439ed08363dee2029, type: 3}
   - _key: Entity25
-    _asset: {instanceID: 0}
+    _asset: {fileID: 8972809507116594903, guid: ad79a554ca8c40044bce6563c5555a4a, type: 3}
   - _key: Entity26
-    _asset: {instanceID: 0}
+    _asset: {fileID: 8465705714065271685, guid: 2c24e02dd2b38d146ae674cca160f10c, type: 3}
   - _key: Entity27
-    _asset: {instanceID: 0}
+    _asset: {fileID: 4693663339983410596, guid: 8e125d3a04aa9b2409e20421b962704f, type: 3}
   - _key: Entity28
-    _asset: {instanceID: 0}
+    _asset: {fileID: 6114329823031696750, guid: df4730797b9daf6449c3626d14cf563e, type: 3}
   - _key: Entity29
-    _asset: {instanceID: 0}
+    _asset: {fileID: 7443621291450490439, guid: 597deb7f7dcd5a948a29788e9ccdaa50, type: 3}
   - _key: Entity33
-    _asset: {instanceID: 0}
+    _asset: {fileID: 826143394094544293, guid: 43c90625bd07f994ea284b6b0e1106d0, type: 3}
   - _key: Entity30
-    _asset: {instanceID: 0}
+    _asset: {fileID: 2230190937704472124, guid: 1b5cc708db805ac46b31ad5960ba9450, type: 3}
   - _key: Entity31
-    _asset: {instanceID: 0}
+    _asset: {fileID: 7892745709063651753, guid: 830acb49bb896954798bfb6f25799e09, type: 3}
   - _key: Entity32
-    _asset: {instanceID: 0}
+    _asset: {fileID: 1896002191055788217, guid: 823485ee151a276499d1f129f83defcc, type: 3}
   - _key: Entity34
     _asset: {instanceID: 0}
   - _key: Entity35
@@ -213,7 +213,7 @@ ScriptedImporter:
   - _key: Entity50
     _asset: {instanceID: 0}
   - _key: Entity51
-    _asset: {instanceID: 0}
+    _asset: {fileID: 1869322493394510929, guid: a976a1c10440d6148a5e9a0584df2947, type: 3}
   - _key: Entity52
     _asset: {instanceID: 0}
   - _key: Entity53
@@ -225,6 +225,30 @@ ScriptedImporter:
   - _key: Entity56
     _asset: {instanceID: 0}
   - _key: Entity57
+    _asset: {instanceID: 0}
+  - _key: Mundane
+    _asset: {fileID: 2065570491011805128, guid: 24efea0da789257469ac33df6149379a, type: 3}
+  - _key: Crimson
+    _asset: {fileID: 2360248949682356969, guid: b591736567a20904da6e4e5ee7ee44dc, type: 3}
+  - _key: Streamstone
+    _asset: {fileID: 1967361321129406312, guid: 601db692e78b12b42b5d6a0099a0727d, type: 3}
+  - _key: Spirit
+    _asset: {fileID: 4046865611424788781, guid: 2869fefbefc773b468f600b2ee5a8b52, type: 3}
+  - _key: Soverign
+    _asset: {fileID: 7736387449397261804, guid: 8ed2de70fe4e12842aa99abf53452371, type: 3}
+  - _key: Mirror
+    _asset: {fileID: 6202272276796013247, guid: d68bc8da9fd495e4286ca9c23004fa68, type: 3}
+  - _key: Crystallite
+    _asset: {fileID: 4150498219275277516, guid: a347b182c864979459c3426fae0220fe, type: 3}
+  - _key: Reflection
+    _asset: {fileID: 662234822894967398, guid: 92fadb6db47c6c14d8040fb2e17d2577, type: 3}
+  - _key: Fairy
+    _asset: {fileID: 5225414695751513883, guid: e10acf50645a55a4f8aabcfa77c56b84, type: 3}
+  - _key: Sage
+    _asset: {fileID: 6964821029806039849, guid: 3b7e1d1c0dd1c5545aea04cf37209f25, type: 3}
+  - _key: Entity58
+    _asset: {instanceID: 0}
+  - _key: Entity59
     _asset: {instanceID: 0}
   _enumGenerate: 0
   _enumPath: 

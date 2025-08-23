@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Collections;
 using LDtkUnity;
 using System.Security.Cryptography;
+using UnityEngine.PlayerLoop;
+using UnityEngine.EventSystems;
 
 public class FloorView : MonoBehaviour
 {
@@ -52,19 +54,11 @@ public class FloorView : MonoBehaviour
         DefaultDownfloor = Findallupstairs(DefaultDownfloor, "下樓");
     }
 
-    private void Update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && platform.activeSelf != true)
         {
-            platform.SetActive(true);
-            relocation = Braveplayer.floor;
-            locate.text = Braveplayer.floor + "     F";
-            renderCamTransform.position = mainCamera.transform.position;
-            renderCamTransform.rotation = mainCamera.transform.rotation;
-            renderCamTransform.position += new Vector3(1, 0, 0); // 向右偏移 1 單位
-
-            Player.GetComponent<Animator>().enabled = false;
-            player.enabled = false;
+            OnClick_ShowfloorPlatform();
         }
         if (platform.activeSelf == true)
         {
@@ -73,11 +67,11 @@ public class FloorView : MonoBehaviour
                 if (Braveplayer.maxfloor > relocation)
                 {
                     Upfloor();
-                    audioManager.Play("Click", false);
+                    audioManager.PlaySFX("Click");
                 }
                 else
                 {
-                    audioManager.Play("Stop",false);
+                    audioManager.PlaySFX("Stop");
                 }
             }
             if (Input.GetKeyDown(KeyCode.S))
@@ -85,11 +79,11 @@ public class FloorView : MonoBehaviour
                 if (Braveplayer.minfloor < relocation)
                 {
                     Downfloor();
-                    audioManager.Play("Click", false);
+                    audioManager.PlaySFX("Click");
                 }
                 else
                 {
-                    audioManager.Play("Stop", false);
+                    audioManager.PlaySFX("Stop");
                 }
                 
             }
@@ -101,7 +95,7 @@ public class FloorView : MonoBehaviour
                 platform.SetActive(false);
                 Player.GetComponent<Animator>().enabled = true;
                 player.enabled = true;
-                audioManager.Play("Portal", false);
+                audioManager.PlaySFX("Portal");
             }
         }
         if (Input.GetKeyDown(KeyCode.G) && platform.activeSelf == true)
@@ -194,6 +188,21 @@ public class FloorView : MonoBehaviour
         }
        
         Debug.Log("Main Camera Position: " + mainCamera.transform.position);
+    }
+
+    public void OnClick_ShowfloorPlatform()
+    {
+
+        platform.SetActive(true);
+        relocation = Braveplayer.floor;
+        locate.text = Braveplayer.floor + "     F";
+        renderCamTransform.position = mainCamera.transform.position;
+        renderCamTransform.rotation = mainCamera.transform.rotation;
+        renderCamTransform.position += new Vector3(1, 0, 0); // 向右偏移 1 單位
+
+        Player.GetComponent<Animator>().enabled = false;
+        player.enabled = false;
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
 }

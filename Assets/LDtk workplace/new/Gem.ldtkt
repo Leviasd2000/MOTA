@@ -17,6 +17,12 @@
       "y": 0,
       "w": 32,
       "h": 32
+    },
+    {
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
     }
   ],
   "Def": {
@@ -37,7 +43,7 @@
     "padding": 0,
     "pxHei": 128,
     "pxWid": 128,
-    "relPath": "../Resource/Item01_07.png",
+    "relPath": "../Resource/Gem2.png",
     "savedSelections": [
 
     ],

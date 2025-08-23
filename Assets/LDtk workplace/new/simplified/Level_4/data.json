@@ -10,6 +10,10 @@
 		{
 			"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
 			"dir": "s"
+		},
+		{
+			"levelIid": "0a14c710-1030-11f0-b4cc-ff017017c69b",
+			"dir": "n"
 		}
 	],
 	"customFields" : {},
@@ -30,7 +34,8 @@
 				"color": 16690740,
 				"customFields": {
 					"Monster": "黑色史萊姆",
-					"anime": 0
+					"anime": 0,
+					"ID": null
 				}
 			},
 			{
@@ -44,7 +49,8 @@
 				"color": 16690740,
 				"customFields": {
 					"Monster": "黑色史萊姆",
-					"anime": 0
+					"anime": 0,
+					"ID": null
 				}
 			}
 		],
@@ -60,7 +66,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			},
 			{
@@ -74,7 +81,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			}
 		],
@@ -90,7 +98,8 @@
 				"color": 12561130,
 				"customFields": {
 					"anime": 2,
-					"Monster": "綠色史萊姆"
+					"Monster": "綠色史萊姆",
+					"ID": null
 				}
 			}
 		],
@@ -105,7 +114,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			},
 			{
@@ -118,7 +128,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			},
 			{
@@ -131,7 +142,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			}
 		],
@@ -146,7 +158,8 @@
 				"height": 32,
 				"color": 39387,
 				"customFields": {
-					"Door": "藍門"
+					"Door": "藍門",
+					"ID": null
 				}
 			}
 		],
@@ -161,7 +174,8 @@
 				"height": 32,
 				"color": 1199753,
 				"customFields": {
-					"item": "藍寶石"
+					"item": "藍寶石",
+					"ID": null
 				}
 			},
 			{
@@ -174,7 +188,8 @@
 				"height": 32,
 				"color": 1199753,
 				"customFields": {
-					"item": "藍寶石"
+					"item": "藍寶石",
+					"ID": null
 				}
 			}
 		],
@@ -189,7 +204,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"item": "黃鑰匙"
+					"item": "黃鑰匙",
+					"ID": null
 				}
 			},
 			{
@@ -202,7 +218,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"item": "黃鑰匙"
+					"item": "黃鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -217,7 +234,8 @@
 				"height": 32,
 				"color": 14957380,
 				"customFields": {
-					"item": "紅寶石"
+					"item": "紅寶石",
+					"ID": null
 				}
 			}
 		],
@@ -232,7 +250,8 @@
 				"height": 32,
 				"color": 16777215,
 				"customFields": {
-					"Monster": "小蝙蝠"
+					"Monster": "小蝙蝠",
+					"ID": null
 				}
 			},
 			{
@@ -245,7 +264,8 @@
 				"height": 32,
 				"color": 16777215,
 				"customFields": {
-					"Monster": "小蝙蝠"
+					"Monster": "小蝙蝠",
+					"ID": null
 				}
 			}
 		],
@@ -260,7 +280,165 @@
 				"height": 32,
 				"color": 9149364,
 				"customFields": {
-					"ID": "柵欄"
+					"tile": "柵欄",
+					"ID": null
+				}
+			}
+		],
+		"Downstair_v2": [
+			{
+				"id": "Downstair_v2",
+				"iid": "755a99d0-1030-11f0-822f-9be1c1ad3a88",
+				"layer": "Entities",
+				"x": 272,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 8988690,
+				"customFields": {
+					"Portal": "下樓",
+					"upstair": {
+						"entityIid": "61412f40-1030-11f0-822f-a343b5a89d10",
+						"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+						"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Hidden": false,
+					"Default": true,
+					"ID": null
+				}
+			}
+		],
+		"Downstair_normal": [
+			{
+				"id": "Downstair_normal",
+				"iid": "9e3595d0-1030-11f0-822f-2db371fdfc89",
+				"layer": "Entities",
+				"x": 176,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 4657801,
+				"customFields": {
+					"Portal": "下樓",
+					"Hidden": false,
+					"upstair": {
+						"entityIid": "9acffca0-1030-11f0-822f-f53c3b7c6c9c",
+						"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+						"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": false,
+					"ID": null
+				}
+			},
+			{
+				"id": "Downstair_normal",
+				"iid": "d25ae3b0-1030-11f0-822f-8153dffc811a",
+				"layer": "Entities",
+				"x": 208,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 4657801,
+				"customFields": {
+					"Portal": "下樓",
+					"Hidden": false,
+					"upstair": {
+						"entityIid": "cbb9a780-1030-11f0-822f-372d96557fc0",
+						"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+						"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": false,
+					"ID": null
+				}
+			}
+		],
+		"Entity49": [
+			{
+				"id": "Entity49",
+				"iid": "a0fa3410-1030-11f0-822f-ef91b7d5606e",
+				"layer": "Entities",
+				"x": 48,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"item": "鋼劍",
+					"ID": null
+				}
+			}
+		],
+		"Bat2": [
+			{
+				"id": "Bat2",
+				"iid": "d9de8910-1030-11f0-8157-35723b17f4dc",
+				"layer": "Entities",
+				"x": 80,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "大蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Yellowdoor": [
+			{
+				"id": "Yellowdoor",
+				"iid": "62527fd0-1030-11f0-b4cc-43e34b1ab2e8",
+				"layer": "Entities",
+				"x": 208,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"Door": "黃門",
+					"ID": null
+				}
+			}
+		],
+		"Upstair_v2": [
+			{
+				"id": "Upstair_v2",
+				"iid": "71680a80-1030-11f0-b4cc-a3da1deff2d2",
+				"layer": "Entities",
+				"x": 240,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 13818624,
+				"customFields": {
+					"Portal": "上樓",
+					"Hidden": false,
+					"downstair": {
+						"entityIid": "839f2080-1030-11f0-b4cc-a58a196cdaad",
+						"layerIid": "0a14c711-1030-11f0-b4cc-4da1aba6eb48",
+						"levelIid": "0a14c710-1030-11f0-b4cc-ff017017c69b",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": true
+				}
+			}
+		],
+		"Entity14": [
+			{
+				"id": "Entity14",
+				"iid": "dac917b0-1030-11f0-9b0d-6d9ca3d1c051",
+				"layer": "Entities",
+				"x": 368,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 2501444,
+				"customFields": {
+					"Monster": "初級法師",
+					"ID": null
 				}
 			}
 		]

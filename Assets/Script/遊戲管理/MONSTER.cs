@@ -28,9 +28,10 @@ public class MONSTER : MonoBehaviour
     public int Atktimes { get; private set; }
 
     public int CurrentHp { get; set; }  // 當前血量
+    public int CurrentBreath { get; set; } // 當前氣息
+    public int CurrentFatigue { get; set; } // 當前氣息
 
-
-    public int CurrentBreath;
+    public int Freeze { get; set; } // 凍結回合數
 
     public float actionSpeed;
 
@@ -104,30 +105,6 @@ public class MONSTER : MonoBehaviour
     2.虛擬方法中必須為公開(public)。因為允許子類別複寫。
     3.子類別可以直接引用或選擇複寫(override)虛擬方法
     */
-    public virtual int MonsterAttack_Damage(int brave_def)  
-    {
-        return Atk - brave_def;
-    }
-
-    public virtual int MonsterDefense_Damage(int brave_atk , string skill , bool critical)
-    {
-        if (brave_atk + Braveattr.AttackCritical > Def)
-        {
-            if (critical)
-            {
-                return 2 * (brave_atk - Def);
-            }
-            else
-            {
-                return brave_atk - Def;
-            }
-        }
-        else
-        {
-            return 0;
-        }
-
-    }
 
     private void OnCollisionEnter2D( Collision2D other)
     {

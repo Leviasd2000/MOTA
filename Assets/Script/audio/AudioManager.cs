@@ -3,47 +3,99 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.AddressableAssets;
 
+
 public class AudioManager : MonoBehaviour
 {
-    [Header("聲音來源")]
-    public AudioClip firstone;
+    Dictionary<string, AudioClip> audioClips = new Dictionary<string, AudioClip>();
 
-    private AudioSource audios;
+    private AudioSource bgmSource;
+    private AudioSource sfxSource;
+    private AudioSource loopSource;
 
-    Dictionary<string , AudioClip> audioclip = new Dictionary<string, AudioClip>();
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        audios = this.gameObject.AddComponent<AudioSource>();
-        
-        Addressables.LoadAssetsAsync<AudioClip>("Audio", clip =>
-        {
-            audioclip[clip.name]=clip; // 存入 List
-            Debug.Log($"載入片段：{clip.name}");
-        }, true);}
+        // 初始化三個分類用 AudioSource
+        bgmSource = gameObject.AddComponent<AudioSource>();
+        bgmSource.loop = true;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        sfxSource = gameObject.AddComponent<AudioSource>();
+
+        loopSource = gameObject.AddComponent<AudioSource>();
     }
 
-    public void Play(string name , bool isLoop)
+    void Start()
     {
-        var clip = GetAudioClip(name);
-        if (clip != null)
-        {   
-            audios.clip = clip;
-            audios.loop = isLoop;
-            audios.Play();
-           
+        Addressables.LoadAssetsAsync<AudioClip>("Audio", clip =>
+        {
+            audioClips[clip.name] = clip;
+            Debug.Log($"載入片段：{clip.name}");
+        }, true);
+    }
+
+    // 播背景音樂（只會播一首）
+    public void PlayBGM(string name, float volume = 1f)
+    {
+        if (audioClips.TryGetValue(name, out var clip))
+        {
+            bgmSource.clip = clip;
+            bgmSource.volume = volume;
+            bgmSource.Play();
         }
     }
 
-    AudioClip GetAudioClip(string name)
+    public void StopBGM() => bgmSource.Stop();
+
+    // 播短音效（例如爆炸、UI）
+
+    public void PlayFX(string name)
     {
-        return audioclip[name];
+        PlaySFX(name, 1f);
     }
-      
-    
-}   
+    public void PlaySFX(string name, float volume = 1f)
+    {
+        if (audioClips.TryGetValue(name, out var clip))
+        {
+            sfxSource.PlayOneShot(clip, volume);
+        }
+    }
+
+    // 播持續動作音（例如走路）
+    public void PlayLoop(string name, float pitch = 1f)
+    {
+        if (audioClips.TryGetValue(name, out var clip))
+        {
+            loopSource.clip = clip;
+            loopSource.pitch = pitch;
+            loopSource.loop = true;
+            loopSource.Play();
+        }
+    }
+
+    public void StopLoop() => loopSource.Stop();
+
+    public void StopLoopAfterThisClip()
+    {
+        if (loopSource.isPlaying)
+        {
+            StartCoroutine(WaitToStopLoop());
+        }
+    }
+
+    private IEnumerator WaitToStopLoop()
+    {
+        // 先改成不再 loop
+        loopSource.loop = false;
+
+        // 等 clip 播放完
+        yield return new WaitWhile(() => loopSource.isPlaying);
+
+        // 再 stop 確保狀態乾淨
+        loopSource.Stop();
+    }
+
+    public void SetLoopPitch(float pitch)
+    {
+        loopSource.pitch = pitch;
+    }
+}
+

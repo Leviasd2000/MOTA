@@ -3,6 +3,8 @@ using TMPro;
 using cfg;
 using static UnityEngine.Rendering.DebugUI;
 using Unity.VisualScripting;
+using System.Linq;
+using LDtkUnity;
 
 public class ItemComponent : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class ItemComponent : MonoBehaviour
     public string PickTips { get; private set; }
     public string UseTips { get; private set; }
     public string Desc { get; private set; }
+
+    public string ID { get; private set; }
 
     [Header("物件UI")]
     private GameObject Itemui;
@@ -46,22 +50,28 @@ public class ItemComponent : MonoBehaviour
         Properties = item.Properties;
         PercentProperties = item.PercentProperties;
         Items = item.Items;
+        System = item.System;
         PickTips = item.PickTips;
         UseTips = item.UseTips;
         Desc = item.Desc;
 
-        Debug.Log($"已設置物件屬性: Name = {Name}, Icon = {Icon}, Type = {Type}, UseType = {UseType}, Properties = {item.Properties}");
+        Debug.Log($"已設置物件屬性: Name = {Name}, Icon = {Icon}, Type = {Type}, UseType = {UseType}, Properties = {Properties}");
     }
 
     private void Awake()
     {
-        Itemui = GameObject.Find("Tips");
-        Itemname = GameObject.Find("Tipsmessage").GetComponent<TextMeshProUGUI>();
+        GameObject parent = GameObject.Find("TipsUI");  // 確定這個是啟用的
+        Itemui = parent.transform.Find("Tips").gameObject;
+        Itemname = Itemui.GetComponentInChildren<TextMeshProUGUI>(true);
         inventory = FindFirstObjectByType<Inventory>();
         braveattr = FindFirstObjectByType<Braveattr>();
         audiomanager = FindFirstObjectByType<AudioManager>();
         Player = FindFirstObjectByType<Braveplayer>().gameObject;
-        Debug.Log(Itemname + "找到了!!!!!");
+        var entity = GetComponent<LDtkComponentEntity>();
+        if (entity != null)
+        {
+            ID = entity.Iid.ToString();
+        }
     }
 
     private void Start()
@@ -91,35 +101,57 @@ public class ItemComponent : MonoBehaviour
             {   
                 if (UseType != cfg.item.EUseType.自動使用)
                 {
+                    char lastChar = ID[ID.Length - 1];
+                    Debug.Log($"拾取道具: {Name} , {lastChar}");
                     inventory.AddItem(Name,1);
                 }
                 if (UseType == cfg.item.EUseType.自動使用)
                 {
-                   
-                    foreach (var prop in Properties)
-                        
+                    if (Properties != null)
                     {
-                        braveattr.IncreaseAttribute(prop.Attribute,prop.Count);
-                        Debug.Log(Braveattr.GetAttribute(prop.Attribute));
+                        foreach (var prop in Properties)
+                        {
+                            braveattr.IncreaseAttribute(prop.Attribute, prop.Count);
+                            Debug.Log(Braveattr.GetAttribute(prop.Attribute));
+                        }
                     }
-
-
-
                     
+
                     if (PercentProperties != null)
                     {
 
                     }
+                    
                     if (Items != null)
                     {
-
+                        foreach (var item in Items)
+                        {
+                            inventory.AddItem(item.Id, 1);
+                        }
                     }
+
+                    if (System != null)
+                    {
+                        string[] skillList = System.Split(',');
+                        
+                        if (skillList.Contains("劍技") )
+                        {
+                            Braveattr.Sword.Add(skillList[0]);
+                            Braveattr.HoldSword = skillList[0];
+                        }
+                        if (skillList.Contains("盾術"))
+                        {
+                            Braveattr.Shield.Add(skillList[0]);
+                            Braveattr.HoldShield = skillList[0];
+                        }
+                    }
+
                 }
                 
             }
             ItemUI(gameObject.GetComponent<ItemComponent>(), Itemui, Itemname);
             Destroy(gameObject); // 拾取后销毁道具
-            audiomanager.Play("Item",false);
+            audiomanager.PlaySFX("Item");
             Debug.Log(inventory.GetItemQuantity(Name));
             Debug.Log(Name);
         }

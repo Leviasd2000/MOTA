@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Tool
+  m_EditorClassIdentifier: 
+  m_GroupName: Tool
+  m_GUID: a46e226acac6b0b4b805ef8684294318
+  m_SerializeEntries:
+  - m_GUID: 0b7d64bee7d46bd48a7ba4718c73a72c
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Mundane.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26006def6abf3d34e93b44260ca74cfc
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Crimson.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f4c87a53ff44424e84a90d51ce58ac4
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Reflection.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 655e82161c9be434ea1c5daddeb2ab6e
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Sage.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bd0ad1dd7653664c9a6c921839a85e8
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Spirit.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aec2f9572e7e2264789859bd55b0af2e
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Fairy.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b249f47595a6af94cb625fdc3b7489fd
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Soverign.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b62d83ea750fe5a4eba408a8e6db50f6
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Mirror.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d432519bf76f49d4dbac8f378c2b955d
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Streamstone.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8415728c577c9a44b48badc50f6dd08
+    m_Address: "Assets/Resource/UI\u4ECB\u9762/Crystallite.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Tool
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 91def1be03b30c14ab3ef3c4ea5837e4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0de3557870efc334093cbbf56e8f842a, type: 2}
+    - {fileID: 11400000, guid: 29c2338deb8f8b643be69a3ffc3f8c92, type: 2}

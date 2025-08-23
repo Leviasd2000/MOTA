@@ -34,7 +34,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			},
 			{
@@ -48,7 +49,8 @@
 				"color": 15389866,
 				"customFields": {
 					"anime": 2,
-					"Monster": "紅色史萊姆"
+					"Monster": "紅色史萊姆",
+					"ID": null
 				}
 			}
 		],
@@ -63,7 +65,8 @@
 				"height": 32,
 				"color": 39387,
 				"customFields": {
-					"item": "藍鑰匙"
+					"item": "藍鑰匙",
+					"ID": null
 				}
 			},
 			{
@@ -76,7 +79,8 @@
 				"height": 32,
 				"color": 39387,
 				"customFields": {
-					"item": "藍鑰匙"
+					"item": "藍鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -91,7 +95,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"item": "黃鑰匙"
+					"item": "黃鑰匙",
+					"ID": null
 				}
 			},
 			{
@@ -104,48 +109,8 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"item": "黃鑰匙"
-				}
-			}
-		],
-		"Reddoor": [
-			{
-				"id": "Reddoor",
-				"iid": "7ffe1380-e920-11ef-acfb-f77a798731c5",
-				"layer": "Entities",
-				"x": 176,
-				"y": 240,
-				"width": 32,
-				"height": 32,
-				"color": 16711748,
-				"customFields": {
-					"Door": "紅門"
-				}
-			},
-			{
-				"id": "Reddoor",
-				"iid": "9a3ef660-e920-11ef-acfb-85f7e7f1df6e",
-				"layer": "Entities",
-				"x": 304,
-				"y": 272,
-				"width": 32,
-				"height": 32,
-				"color": 16711748,
-				"customFields": {
-					"Door": "紅門"
-				}
-			},
-			{
-				"id": "Reddoor",
-				"iid": "ac377cc0-e920-11ef-acfb-adad21e5b6d5",
-				"layer": "Entities",
-				"x": 240,
-				"y": 208,
-				"width": 32,
-				"height": 32,
-				"color": 16711748,
-				"customFields": {
-					"Door": "紅門"
+					"item": "黃鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -160,7 +125,38 @@
 				"height": 32,
 				"color": 16705377,
 				"customFields": {
-					"Door": "黃門"
+					"Door": "黃門",
+					"ID": null
+				}
+			}
+		],
+		"Reddoor": [
+			{
+				"id": "Reddoor",
+				"iid": "9a3ef660-e920-11ef-acfb-85f7e7f1df6e",
+				"layer": "Entities",
+				"x": 304,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"Door": "紅門",
+					"ID": null
+				}
+			},
+			{
+				"id": "Reddoor",
+				"iid": "ac377cc0-e920-11ef-acfb-adad21e5b6d5",
+				"layer": "Entities",
+				"x": 240,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"Door": "紅門",
+					"ID": null
 				}
 			}
 		],
@@ -175,7 +171,8 @@
 				"height": 32,
 				"color": 14957380,
 				"customFields": {
-					"item": "紅寶石"
+					"item": "紅寶石",
+					"ID": null
 				}
 			},
 			{
@@ -188,7 +185,8 @@
 				"height": 32,
 				"color": 14957380,
 				"customFields": {
-					"item": "紅寶石"
+					"item": "紅寶石",
+					"ID": null
 				}
 			}
 		],
@@ -203,7 +201,8 @@
 				"height": 32,
 				"color": 1199753,
 				"customFields": {
-					"item": "藍寶石"
+					"item": "藍寶石",
+					"ID": null
 				}
 			},
 			{
@@ -216,22 +215,8 @@
 				"height": 32,
 				"color": 1199753,
 				"customFields": {
-					"item": "藍寶石"
-				}
-			}
-		],
-		"Frame": [
-			{
-				"id": "Frame",
-				"iid": "eff25ac0-e920-11ef-acfb-f34c010e0898",
-				"layer": "Entities",
-				"x": 336,
-				"y": 176,
-				"width": 32,
-				"height": 32,
-				"color": 9149364,
-				"customFields": {
-					"ID": "柵欄"
+					"item": "藍寶石",
+					"ID": null
 				}
 			}
 		],
@@ -261,7 +246,8 @@
 				"height": 32,
 				"color": 16711748,
 				"customFields": {
-					"item": "紅鑰匙"
+					"item": "紅鑰匙",
+					"ID": null
 				}
 			},
 			{
@@ -274,7 +260,8 @@
 				"height": 32,
 				"color": 16711748,
 				"customFields": {
-					"item": "紅鑰匙"
+					"item": "紅鑰匙",
+					"ID": null
 				}
 			}
 		],
@@ -289,7 +276,8 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
 				}
 			},
 			{
@@ -302,7 +290,22 @@
 				"height": 32,
 				"color": 2943221,
 				"customFields": {
-					"item": "普通傷藥"
+					"item": "普通傷藥",
+					"ID": null
+				}
+			},
+			{
+				"id": "Potion",
+				"iid": "05bed5d0-1030-11f0-8157-ede114eff3b1",
+				"layer": "Entities",
+				"x": 144,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
 				}
 			}
 		],
@@ -317,7 +320,8 @@
 				"height": 32,
 				"color": 16777215,
 				"customFields": {
-					"Monster": "小蝙蝠"
+					"Monster": "小蝙蝠",
+					"ID": null
 				}
 			},
 			{
@@ -330,7 +334,8 @@
 				"height": 32,
 				"color": 16777215,
 				"customFields": {
-					"Monster": "小蝙蝠"
+					"Monster": "小蝙蝠",
+					"ID": null
 				}
 			}
 		],
@@ -345,7 +350,8 @@
 				"height": 32,
 				"color": 12087120,
 				"customFields": {
-					"item": "高級傷藥"
+					"item": "高級傷藥",
+					"ID": null
 				}
 			}
 		],
@@ -361,7 +367,8 @@
 				"color": 12561130,
 				"customFields": {
 					"anime": 2,
-					"Monster": "綠色史萊姆"
+					"Monster": "綠色史萊姆",
+					"ID": null
 				}
 			},
 			{
@@ -375,7 +382,8 @@
 				"color": 12561130,
 				"customFields": {
 					"anime": 2,
-					"Monster": "綠色史萊姆"
+					"Monster": "綠色史萊姆",
+					"ID": null
 				}
 			}
 		],
@@ -398,7 +406,149 @@
 						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
 					},
 					"Hidden": false,
+					"Default": true,
+					"ID": null
+				}
+			}
+		],
+		"Upstair_v2": [
+			{
+				"id": "Upstair_v2",
+				"iid": "3136e7e0-1030-11f0-822f-7b1de4185b0b",
+				"layer": "Entities",
+				"x": 144,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 13818624,
+				"customFields": {
+					"Portal": "上樓",
+					"Hidden": false,
+					"downstair": {
+						"entityIid": "41b6d800-1030-11f0-822f-c5ce7a65036e",
+						"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+						"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
 					"Default": true
+				}
+			}
+		],
+		"Upstair_normal": [
+			{
+				"id": "Upstair_normal",
+				"iid": "33bfb5a0-1030-11f0-822f-37be41fb5b6a",
+				"layer": "Entities",
+				"x": 80,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 7552569,
+				"customFields": {
+					"Portal": "上樓",
+					"Hidden": false,
+					"Default": false,
+					"downstair": {
+						"entityIid": "40009c80-1030-11f0-822f-9b15c4c6403d",
+						"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+						"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					}
+				}
+			}
+		],
+		"Frame": [
+			{
+				"id": "Frame",
+				"iid": "848951d0-1030-11f0-822f-3b3ecf1a844c",
+				"layer": "Entities",
+				"x": 176,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"tile": "柵欄",
+					"ID": null
+				}
+			}
+		],
+		"Bluedoor": [
+			{
+				"id": "Bluedoor",
+				"iid": "8b65c240-1030-11f0-822f-61b3601da0c4",
+				"layer": "Entities",
+				"x": 336,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 39387,
+				"customFields": {
+					"Door": "藍門",
+					"ID": null
+				}
+			}
+		],
+		"NPC02": [
+			{
+				"id": "NPC02",
+				"iid": "ee0a4320-1030-11f0-8157-6bdc2c397953",
+				"layer": "Entities",
+				"x": 336,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 14107497,
+				"customFields": {
+					"NPC": "商人1"
+				}
+			}
+		],
+		"Entity8": [
+			{
+				"id": "Entity8",
+				"iid": "f808db20-1030-11f0-8157-33a4677f6e24",
+				"layer": "Entities",
+				"x": 240,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"Monster": "高級骷髏士兵",
+					"ID": null
+				}
+			}
+		],
+		"Bat3": [
+			{
+				"id": "Bat3",
+				"iid": "fa91f700-1030-11f0-8157-e98f0264a5d1",
+				"layer": "Entities",
+				"x": 304,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Monster": "紅蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Entity26": [
+			{
+				"id": "Entity26",
+				"iid": "cf69b490-3740-11f0-b4d0-85d341c6873c",
+				"layer": "Entities",
+				"x": 208,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"Monster": "騎士",
+					"ID": null
 				}
 			}
 		]

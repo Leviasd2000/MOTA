@@ -31,21 +31,31 @@ public class Braveplayer : MonoBehaviour
     /// 玩家背包
     /// </summary>
     public GameObject myBag;
-
-
-
-
-
+    public GameObject SwordBox;
+    public GameObject ShieldBox;
+    private AudioManager audiomanager;
+    
     private void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audiomanager = FindFirstObjectByType<AudioManager>();
         isMoving = false;
         isRepeating = false;
+        SwordBox = GameObject.Find("SwordBox");
+        ShieldBox = GameObject.Find("ShieldBox");
         myBag = GameObject.Find("Bag");
         if (myBag != null)
         {
             myBag.SetActive(false);  // 遊戲開始時關閉 bag
+        }
+        if (SwordBox != null)
+        {
+            SwordBox.SetActive(false);  // 遊戲開始時關閉 sword
+        }
+        if (ShieldBox != null)
+        {
+            ShieldBox.SetActive(false);  // 遊戲開始時關閉 shield
         }
 
     }
@@ -84,19 +94,22 @@ public class Braveplayer : MonoBehaviour
             if (holdTimer >= holdTime && !isRepeating)
             {
                 isRepeating = true;
+                // 撥放走路聲（如果還沒播放）
+                audiomanager.PlayLoop("Walk");
                 repeatCoroutine = StartCoroutine(RepeatMovement());
             }
         }
         else
         {
             // 沒有輸入時停止移動
-            
             holdTimer = 0.0f; // 重置按住時間
             StopCurrentRepeatMovement();
             StopMoving();
         }
 
         Openmybag();
+        OpenmyShield();
+        OpenmySword();
     }
 
     // 檢測玩家的鍵盤輸入方向
@@ -108,6 +121,7 @@ public class Braveplayer : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.S)) inputDirection = Vector3.down;
         else if (Input.GetKeyDown(KeyCode.A)) inputDirection = Vector3.left;
         else if (Input.GetKeyDown(KeyCode.D)) inputDirection = Vector3.right;
+        
 
         // 檢查方向鍵是否被按下（避免對角線輸入）
         if (Input.GetKey(KeyCode.W)) inputDirection = Vector3.up;
@@ -125,7 +139,7 @@ public class Braveplayer : MonoBehaviour
 
         // 計算目標位置
         Vector2 targetPosition = rb.position + (Vector2)direction * moveDistance;
-
+        audiomanager.PlaySFX("Walk");
         targetPosition.x = Mathf.Round((targetPosition.x) * 2) / 2;
         targetPosition.y = Mathf.Round((targetPosition.y) * 2) / 2;
 
@@ -146,7 +160,6 @@ public class Braveplayer : MonoBehaviour
     {
         while (isRepeating)
         {
-
             // 計算目標位置並移動
             Vector2 targetPosition = rb.position + (Vector2)currentDirection * moveDistance;
             rb.MovePosition(targetPosition);
@@ -158,6 +171,8 @@ public class Braveplayer : MonoBehaviour
 
             yield return new WaitForSeconds(0.02f); // 控制移動間隔
         }
+
+        
     }
 
     // 停止當前協程
@@ -166,6 +181,7 @@ public class Braveplayer : MonoBehaviour
         if (repeatCoroutine != null)
         {
             StopCoroutine(repeatCoroutine); // 停止協程
+            audiomanager.StopLoop();            // 停止走路聲
             repeatCoroutine = null;        // 清除協程引用
             isRepeating = false;           // 停止重複移動
         }
@@ -187,6 +203,22 @@ public class Braveplayer : MonoBehaviour
         }
     }
 
+    private void OpenmySword()
+    {
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            SwordBox.SetActive(!SwordBox.activeSelf);
+        }
+    }
+
+    private void OpenmyShield()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            ShieldBox.SetActive(!ShieldBox.activeSelf);
+        }
+    }
+
     private void OnCollisionEnter2D( Collision2D others)
     {
         // isMoving = true; // 標記角色為移動中
@@ -199,6 +231,8 @@ public class Braveplayer : MonoBehaviour
 
         // 移動角色
         rb.MovePosition(targetPosition);
+
+        audiomanager.StopLoopAfterThisClip();
 
     }
 
