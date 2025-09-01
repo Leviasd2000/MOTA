@@ -52,7 +52,6 @@ public class Toolslot : MonoBehaviour
         // 根據 Braveattr 判斷是否顯示這個 slot
         if (Braveattr.Sword.Contains(name) || Braveattr.Shield.Contains(name))
         {
-            Debug.Log("目前擁有的劍有：" + string.Join(", ", Braveattr.Sword));
             gameObject.GetComponent<Image>().enabled = true;
         }
         else

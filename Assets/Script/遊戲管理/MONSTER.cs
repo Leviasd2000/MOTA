@@ -29,7 +29,7 @@ public class MONSTER : MonoBehaviour
 
     public int CurrentHp { get; set; }  // 當前血量
     public int CurrentBreath { get; set; } // 當前氣息
-    public int CurrentFatigue { get; set; } // 當前氣息
+    public int CurrentFatigue { get; set; } // 當前疲勞
 
     public int Freeze { get; set; } // 凍結回合數
 

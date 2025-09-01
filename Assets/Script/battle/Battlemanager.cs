@@ -49,7 +49,6 @@ public class BattleManager : MonoBehaviour
     private GameObject teki;
 
     public GameObject canvasTransform;  // Canvas 的 Transform，放置怪物動畫
-    public bool critic; // 本回合是否按過爆擊
     private bool animeend = false; // 等待動畫播放完畢(enter)
     public AudioManager audioManager;
 
@@ -111,7 +110,6 @@ public class BattleManager : MonoBehaviour
         shieldVFX = shield.GetComponent<Image>();
         Playermovement = Player.GetComponent<Braveplayer>();
         Monstercritical = false; // 初始化
-        critic = false; // 初始化
         CriticalOK.gameObject.SetActive(false);
         SwordOK.gameObject.SetActive(false);
         ShieldOK.gameObject.SetActive(false);
@@ -149,19 +147,15 @@ public class BattleManager : MonoBehaviour
         }
 
         // 按下 C 鍵時，觸發爆擊
-        if (Input.GetKeyDown(KeyCode.C) && Braveattr.GetAttribute("Breath")>=40)
+        if (Input.GetKeyDown(KeyCode.C) && !Braveattr.Critic && !Braveattr.RecentSword && Braveattr.GetAttribute("Breath") >= Braveattr.Breathstock)
         {
-            if (critic == false && Braveattr.RecentSword == false)
-            {
-                critic = true;
-                player.DecreaseAttribute("Breath", 40);
-                CriticalOK.gameObject.SetActive(true);
-            }
+            Braveattr.Critic = true;
+            CriticalOK.gameObject.SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Z) && Braveattr.GetAttribute("Breath") >= Braveattr.EquippedSword.BreathCost)
         {
-            if (critic == false && Braveattr.RecentSword == false)
+            if (Braveattr.Critic == false && Braveattr.RecentSword == false)
             {
                 SwordOK.gameObject.SetActive(true);
                 Braveattr.RecentSword = true;
@@ -239,6 +233,7 @@ public class BattleManager : MonoBehaviour
         if (Braveattr.RecentShield == true && Braveattr.HoldShield != "None")
         {
             shieldVFX.enabled = true;
+            shieldAnime.enabled = true;
             shieldAnime.Play(Braveattr.HoldShield, 0, 0f);
             shieldLength = shieldAnime.GetCurrentAnimatorStateInfo(0).length;
         }
@@ -272,11 +267,11 @@ public class BattleManager : MonoBehaviour
         enemy = teki.GetComponent<MONSTER>();
         Debug.Log($"GameManager: {enemy.Name} 被擊敗");
         // 可以在這裡增加分數、更新 UI 或觸發其他遊戲邏輯
-        StartBattle(teki);
+        StartCoroutine(StartBattle(teki));
         Teki = teki;
     }
 
-    private void StartBattle (GameObject monster)
+    private IEnumerator StartBattle (GameObject monster)
     {
         myText.gameObject.SetActive(true);
         Escape.gameObject.SetActive(true);
@@ -293,8 +288,7 @@ public class BattleManager : MonoBehaviour
 
         SwordEquip(Braveattr.HoldSword, enemy, player); // 裝備劍
         ShieldEquip(Braveattr.HoldShield, enemy, player); // 裝備盾
-
-
+        
         if (enemy.System.Contains("先攻"))
         {
             state = BattleState.MonsterTurn;
@@ -302,9 +296,10 @@ public class BattleManager : MonoBehaviour
             StartCoroutine(MonsterTurn());
         }
         else
-        {
+        {   
             state = BattleState.PlayerTurn;
             Braveturn += 1;
+            yield return new WaitForSeconds(0.3f);
             StartCoroutine(PlayerAttack());
         }
         Debug.Log("玩家先攻!");
@@ -322,46 +317,97 @@ public class BattleManager : MonoBehaviour
     }
 
 
-    private void PlayerAttackcalculate(bool critical)
+    private void PlayerAttackcalculate()
     {
         int atk = Braveattr.GetAttribute("Atk");
-        int damage = BattleCalculate.CalculateDamage(enemy, player, critical, "Brave");
+        int damage = BattleCalculate.CalculateDamage(enemy, player, "Brave", Braveattr.Critic);
         int breathGain = Mathf.Max((enemy.Def * 10) / atk, 0); // 氣息
+        int fatigue = Braveattr.GetAttribute("Fatigue");
 
-        enemy.CurrentHp -= damage;
-        enemy.CurrentBreath = Mathf.Min(enemy.Breath, enemy.CurrentBreath + breathGain);
-        Braveattr.Tempbreath = Braveattr.GetAttribute("Breath"); // 暫存氣息
-        player.IncreaseAttribute("Breath", breathGain);
-        MonsterDamage.ShowDamageText( damage.ToString() );
-        UpdateUI();
+        if (fatigue <= 20)
+        {
+            enemy.CurrentHp -= damage;
+            enemy.CurrentBreath = Mathf.Min(enemy.Breath, enemy.CurrentBreath + breathGain);
+            Braveattr.Tempbreath = Braveattr.GetAttribute("Breath"); // 暫存氣息
+            player.IncreaseAttribute("Breath", breathGain);
+            MonsterDamage.ShowDamageText(damage.ToString());
+            UpdateUI();
+        }
+        else
+        {
+            float hitChance = 2f - 0.77f *Mathf.Log10(fatigue);
+            hitChance = Mathf.Clamp01(hitChance); // 保證在 [0,1] 區間
+
+            float roll = Random.value; // 0~1 隨機數
+
+            if (roll <= hitChance)
+            {
+                // 命中
+                enemy.CurrentHp -= damage;
+                enemy.CurrentBreath = Mathf.Min(enemy.Breath, enemy.CurrentBreath + breathGain);
+                Braveattr.Tempbreath = Braveattr.GetAttribute("Breath");
+                player.IncreaseAttribute("Breath", breathGain);
+                MonsterDamage.ShowDamageText(damage.ToString());
+            }
+            else
+            {
+                // Miss
+                MonsterDamage.ShowDamageText("Miss");
+            }
+            UpdateUI();
+        }
+            
     }
     private void MonsterAttackcalculate( bool critical )
     {
         int def = Braveattr.GetAttribute("Def");
-        int damage = BattleCalculate.CalculateDamage(enemy, player, critical, "Monster");
+        int damage = BattleCalculate.CalculateDamage(enemy, player, "Monster", critical);
         int breathGain = Mathf.Max((enemy.Atk - def) / 10, 0);
+        int fatigue = enemy.Fatigue;
 
-        // 扣血與補氣息
-        player.DecreaseAttribute("Hp", damage);
-        enemy.CurrentBreath = Mathf.Min(enemy.Breath, enemy.CurrentBreath + (def * 10 / enemy.Atk));
-        player.IncreaseAttribute("Breath", breathGain);
+        bool hit = true;
 
-        // 顯示傷害與更新介面
-        BraveDamage.ShowDamageText(damage.ToString());
+        if (fatigue > 20)
+        {
+            float hitChance = 2f - 0.77f * Mathf.Log10(fatigue);
+            hitChance = Mathf.Clamp01(hitChance);
+            hit = Random.value <= hitChance;
+        }
+
+        if (hit)
+        {
+            player.DecreaseAttribute("Hp", damage);
+            BraveDamage.ShowDamageText(damage.ToString());
+            player.IncreaseAttribute("Breath", breathGain);
+        }
+        else
+        {
+            MonsterDamage.ShowDamageText("Miss");
+        }
+
         UpdateUI();
     }
+    
 
-    public IEnumerator MonsterAttackRoutine( bool Monstercritical, Animator monsterAnime, Image monsterVFX, MONSTER enemy)
+    public IEnumerator MonsterAttackRoutine( Animator monsterAnime, Image monsterVFX, MONSTER enemy)
     {
         int MonsterAttackCount = enemy.Atktimes;
         for (int i = 0; i < MonsterAttackCount; i++)
         {
-            MonsterAttackcalculate(Monstercritical);
-            yield return StartCoroutine(VFXplay(monsterAnime, monsterVFX, enemy.Anime, Monstercritical));
-            if (Monstercritical)
+            if (enemy.CurrentBreath >= enemy.Breath)
+            {
+                enemy.CurrentBreath -= enemy.Breath;
+                Monstercritical = true;
+            }
+            else
             {
                 Monstercritical = false;
             }
+            MonsterAttackcalculate(Monstercritical);
+            yield return StartCoroutine(VFXplay(monsterAnime, monsterVFX, enemy.Anime, Monstercritical));
+            
+            int gain = Mathf.Max((Braveattr.GetAttribute("Def") * 10) / enemy.Atk, 0);
+            enemy.CurrentBreath = Mathf.Min(enemy.Breath, enemy.CurrentBreath + gain);
         }
     }
 
@@ -369,21 +415,26 @@ public class BattleManager : MonoBehaviour
     {   
         myText.text = "勇者對" + enemy.name + "使用了攻擊!";
         myText.ForceMeshUpdate(); // 強制更新 UI
-        PlayerAttackcalculate(critic);
+        
+        PlayerAttackcalculate();
+        
         if (Braveattr.RecentSword == false)
         {
-            yield return StartCoroutine(VFXplay(braveAnime, braveVFX, "None", critic));
+            yield return StartCoroutine(VFXplay(braveAnime, braveVFX, "None", Braveattr.Critic));
         }
         else
         {
-            yield return StartCoroutine(VFXplay(braveAnime, braveVFX, Braveattr.HoldSword, critic));
+            yield return StartCoroutine(VFXplay(braveAnime, braveVFX, Braveattr.HoldSword, Braveattr.Critic));
         }
-        if (critic) // 爆擊重置
+        
+        if (Braveattr.Critic) // 爆擊重置
         {
-            critic = !critic;
+            Braveattr.Critic = false;
             CriticalOK.gameObject.SetActive(false);
         }
+        
         BraveDamage.gameObject.SetActive(false);
+         
         if (Braveattr.RecentSword) // 使用劍後重置
         {
             Braveattr.RecentSword = false;
@@ -396,24 +447,29 @@ public class BattleManager : MonoBehaviour
             StartCoroutine(BattleEnd(player));
         }
         else
-        {
-            state = BattleState.MonsterTurn;
-            StartCoroutine(NextTurn());
+        {   
+            if (enemy.Freeze >= 1)
+            {   
+                state = BattleState.PlayerTurn;
+                enemy.Freeze -= 1;
+            }
+            else
+            {
+                state = BattleState.MonsterTurn;
+                StartCoroutine(NextTurn());
+            }
+                
         }
     }
 
     private IEnumerator MonsterTurn()
     {
         myText.text = enemy.name + "對" + player.name + "使用了攻擊!";
-        if (enemy.CurrentBreath == enemy.Breath)  // 怪物自動爆擊
-        {
-            enemy.CurrentBreath -= enemy.Breath;
-            Monstercritical = true;
-        }
-        yield return StartCoroutine(MonsterAttackRoutine(Monstercritical,monsterAnime,monsterVFX,enemy));
+
+        yield return StartCoroutine(MonsterAttackRoutine(monsterAnime,monsterVFX,enemy));
 
         MonsterDamage.gameObject.SetActive(false);
-        if (Braveattr.RecentShield) // 使用劍後重置
+        if (Braveattr.RecentShield) // 使用盾後重置
         {
             Braveattr.RecentShield = false;
             ShieldOK.gameObject.SetActive(false);
@@ -465,6 +521,7 @@ public class BattleManager : MonoBehaviour
     {
         monster.CurrentHp = monster.Hp;
         monster.CurrentBreath = 0;
+        monster.CurrentFatigue = 0;
         Monstercritical = false;
     }
 
@@ -545,17 +602,21 @@ public class BattleManager : MonoBehaviour
     private IEnumerator BattleEnd(Braveattr player)
     {
         Escape.gameObject.SetActive(false);
-        critic = false; // 重置爆擊狀態
+        Braveattr.Critic = false; // 重置爆擊狀態
+        Braveattr.RecentShield = false;
+        Braveattr.RecentSword = false;
         Monstercritical = false; 
         CriticalOK.gameObject.SetActive(false);
         BraveDamage.gameObject.SetActive(false);
         MonsterDamage.gameObject.SetActive(false);
 
+
         player.DecreaseAttribute("Atk", Braveattr.Tempatk);
-        player.DecreaseAttribute("Def", Braveattr.Tempdef);
+        player.IncreaseAttribute("Def", Braveattr.Tempdef);
 
         Braveattr.Tempatk = 0;
         Braveattr.Tempdef = 0;
+        Braveattr.SetAttribute("Fatigue", 0);
 
         if (state == BattleState.Win)
         {

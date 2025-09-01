@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 7a73d5c56d6d5c941a1143cad6f2d9aa
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 32
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: Dragon_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 96
+      height: 96
+    spriteID: c38cb06d7199c36478ccbcf0cf8ff3ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 96
+      height: 96
+    spriteID: d7b47e46cb258dc4bba314c233fa47c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 96
+      height: 96
+    spriteID: beb273e0b78ba92408986fc114a5c5ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 288
+      width: 96
+      height: 96
+    spriteID: 1c9f585eef418d548b22cbfddb58f06e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 96
+      height: 96
+    spriteID: 6d8220cc551d59e44bb4ef526a4eb2d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 96
+      height: 96
+    spriteID: 0569f220a95e98d409112048e73b57f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 96
+      height: 96
+    spriteID: 83fb2a16448ef3548bbc1f2212bc003e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 192
+      width: 96
+      height: 96
+    spriteID: f65ec8adb47e1c844a4faf2b15f137af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 396b58c8961e4f24f9be518e7144398d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 2b4aae99ba0af594dbfca67fff4d32f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 6016ca20db1e99144b34720c6fceca0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 5282c646c5afd444aa231eb701b69c85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 96
+      height: 96
+    spriteID: bbc1192741e211a48ae9651bf66af79b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 96
+      height: 96
+    spriteID: ab141d4176107854caa36ecd1fff8950
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 96
+      height: 96
+    spriteID: 6a3f7df3a53081c4292c5937a1e5bee6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Dragon_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 96
+      height: 96
+    spriteID: f0309face67e9d749b7e009b929de1bb
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

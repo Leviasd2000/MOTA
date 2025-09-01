@@ -1,6 +1,7 @@
 ﻿using LDtkUnity;
 using UnityEngine;
 using Yarn.Unity;
+using static Unity.Collections.Unicode;
 
 public class NPCsetting : MonoBehaviour
 {
@@ -9,7 +10,32 @@ public class NPCsetting : MonoBehaviour
     private char location; // 樓層數
     private Braveplayer player;
     public ImageLoad ImageLoad;
-    public DialogueRunner dialogueRunner;
+    public DialogueRunner runner;
+
+    private LineView lineView;
+    private RectTransform lineViewRect;
+    void Awake()
+    {
+        runner = FindFirstObjectByType<DialogueRunner>();
+
+        if (runner != null)
+        {
+            // DialogueRunner 會有一個 dialogueViews 陣列，裡面可能有多種 View
+            foreach (var view in runner.dialogueViews)
+            {
+                if (view is LineView)
+                {
+                    lineView = view as LineView;
+                    lineViewRect = lineView.GetComponent<RectTransform>();
+                    Debug.Log("找到 LineView：" + lineView.name);
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("場景中沒有 DialogueRunner！");
+        }
+    }
     private void Start()
     {
         if (GetComponent<LDtkFields>() != null)
@@ -25,18 +51,42 @@ public class NPCsetting : MonoBehaviour
         ImageLoad = GetComponent<ImageLoad>();
     }
 
-    public void StartDialouge()
+    public void StartDialogue()
     {
-        FindFirstObjectByType<DialogueRunner>().StartDialogue(charname);
+
+        if (runner != null)
+        {
+            runner.StartDialogue(charname);
+        }
+        else
+        {
+            Debug.LogError("場景中找不到 DialogueRunner，無法開始對話！");
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            StartDialouge();
+            StartDialogue();
+            player.GetComponent<Braveplayer>().StopCurrentRepeatMovement();
+            player.GetComponent<Braveplayer>().StopMoving();
             player.GetComponent<Braveplayer>().enabled = false;
-            player.GetComponent<Animator>().enabled = false;
+
+            // 顯示雙方座標
+            Vector2 playerPos = other.transform.position;
+            Vector2 npcPos = transform.position;
+            Debug.Log($"📍 Player 位置: {playerPos}, NPC 位置: {npcPos}");
+            // 判斷 y 座標
+            if (playerPos.y < 6.5f)
+            {
+                lineViewRect.anchoredPosition = new Vector2(lineViewRect.anchoredPosition.x, 875f);
+            }
+            else
+            {
+                lineViewRect.anchoredPosition = new Vector2(lineViewRect.anchoredPosition.x, 300f);
+            }
+
         }
 
         Transform grandparent = gameObject.transform.parent?.parent;

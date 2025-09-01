@@ -1,0 +1,515 @@
+{
+	"identifier": "Level_13",
+	"uniqueIdentifer": "014d96a0-5e50-11f0-91d0-8b766b133151",
+	"x": 0,
+	"y": -5408,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "ffe701c0-5e50-11f0-91d0-430e42c636ad",
+			"dir": "s"
+		},
+		{
+			"levelIid": "029b4c50-5e50-11f0-91d0-15a7b1ebbe8a",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities": {
+		"Downstair_v2": [
+			{
+				"id": "Downstair_v2",
+				"iid": "3b33e460-5e50-11f0-bbfe-c5904e93531a",
+				"layer": "Entities",
+				"x": 48,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 8988690,
+				"customFields": {
+					"Portal": "下樓",
+					"upstair": {
+						"entityIid": "33735580-5e50-11f0-bbfe-5736b90acf2f",
+						"layerIid": "ffe701c1-5e50-11f0-91d0-8b2ff6c104cb",
+						"levelIid": "ffe701c0-5e50-11f0-91d0-430e42c636ad",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Hidden": false,
+					"Default": true,
+					"ID": null
+				}
+			}
+		],
+		"Entity7": [
+			{
+				"id": "Entity7",
+				"iid": "119db840-5e50-11f0-bbfe-e1ae89437ce2",
+				"layer": "Entities",
+				"x": 80,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "骷髏士兵",
+					"ID": null
+				}
+			}
+		],
+		"Entity2": [
+			{
+				"id": "Entity2",
+				"iid": "12d06be0-5e50-11f0-bbfe-111bb2fffb31",
+				"layer": "Entities",
+				"x": 144,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 10626611,
+				"customFields": {
+					"Monster": "喪屍",
+					"ID": null
+				}
+			}
+		],
+		"Redgem": [
+			{
+				"id": "Redgem",
+				"iid": "1f1aa190-5e50-11f0-bbfe-fbfa595cb6c2",
+				"layer": "Entities",
+				"x": 80,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
+			},
+			{
+				"id": "Redgem",
+				"iid": "f07ab440-5e50-11f0-bbfe-1d2ef65f1121",
+				"layer": "Entities",
+				"x": 304,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
+			},
+			{
+				"id": "Redgem",
+				"iid": "f5263af0-5e50-11f0-bbfe-b71eedf5d6e5",
+				"layer": "Entities",
+				"x": 304,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
+			}
+		],
+		"Bluegem": [
+			{
+				"id": "Bluegem",
+				"iid": "227c4320-5e50-11f0-bbfe-5772e458f188",
+				"layer": "Entities",
+				"x": 272,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
+			},
+			{
+				"id": "Bluegem",
+				"iid": "f1477a20-5e50-11f0-bbfe-816c746f4035",
+				"layer": "Entities",
+				"x": 336,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
+			},
+			{
+				"id": "Bluegem",
+				"iid": "f462eaf0-5e50-11f0-bbfe-2b7220cb8135",
+				"layer": "Entities",
+				"x": 336,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
+			}
+		],
+		"Entity61": [
+			{
+				"id": "Entity61",
+				"iid": "a808e310-5e50-11f0-bbfe-25d269dbb700",
+				"layer": "Entities",
+				"x": 144,
+				"y": 144,
+				"width": 96,
+				"height": 96,
+				"color": 16705377,
+				"customFields": {
+					"Monster": "巨龍"
+				}
+			}
+		],
+		"Reddoor": [
+			{
+				"id": "Reddoor",
+				"iid": "ad4c15e0-5e50-11f0-bbfe-a3cf499c538d",
+				"layer": "Entities",
+				"x": 144,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"Door": "紅門",
+					"ID": null
+				}
+			}
+		],
+		"Crystallite": [
+			{
+				"id": "Crystallite",
+				"iid": "fd545de0-5e50-11f0-bbfe-b1e749883254",
+				"layer": "Entities",
+				"x": 144,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 6539085,
+				"customFields": {
+					"item": "結晶",
+					"ID": null
+				}
+			}
+		],
+		"Entity58": [
+			{
+				"id": "Entity58",
+				"iid": "145f1c00-5e50-11f0-bbfe-950882f9c424",
+				"layer": "Entities",
+				"x": 112,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"item": "小飛羽",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity58",
+				"iid": "152ccc40-5e50-11f0-bbfe-c56a4536a69e",
+				"layer": "Entities",
+				"x": 176,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"item": "小飛羽",
+					"ID": null
+				}
+			}
+		],
+		"NPC02_2": [
+			{
+				"id": "NPC02_2",
+				"iid": "e6cc8630-5e50-11f0-bbfe-e91f2a222a86",
+				"layer": "Entities",
+				"x": 272,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 14107497,
+				"customFields": {
+					"NPC": "商人3"
+				}
+			}
+		],
+		"Redkey": [
+			{
+				"id": "Redkey",
+				"iid": "eca67ac0-5e50-11f0-bbfe-496fbe1c3626",
+				"layer": "Entities",
+				"x": 272,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"item": "紅鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"HighPotion": [
+			{
+				"id": "HighPotion",
+				"iid": "f29e0970-5e50-11f0-bbfe-256c6c3f8c3b",
+				"layer": "Entities",
+				"x": 368,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 12087120,
+				"customFields": {
+					"item": "高級傷藥",
+					"ID": null
+				}
+			}
+		],
+		"Potion": [
+			{
+				"id": "Potion",
+				"iid": "f647d790-5e50-11f0-bbfe-3347794e007a",
+				"layer": "Entities",
+				"x": 368,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
+			},
+			{
+				"id": "Potion",
+				"iid": "3b0d7200-5e50-11f0-bbfe-cf2861882b62",
+				"layer": "Entities",
+				"x": 336,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
+			}
+		],
+		"Bat3": [
+			{
+				"id": "Bat3",
+				"iid": "df2c1790-5e50-11f0-bbfe-e57a17d210a3",
+				"layer": "Entities",
+				"x": 336,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 4073265,
+				"customFields": {
+					"Monster": "紅蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Entity22": [
+			{
+				"id": "Entity22",
+				"iid": "f4c4a810-5e50-11f0-bbfe-effed3c194de",
+				"layer": "Entities",
+				"x": 336,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"Monster": "史萊姆人",
+					"ID": null
+				}
+			}
+		],
+		"Entity16": [
+			{
+				"id": "Entity16",
+				"iid": "f78c7aa0-5e50-11f0-bbfe-b5d1d6079b7d",
+				"layer": "Entities",
+				"x": 368,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"Monster": "中級法師",
+					"ID": null
+				}
+			}
+		],
+		"Entity8": [
+			{
+				"id": "Entity8",
+				"iid": "16d2eb10-5e50-11f0-bbfe-3b7bb4f6f5d4",
+				"layer": "Entities",
+				"x": 272,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"Monster": "高級骷髏士兵",
+					"ID": null
+				}
+			}
+		],
+		"Yellowkey": [
+			{
+				"id": "Yellowkey",
+				"iid": "40c34eb0-5e50-11f0-bbfe-898819c21b7f",
+				"layer": "Entities",
+				"x": 240,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"Bluedoor": [
+			{
+				"id": "Bluedoor",
+				"iid": "463f1db0-5e50-11f0-bbfe-8563012abe21",
+				"layer": "Entities",
+				"x": 336,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 39387,
+				"customFields": {
+					"Door": "藍門",
+					"ID": null
+				}
+			}
+		],
+		"NPC01_2": [
+			{
+				"id": "NPC01_2",
+				"iid": "37bd03f0-5e50-11f0-bbfe-410ca69909a0",
+				"layer": "Entities",
+				"x": 208,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 3485630,
+				"customFields": {
+					"NPC": "老人3",
+					"upstair": null
+				}
+			}
+		],
+		"Entity60": [
+			{
+				"id": "Entity60",
+				"iid": "2cd6fcb0-5e50-11f0-bbfe-6d676e578e83",
+				"layer": "Entities",
+				"x": 112,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "史萊姆王"
+				}
+			},
+			{
+				"id": "Entity60",
+				"iid": "2d2bd370-5e50-11f0-bbfe-418f4ea51595",
+				"layer": "Entities",
+				"x": 240,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "史萊姆王"
+				}
+			},
+			{
+				"id": "Entity60",
+				"iid": "3238db10-5e50-11f0-bbfe-772542d06adf",
+				"layer": "Entities",
+				"x": 304,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "史萊姆王"
+				}
+			}
+		],
+		"Entity67": [
+			{
+				"id": "Entity67",
+				"iid": "228bcd60-8560-11f0-9e1e-cba90de4f1eb",
+				"layer": "Entities",
+				"x": 336,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 1578021,
+				"customFields": {
+					"Monster": "菁英骷髏兵"
+				}
+			}
+		],
+		"Upstair_v2": [
+			{
+				"id": "Upstair_v2",
+				"iid": "25aa6b20-8560-11f0-9e1e-8dd2333a67db",
+				"layer": "Entities",
+				"x": 368,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 13818624,
+				"customFields": {
+					"Portal": "上樓",
+					"Hidden": false,
+					"downstair": {
+						"entityIid": "371186f0-8560-11f0-9e1e-65984b6e0309",
+						"layerIid": "029b4c51-5e50-11f0-91d0-6fa73d4bf562",
+						"levelIid": "029b4c50-5e50-11f0-91d0-15a7b1ebbe8a",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": true
+				}
+			}
+		]
+	}
+}

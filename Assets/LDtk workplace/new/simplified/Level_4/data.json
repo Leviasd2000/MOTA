@@ -355,22 +355,6 @@
 				}
 			}
 		],
-		"Entity49": [
-			{
-				"id": "Entity49",
-				"iid": "a0fa3410-1030-11f0-822f-ef91b7d5606e",
-				"layer": "Entities",
-				"x": 48,
-				"y": 176,
-				"width": 32,
-				"height": 32,
-				"color": 3818598,
-				"customFields": {
-					"item": "鋼劍",
-					"ID": null
-				}
-			}
-		],
 		"Bat2": [
 			{
 				"id": "Bat2",
@@ -438,6 +422,22 @@
 				"color": 2501444,
 				"customFields": {
 					"Monster": "初級法師",
+					"ID": null
+				}
+			}
+		],
+		"Entity51": [
+			{
+				"id": "Entity51",
+				"iid": "10cbf410-8560-11f0-82e9-7b239461cf87",
+				"layer": "Entities",
+				"x": 48,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 16151930,
+				"customFields": {
+					"item": "鐵劍",
 					"ID": null
 				}
 			}

@@ -21,7 +21,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {   
         if (Sprites != null)
         {
-            if (Braveattr.attributes["Breath"] <= lastNumber * 40)
+            if (Braveattr.attributes["Breath"] <= lastNumber * Braveattr.Breathstock)
             {
                 Sprites.color = new Color32(91, 91, 91, 255); // 255 表示完全不透明
             }

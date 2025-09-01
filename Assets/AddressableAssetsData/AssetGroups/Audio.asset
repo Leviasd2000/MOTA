@@ -63,6 +63,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Audio
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a0cd1ffd9d3ed3489b39e865ece0a77
+    m_Address: Assets/Audio/monsterattack/electriccritical.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1ef7c7d5499f70044bd61615dccc72e9
     m_Address: Assets/Audio/braveattack/sage1.wav
     m_ReadOnly: 0
@@ -197,6 +203,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7ac1de7cd5fd72447923a7589008cd25
     m_Address: Assets/Audio/braveattack/sage2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b0610fbf5673e443b3f6107c6bbf59f
+    m_Address: Assets/Audio/monsterattack/electric.wav
     m_ReadOnly: 0
     m_SerializedLabels:
     - Audio

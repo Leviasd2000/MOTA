@@ -131,8 +131,8 @@ public class FloorView : MonoBehaviour
         }
         foreach (Transform level in world.transform) // 遍歷第一層 Level1_x
         {
-            char floor = level.name[^1];
-            int number = (int)char.GetNumericValue(floor);
+            string[] parts = level.name.Split('_');
+            int number = int.Parse(parts[^1]); // 取最後一段字串轉 int
             Transform entities = level.Find("Entities"); // 查找該層的 "Entities"
             if (entities == null)
             {

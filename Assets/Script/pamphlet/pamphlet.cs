@@ -69,8 +69,8 @@ public class Pamphlet : MonoBehaviour
 
         foreach (Transform level in world.transform) // 遍歷第一層 Level1_x
         {
-            char floor = level.name[^1];
-            int number = (int)char.GetNumericValue(floor);
+            string[] parts = level.name.Split('_');
+            int number = int.Parse(parts[^1]); // 取最後一段字串轉 int
             Transform entities = level.Find("Entities"); // 查找該層的 "Entities"
             if (entities == null)
             {
@@ -240,12 +240,12 @@ public class Pamphlet : MonoBehaviour
     {
         int atk = Braveattr.GetAttribute("Atk");
         int def = Braveattr.GetAttribute("Def");
-        if ( (atk + Braveattr.AttackCritical) <  enemy.Def && enemy.Atk > (def+Braveattr.DefenseCritical)) // 低於攻擊臨界
+        if ( (atk + Braveattr.AttackCritical) <  enemy.Def && (enemy.Atk + Braveattr.DefenseCritical) > def) // 低於攻擊臨界
         {
                 return "估計傷害:\n" + $"<color=#FA0408>{"DIE"}</color>";
         }
 
-        if (Braveattr.GetAttribute("Def") > (enemy.Atk + Braveattr.DefenseCritical)) // 高於防禦臨界
+        if (def > (enemy.Atk + Braveattr.DefenseCritical)) // 高於防禦臨界
         {
                 return "估計傷害:\n" + $"<color=#FA0408>{0}</color>" ;
         }

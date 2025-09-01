@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000000000000",
+      "averageColors": "bd77bd77bd77bd77b444b444b444b444b454b454b454b454bdd7bdd7bdd7bdd7"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Tacoboss",
+    "padding": 0,
+    "pxHei": 384,
+    "pxWid": 384,
+    "relPath": "../Resource/tacoboss.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 96,
+    "uid": 504
+  }
+}

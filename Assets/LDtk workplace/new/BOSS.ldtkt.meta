@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 16db45135c52fd24eb46581d3f87737f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 32
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: BOSS_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 3c44d2cd2d6688441970d11332a0d149
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 96
+      height: 96
+    spriteID: b4d013ac5e1033d41b01a29b06443d2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 96
+      height: 96
+    spriteID: a4d6d2878a42a8c458967dced4530ab8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 96
+      height: 96
+    spriteID: d7a65c94cd341b646bc755cb610d71a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 96
+      height: 96
+    spriteID: bd692facd1ad3cb44b5565970513ab7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 96
+      height: 96
+    spriteID: 3de16d77fa470b441868e26580664804
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 96
+      height: 96
+    spriteID: 746e64dfa5bf2d546b54c09d517d7cb1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: BOSS_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 96
+      height: 96
+    spriteID: 6080c89072e23b64f84d3fa1a2652fb7
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

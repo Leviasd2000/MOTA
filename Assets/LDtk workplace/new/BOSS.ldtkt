@@ -1,0 +1,58 @@
+{
+  "Rects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "x": 192,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    {
+      "x": 288,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    }
+  ],
+  "Def": {
+    "__cHei": 2,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "11111111",
+      "averageColors": "fb66fb66fbb6fc77f6b7f6b7fbb6fc76"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "BOSS",
+    "padding": 0,
+    "pxHei": 192,
+    "pxWid": 384,
+    "relPath": "../Resource/BOSS.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 96,
+    "uid": 489
+  }
+}

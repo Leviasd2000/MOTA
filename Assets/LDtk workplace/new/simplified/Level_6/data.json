@@ -91,6 +91,384 @@
 					}
 				}
 			}
+		],
+		"Entity48": [
+			{
+				"id": "Entity48",
+				"iid": "4bb255a0-5e50-11f0-91d0-3f50bc53dd91",
+				"layer": "Entities",
+				"x": 80,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 5925256,
+				"customFields": {
+					"item": "鐵盾",
+					"ID": null
+				}
+			}
+		],
+		"Entity20": [
+			{
+				"id": "Entity20",
+				"iid": "55074020-5e50-11f0-91d0-f7f70935291d",
+				"layer": "Entities",
+				"x": 112,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "石怪",
+					"ID": null
+				}
+			}
+		],
+		"Frame": [
+			{
+				"id": "Frame",
+				"iid": "59b07ce0-5e50-11f0-91d0-a7550015bbfa",
+				"layer": "Entities",
+				"x": 112,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"tile": "柵欄",
+					"ID": null
+				}
+			}
+		],
+		"Entity10": [
+			{
+				"id": "Entity10",
+				"iid": "619b9e30-5e50-11f0-91d0-ab51c567201d",
+				"layer": "Entities",
+				"x": 176,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "初級守衛",
+					"ID": null
+				}
+			}
+		],
+		"Entity16": [
+			{
+				"id": "Entity16",
+				"iid": "62652fc0-5e50-11f0-91d0-b73662f80d34",
+				"layer": "Entities",
+				"x": 48,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"Monster": "中級法師",
+					"ID": null
+				}
+			}
+		],
+		"Entity2": [
+			{
+				"id": "Entity2",
+				"iid": "665e5660-5e50-11f0-91d0-9966ae46df49",
+				"layer": "Entities",
+				"x": 176,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 10626611,
+				"customFields": {
+					"Monster": "喪屍",
+					"ID": null
+				}
+			}
+		],
+		"Entity7": [
+			{
+				"id": "Entity7",
+				"iid": "68fccf00-5e50-11f0-91d0-7f99272d480d",
+				"layer": "Entities",
+				"x": 112,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "骷髏士兵",
+					"ID": null
+				}
+			}
+		],
+		"Redgem": [
+			{
+				"id": "Redgem",
+				"iid": "73ed1a00-5e50-11f0-91d0-57c899a231a0",
+				"layer": "Entities",
+				"x": 80,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
+			}
+		],
+		"Bluegem": [
+			{
+				"id": "Bluegem",
+				"iid": "7510d980-5e50-11f0-91d0-5779e0e2ff02",
+				"layer": "Entities",
+				"x": 144,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
+			}
+		],
+		"Entity43": [
+			{
+				"id": "Entity43",
+				"iid": "7df241b0-5e50-11f0-91d0-fdd67a23eea3",
+				"layer": "Entities",
+				"x": 80,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "經驗藥水",
+					"ID": null
+				}
+			}
+		],
+		"HighPotion": [
+			{
+				"id": "HighPotion",
+				"iid": "81f182d0-5e50-11f0-91d0-19a34ddb0e71",
+				"layer": "Entities",
+				"x": 176,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 12087120,
+				"customFields": {
+					"item": "高級傷藥",
+					"ID": null
+				}
+			},
+			{
+				"id": "HighPotion",
+				"iid": "b6cf7250-5e50-11f0-91d0-b33b2e4e9c1e",
+				"layer": "Entities",
+				"x": 80,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 12087120,
+				"customFields": {
+					"item": "高級傷藥",
+					"ID": null
+				}
+			}
+		],
+		"Bat2": [
+			{
+				"id": "Bat2",
+				"iid": "8ac3cfd0-5e50-11f0-91d0-b117ce6793c6",
+				"layer": "Entities",
+				"x": 48,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "大蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Yellowkey": [
+			{
+				"id": "Yellowkey",
+				"iid": "93f15c30-5e50-11f0-91d0-8b869f6bd577",
+				"layer": "Entities",
+				"x": 176,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			}
+		],
+		"Slime1": [
+			{
+				"id": "Slime1",
+				"iid": "a7adb2a0-5e50-11f0-91d0-fd562b37b942",
+				"layer": "Entities",
+				"x": 304,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆",
+					"ID": null
+				}
+			},
+			{
+				"id": "Slime1",
+				"iid": "a8422a70-5e50-11f0-91d0-8f0ce8b2c6b2",
+				"layer": "Entities",
+				"x": 304,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆",
+					"ID": null
+				}
+			}
+		],
+		"Slime2": [
+			{
+				"id": "Slime2",
+				"iid": "aa2b35c0-5e50-11f0-91d0-81fa87a84cfd",
+				"layer": "Entities",
+				"x": 304,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"anime": 2,
+					"Monster": "紅色史萊姆",
+					"ID": null
+				}
+			},
+			{
+				"id": "Slime2",
+				"iid": "aa8563b0-5e50-11f0-91d0-4500e73a9387",
+				"layer": "Entities",
+				"x": 304,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"anime": 2,
+					"Monster": "紅色史萊姆",
+					"ID": null
+				}
+			}
+		],
+		"Bat1": [
+			{
+				"id": "Bat1",
+				"iid": "ad8bc5e0-5e50-11f0-91d0-a320eeb6f217",
+				"layer": "Entities",
+				"x": 304,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "小蝙蝠",
+					"ID": null
+				}
+			},
+			{
+				"id": "Bat1",
+				"iid": "adda3400-5e50-11f0-91d0-eb3c5ed18648",
+				"layer": "Entities",
+				"x": 304,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "小蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Slime3": [
+			{
+				"id": "Slime3",
+				"iid": "afc75e00-5e50-11f0-91d0-8f59afd8dbe4",
+				"layer": "Entities",
+				"x": 368,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "黑色史萊姆",
+					"anime": 0,
+					"ID": null
+				}
+			},
+			{
+				"id": "Slime3",
+				"iid": "b03c18d0-5e50-11f0-91d0-33daae1c2cb1",
+				"layer": "Entities",
+				"x": 368,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "黑色史萊姆",
+					"anime": 0,
+					"ID": null
+				}
+			}
+		],
+		"Potion": [
+			{
+				"id": "Potion",
+				"iid": "b9876660-5e50-11f0-91d0-0ff1942882bd",
+				"layer": "Entities",
+				"x": 368,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
+			},
+			{
+				"id": "Potion",
+				"iid": "b9ec1ba0-5e50-11f0-91d0-d19670258bf4",
+				"layer": "Entities",
+				"x": 368,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
+			}
 		]
 	}
 }

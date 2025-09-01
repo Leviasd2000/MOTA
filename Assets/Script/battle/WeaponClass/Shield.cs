@@ -4,31 +4,39 @@ using UnityEngine;
 public abstract class Shield
 {
     public string Name { get; protected set; }
-    public int BreathCost { get; protected set; } // 盾使用的氣息消耗
-    public abstract int Damage(Braveattr player, MONSTER monster); // 抽象方法：沒有內容，等子類去實作
+    public int BreathCost { get; protected set; }
+
+    // 修改傷害比例，預設不改
+    public virtual int ModifyDamage(int damage, MONSTER mon)
+    {
+        return damage;
+    }
+
+    // 執行盾牌效果：扣氣、增疲勞、加防、特殊效果
+    public virtual void ApplyEffect(Braveattr player, MONSTER monster)
+    {
+        player.DecreaseAttribute("Breath", BreathCost);
+        player.IncreaseAttribute("Fatigue", 3);
+    }
 }
 
-public class Mirror : Shield       
+// ----------------------------
+// 具體盾牌
+// ----------------------------
+
+public class Mirror : Shield
 {
     public Mirror(Braveattr player, MONSTER monster)
     {
         Name = "鏡膜";
-        BreathCost = 40;
+        BreathCost = Braveattr.Breathstock;
     }
 
-    public override int Damage(Braveattr player, MONSTER monster)
+    public override int ModifyDamage(int damage, MONSTER mon)
     {
-        int Matk = monster.Atk;
-        int Mdef = monster.Def;
-        string Msys = monster.System;
-        int Batk = Braveattr.GetAttribute("Atk");
-        int Bdef = Braveattr.GetAttribute("Def");
-        int Level = Braveattr.GetAttribute("Level");
-
-        player.DecreaseAttribute("Breath", 40);
-        player.IncreaseAttribute("Fatigue", 3);
-
-        return (int)Mathf.Max(0.5f * (Matk - Bdef), 1);
+        if (!mon.System.Contains("魔法攻擊"))
+            return Mathf.RoundToInt(damage * 0.5f); // 物理傷害減半
+        return damage;
     }
 }
 
@@ -37,24 +45,21 @@ public class Crystallite : Shield
     public Crystallite(Braveattr player, MONSTER monster)
     {
         Name = "結晶";
-        BreathCost = 80;
+        BreathCost = 2 * Braveattr.Breathstock;
     }
 
-    public override int Damage(Braveattr player, MONSTER monster)
+    public override int ModifyDamage(int damage, MONSTER mon)
     {
-        int Matk = monster.Atk;
-        int Mdef = monster.Def;
-        string Msys = monster.System;
-        int Mbreath = monster.CurrentBreath;
-        int Batk = Braveattr.GetAttribute("Atk");
-        int Bdef = Braveattr.GetAttribute("Def");
+        if (!mon.System.Contains("魔法攻擊"))
+            return Mathf.RoundToInt(damage * 0.66f); // 物理傷害減 34%
+        return damage;
+    }
 
-
-        player.DecreaseAttribute("Breath", 80);
-        player.IncreaseAttribute("Fatigue", 12);
-        monster.Freeze = 1;
-
-        return (int)Mathf.Max(0.66f * (Matk - Bdef), 1);
+    public override void ApplyEffect(Braveattr player, MONSTER monster)
+    {
+        base.ApplyEffect(player, monster);
+        player.IncreaseAttribute("Fatigue", 9); // 額外疲勞
+        monster.Freeze = 1; // 特效：冰凍怪物
     }
 }
 
@@ -63,25 +68,14 @@ public class Reflection : Shield
     public Reflection(Braveattr player, MONSTER monster)
     {
         Name = "反射";
-        BreathCost = 40;
+        BreathCost = Braveattr.Breathstock;
     }
 
-    public override int Damage(Braveattr player, MONSTER monster)
+    public override int ModifyDamage(int damage, MONSTER mon)
     {
-        int Matk = monster.Atk;
-        int Mdef = monster.Def;
-        int MHp = monster.CurrentHp;
-        string Msys = monster.System;
-        int Batk = Braveattr.GetAttribute("Atk");
-        int Bdef = Braveattr.GetAttribute("Def");
-        int damage = (int)Mathf.Min(0.8f * (Batk - Mdef), (monster.CurrentHp - 1));
-
-        player.DecreaseAttribute("Breath", 40);
-        player.IncreaseAttribute("Fatigue", 3);
-        MHp -= Matk/10 + (int)0.3f * damage;
-
-        return (int)Mathf.Max(0.8f * (Matk - Bdef), 1);
-
+        if (!mon.System.Contains("魔法攻擊"))
+            return Mathf.RoundToInt(damage * 0.8f); // 物理傷害減 20%
+        return damage;
     }
 }
 
@@ -90,26 +84,20 @@ public class Fairy : Shield
     public Fairy(Braveattr player, MONSTER monster)
     {
         Name = "精靈";
-        BreathCost = 40;
+        BreathCost = Braveattr.Breathstock;
     }
 
-    public override int Damage(Braveattr player, MONSTER monster)
+    public override int ModifyDamage(int damage, MONSTER mon)
     {
-        int Matk = monster.Atk;
-        int Mdef = monster.Def;
-        string Msys = monster.System;
-        int Batk = Braveattr.GetAttribute("Atk");
+        return damage; // 傷害不改
+    }
+
+    public override void ApplyEffect(Braveattr player, MONSTER monster)
+    {
+        base.ApplyEffect(player, monster);
         int Bdef = Braveattr.GetAttribute("Def");
-        int Level = Braveattr.GetAttribute("Level");
-        int Tempdef = Braveattr.Tempdef;
-
-        Tempdef += (int)(Bdef / 100 + 0.1 * Level);
-        player.DecreaseAttribute("Breath", 40);
-        player.IncreaseAttribute("Fatigue", 3);
+        int Tempdef = Mathf.RoundToInt(Bdef * 0.1f); // 臨時防禦加成
         player.IncreaseAttribute("Def", Tempdef);
-
-        return (int)Mathf.Max(1f * (Matk - Bdef), 1);
-
     }
 }
 
@@ -118,23 +106,18 @@ public class Sage : Shield
     public Sage(Braveattr player, MONSTER monster)
     {
         Name = "賢者";
-        BreathCost = 80;
+        BreathCost = 2 * Braveattr.Breathstock;
     }
 
-    public override int Damage(Braveattr player, MONSTER monster)
+    public override int ModifyDamage(int damage, MONSTER mon)
     {
-        int Matk = monster.Atk;
-        int Mdef = monster.Def;
-        string Msys = monster.System;
-        int Batk = Braveattr.GetAttribute("Atk");
-        int Bdef = Braveattr.GetAttribute("Def");
+        return damage; // 傷害不改
+    }
 
-
-        player.DecreaseAttribute("Breath", 80);
+    public override void ApplyEffect(Braveattr player, MONSTER monster)
+    {
+        base.ApplyEffect(player, monster);
         player.IncreaseAttribute("Fatigue", 2);
-    　　// TODO: 公主血量轉換
-
-        return (int)Mathf.Max(1f * (Matk - Bdef), 1);
-
+        // TODO: 公主血量轉換效果
     }
 }

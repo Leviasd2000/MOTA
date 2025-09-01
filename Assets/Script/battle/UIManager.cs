@@ -75,7 +75,7 @@ public class UIManager : MonoBehaviour
         }
         matk.text = "§ðÀ»:\u00A0" + monster.Atk;
         mdef.text = "¨¾¿m:\u00A0" + monster.Def;
-        mfatigue.text = "¯h³Ò:\u00A0" + monster.Fatigue;
+        mfatigue.text = "¯h³Ò:\u00A0" + monster.CurrentFatigue;
         Debug.Log("§ï¨ì¤F!");
 
 

@@ -162,6 +162,20 @@
 					"Door": "黃門",
 					"ID": null
 				}
+			},
+			{
+				"id": "Yellowdoor",
+				"iid": "0e8f5310-5e50-11f0-91d0-e9ccb426622a",
+				"layer": "Entities",
+				"x": 304,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"Door": "黃門",
+					"ID": null
+				}
 			}
 		],
 		"Potion": [
@@ -192,6 +206,20 @@
 					"item": "普通傷藥",
 					"ID": null
 				}
+			},
+			{
+				"id": "Potion",
+				"iid": "1a2c7fe0-5e50-11f0-91d0-1d9788727820",
+				"layer": "Entities",
+				"x": 304,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
 			}
 		],
 		"Entity6": [
@@ -201,6 +229,20 @@
 				"layer": "Entities",
 				"x": 208,
 				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"Monster": "骷髏",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity6",
+				"iid": "21aea630-5e50-11f0-91d0-ad517d22214d",
+				"layer": "Entities",
+				"x": 368,
+				"y": 272,
 				"width": 32,
 				"height": 32,
 				"color": 2943221,
@@ -330,6 +372,20 @@
 					"Monster": "石怪",
 					"ID": null
 				}
+			},
+			{
+				"id": "Entity20",
+				"iid": "1eaf9700-5e50-11f0-91d0-2306021c500f",
+				"layer": "Entities",
+				"x": 304,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "石怪",
+					"ID": null
+				}
 			}
 		],
 		"Redgem": [
@@ -339,6 +395,20 @@
 				"layer": "Entities",
 				"x": 80,
 				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
+			},
+			{
+				"id": "Redgem",
+				"iid": "17c013c0-5e50-11f0-91d0-eba1ebebb595",
+				"layer": "Entities",
+				"x": 304,
+				"y": 144,
 				"width": 32,
 				"height": 32,
 				"color": 14957380,
@@ -361,6 +431,147 @@
 				"customFields": {
 					"item": "藍寶石",
 					"ID": null
+				}
+			},
+			{
+				"id": "Bluegem",
+				"iid": "16f45f50-5e50-11f0-91d0-a9562d7de067",
+				"layer": "Entities",
+				"x": 304,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
+			}
+		],
+		"Entity22": [
+			{
+				"id": "Entity22",
+				"iid": "e327ae30-5e50-11f0-91d0-e9eaf3ffef6b",
+				"layer": "Entities",
+				"x": 144,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"Monster": "史萊姆人",
+					"ID": null
+				}
+			}
+		],
+		"HighPotion": [
+			{
+				"id": "HighPotion",
+				"iid": "1442faf0-5e50-11f0-91d0-fbc44b7a25bf",
+				"layer": "Entities",
+				"x": 304,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 12087120,
+				"customFields": {
+					"item": "高級傷藥",
+					"ID": null
+				}
+			}
+		],
+		"Bat2": [
+			{
+				"id": "Bat2",
+				"iid": "2707f910-5e50-11f0-91d0-aff75ce62ffb",
+				"layer": "Entities",
+				"x": 368,
+				"y": 208,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "大蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Entity14": [
+			{
+				"id": "Entity14",
+				"iid": "2c074510-5e50-11f0-91d0-1bb87a2a2335",
+				"layer": "Entities",
+				"x": 368,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 2501444,
+				"customFields": {
+					"Monster": "初級法師",
+					"ID": null
+				}
+			}
+		],
+		"Entity10": [
+			{
+				"id": "Entity10",
+				"iid": "36577f80-5e50-11f0-91d0-af738286f656",
+				"layer": "Entities",
+				"x": 368,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "初級守衛",
+					"ID": null
+				}
+			}
+		],
+		"Entity16": [
+			{
+				"id": "Entity16",
+				"iid": "4608d500-5e50-11f0-91d0-c77d8b95b54c",
+				"layer": "Entities",
+				"x": 304,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"Monster": "中級法師",
+					"ID": null
+				}
+			}
+		],
+		"Entity59": [
+			{
+				"id": "Entity59",
+				"iid": "5d167950-5e50-11f0-91d0-6d725828bf78",
+				"layer": "Entities",
+				"x": 144,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"item": "綠寶石",
+					"ID": null
+				}
+			}
+		],
+		"NPC06": [
+			{
+				"id": "NPC06",
+				"iid": "7fb23ce0-8560-11f0-9e1e-9ff326952260",
+				"layer": "Entities",
+				"x": 176,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 4098376,
+				"customFields": {
+					"NPC": "賢者1"
 				}
 			}
 		]

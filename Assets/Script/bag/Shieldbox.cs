@@ -113,6 +113,7 @@ public class Shieldbox : MonoBehaviour
         {
             Braveattr.HoldShield = name;
             audioManager.PlaySFX("Click");
+            Debug.Log(Braveattr.HoldShield);
         }
         else
         {

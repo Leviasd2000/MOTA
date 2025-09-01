@@ -32,7 +32,8 @@ public class PropertyUI2 : MonoBehaviour
         {
             sword.sprite = spriteDict[Braveattr.HoldSword];
         }
-        else if (spriteDict.ContainsKey(Braveattr.HoldShield))
+        
+        if (spriteDict.ContainsKey(Braveattr.HoldShield))
         {
             shield.sprite = spriteDict[Braveattr.HoldShield];
         }

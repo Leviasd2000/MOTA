@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System;
+using cfg.monster;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using cfg.monster;
+using Yarn.Unity;
 public class Braveplayer : MonoBehaviour
 {   
     /// <summary>
@@ -34,7 +35,7 @@ public class Braveplayer : MonoBehaviour
     public GameObject SwordBox;
     public GameObject ShieldBox;
     private AudioManager audiomanager;
-    
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -84,9 +85,6 @@ public class Braveplayer : MonoBehaviour
                 MoveCharacter(currentDirection);
                 Debug.Log("Movc");
             }
-
-            
-
             // 累積按住時間
             holdTimer += Time.deltaTime;
 

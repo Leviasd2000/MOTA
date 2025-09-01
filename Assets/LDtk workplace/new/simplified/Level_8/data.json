@@ -136,6 +136,20 @@
 					"item": "紅寶石",
 					"ID": null
 				}
+			},
+			{
+				"id": "Redgem",
+				"iid": "3fa572c0-8560-11f0-9e1e-e365a5bca446",
+				"layer": "Entities",
+				"x": 176,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
 			}
 		],
 		"Bluegem": [
@@ -155,10 +169,10 @@
 			},
 			{
 				"id": "Bluegem",
-				"iid": "74032ab0-1030-11f0-9b0d-fb3edff36eef",
+				"iid": "40756cf0-8560-11f0-9e1e-273906e6782d",
 				"layer": "Entities",
-				"x": 272,
-				"y": 240,
+				"x": 240,
+				"y": 336,
 				"width": 32,
 				"height": 32,
 				"color": 1199753,
@@ -233,6 +247,20 @@
 				"layer": "Entities",
 				"x": 368,
 				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
+			},
+			{
+				"id": "Potion",
+				"iid": "42cdb4d0-8560-11f0-9e1e-e111bd5ba90a",
+				"layer": "Entities",
+				"x": 336,
+				"y": 272,
 				"width": 32,
 				"height": 32,
 				"color": 2943221,
@@ -319,6 +347,34 @@
 					"Monster": "中級法師",
 					"ID": null
 				}
+			},
+			{
+				"id": "Entity16",
+				"iid": "b32b73c0-5e50-11f0-91d0-d9dcb416bfb3",
+				"layer": "Entities",
+				"x": 240,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"Monster": "中級法師",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity16",
+				"iid": "b3759c20-5e50-11f0-91d0-df55517844f8",
+				"layer": "Entities",
+				"x": 240,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"Monster": "中級法師",
+					"ID": null
+				}
 			}
 		],
 		"Bat2": [
@@ -357,22 +413,6 @@
 						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
 					},
 					"Default": true
-				}
-			}
-		],
-		"Entity3": [
-			{
-				"id": "Entity3",
-				"iid": "d9293080-1030-11f0-8fd9-39294243fa9c",
-				"layer": "Entities",
-				"x": 208,
-				"y": 176,
-				"width": 32,
-				"height": 32,
-				"color": 16690740,
-				"customFields": {
-					"Monster": "喪屍武士",
-					"ID": null
 				}
 			}
 		],
@@ -418,6 +458,159 @@
 				"color": 16690740,
 				"customFields": {
 					"Monster": "石怪",
+					"ID": null
+				}
+			}
+		],
+		"Entity10": [
+			{
+				"id": "Entity10",
+				"iid": "79bd5fb0-5e50-11f0-91d0-f70e6fe13a3b",
+				"layer": "Entities",
+				"x": 144,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "初級守衛",
+					"ID": null
+				}
+			}
+		],
+		"NPC04": [
+			{
+				"id": "NPC04",
+				"iid": "752a7f30-5e50-11f0-91d0-77c4759d840d",
+				"layer": "Entities",
+				"x": 368,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 14120515,
+				"customFields": {
+					"NPC": "精靈",
+					"Entity_ref": null
+				}
+			}
+		],
+		"Entity22": [
+			{
+				"id": "Entity22",
+				"iid": "79d2d190-5e50-11f0-91d0-d5029afdc6f7",
+				"layer": "Entities",
+				"x": 336,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"Monster": "史萊姆人",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity22",
+				"iid": "7a2de9e0-5e50-11f0-91d0-33bcdac22e9b",
+				"layer": "Entities",
+				"x": 368,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"Monster": "史萊姆人",
+					"ID": null
+				}
+			}
+		],
+		"Entity6": [
+			{
+				"id": "Entity6",
+				"iid": "96b0f490-5e50-11f0-91d0-43a77fc25260",
+				"layer": "Entities",
+				"x": 48,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"Monster": "骷髏",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity6",
+				"iid": "97314820-5e50-11f0-91d0-4d308260d0f7",
+				"layer": "Entities",
+				"x": 80,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"Monster": "骷髏",
+					"ID": null
+				}
+			}
+		],
+		"Entity14": [
+			{
+				"id": "Entity14",
+				"iid": "b1579e20-5e50-11f0-91d0-9f1bd248f7ff",
+				"layer": "Entities",
+				"x": 176,
+				"y": 304,
+				"width": 32,
+				"height": 32,
+				"color": 2501444,
+				"customFields": {
+					"Monster": "初級法師",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity14",
+				"iid": "b25956b0-5e50-11f0-91d0-bf3a6bfc5f34",
+				"layer": "Entities",
+				"x": 176,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 2501444,
+				"customFields": {
+					"Monster": "初級法師",
+					"ID": null
+				}
+			}
+		],
+		"Entity65": [
+			{
+				"id": "Entity65",
+				"iid": "331867b0-8560-11f0-9e1e-d17c819cd5f7",
+				"layer": "Entities",
+				"x": 208,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 16217634,
+				"customFields": {
+					"Monster": "靈戰士"
+				}
+			}
+		],
+		"Redkey": [
+			{
+				"id": "Redkey",
+				"iid": "4b56c3d0-8560-11f0-9e1e-17ba5a5a0451",
+				"layer": "Entities",
+				"x": 272,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"item": "紅鑰匙",
 					"ID": null
 				}
 			}

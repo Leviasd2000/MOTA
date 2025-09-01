@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -118,8 +118,8 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      batboss_0: -5736189257358951955
+      batboss_1: 3101416943055700712
+      batboss_10: 8134603764588447037
+      batboss_11: 123024164323074603
+      batboss_12: -1957612843896002613
+      batboss_13: -8283414793821701158
+      batboss_14: -5355528997926642880
+      batboss_15: -7974522410949404803
+      batboss_2: 6887774854962161776
+      batboss_3: 6774570127440663897
+      batboss_4: 2164489917419448102
+      batboss_5: -6357691870138999277
+      batboss_6: 6702791847933382800
+      batboss_7: -5424444061918246531
+      batboss_8: 1964741447358324594
+      batboss_9: -3517206219601315995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

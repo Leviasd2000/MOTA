@@ -1,0 +1,97 @@
+{
+	"identifier": "Level_16",
+	"uniqueIdentifer": "050d36b0-5e50-11f0-91d0-9fbf883fc52d",
+	"x": 0,
+	"y": -6656,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "03e160e0-5e50-11f0-91d0-797acc9f4054",
+			"dir": "s"
+		},
+		{
+			"levelIid": "06626670-5e50-11f0-91d0-058a23549eeb",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities": {
+		"Downstair_v2": [
+			{
+				"id": "Downstair_v2",
+				"iid": "3ed2c400-8560-11f0-9e1e-b573125da283",
+				"layer": "Entities",
+				"x": 176,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 8988690,
+				"customFields": {
+					"Portal": "下樓",
+					"upstair": {
+						"entityIid": "3512e2b0-8560-11f0-9e1e-cb283aae1e1c",
+						"layerIid": "03e160e1-5e50-11f0-91d0-b15f697b748c",
+						"levelIid": "03e160e0-5e50-11f0-91d0-797acc9f4054",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Hidden": false,
+					"Default": true,
+					"ID": null
+				}
+			}
+		],
+		"Downstair": [
+			{
+				"id": "Downstair",
+				"iid": "471b4790-8560-11f0-9e1e-f7f27ae23e3e",
+				"layer": "Entities",
+				"x": 48,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 4098376,
+				"customFields": {
+					"Hidden": false,
+					"Portal": "下樓",
+					"upstair": {
+						"entityIid": "2c23e5f0-8560-11f0-9e1e-a9e247b2885b",
+						"layerIid": "03e160e1-5e50-11f0-91d0-b15f697b748c",
+						"levelIid": "03e160e0-5e50-11f0-91d0-797acc9f4054",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"ID": null
+				}
+			}
+		],
+		"Downstair_normal": [
+			{
+				"id": "Downstair_normal",
+				"iid": "547bbd50-8560-11f0-9e1e-552f2c62dbc1",
+				"layer": "Entities",
+				"x": 368,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 4657801,
+				"customFields": {
+					"Portal": "下樓",
+					"Hidden": false,
+					"upstair": {
+						"entityIid": "15eedc70-8560-11f0-9e1e-7b0469688448",
+						"layerIid": "03e160e1-5e50-11f0-91d0-b15f697b748c",
+						"levelIid": "03e160e0-5e50-11f0-91d0-797acc9f4054",
+						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+					},
+					"Default": false,
+					"ID": null
+				}
+			}
+		]
+	}
+}

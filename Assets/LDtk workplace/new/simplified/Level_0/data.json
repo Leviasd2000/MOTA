@@ -198,45 +198,15 @@
 				"color": 4098376,
 				"customFields": {
 					"Door": "轉閘門",
-					"unlock": {
-						"entityIid": "a095b210-3740-11f0-9fe5-0d03fd1fa8c7",
-						"layerIid": "538c3a92-c210-11ef-9394-df0f7a20e4bf",
-						"levelIid": "538c3a90-c210-11ef-9394-b3ff34f71bbd",
-						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
-					},
-					"ID": null
-				}
-			}
-		],
-		"Streamstone": [
-			{
-				"id": "Streamstone",
-				"iid": "58930c00-3740-11f0-aff0-470dd8b18955",
-				"layer": "Entities",
-				"x": 176,
-				"y": 112,
-				"width": 32,
-				"height": 32,
-				"color": 7552569,
-				"customFields": {
-					"item": "流石",
-					"ID": null
-				}
-			}
-		],
-		"Crimson": [
-			{
-				"id": "Crimson",
-				"iid": "59a0ab70-3740-11f0-aff0-cf8263c08497",
-				"layer": "Entities",
-				"x": 176,
-				"y": 144,
-				"width": 32,
-				"height": 32,
-				"color": 11882632,
-				"customFields": {
-					"item": "深紅",
-					"ID": null
+					"ID": null,
+					"unlock": [
+						{
+							"entityIid": "a095b210-3740-11f0-9fe5-0d03fd1fa8c7",
+							"layerIid": "538c3a92-c210-11ef-9394-df0f7a20e4bf",
+							"levelIid": "538c3a90-c210-11ef-9394-b3ff34f71bbd",
+							"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+						}
+					]
 				}
 			}
 		],

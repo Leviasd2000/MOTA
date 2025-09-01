@@ -1,0 +1,25 @@
+{
+	"identifier": "Level_23",
+	"uniqueIdentifer": "0eb60d90-5e50-11f0-91d0-ef8a5b76fe3b",
+	"x": 0,
+	"y": -9568,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "0d50ff50-5e50-11f0-91d0-bd7c68829383",
+			"dir": "s"
+		},
+		{
+			"levelIid": "0f980920-5e50-11f0-91d0-5545ff0a1dc3",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities" : {}
+}

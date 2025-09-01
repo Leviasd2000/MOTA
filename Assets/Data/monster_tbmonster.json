@@ -268,6 +268,44 @@
     "desc": ""
   },
   {
+    "id": "菁英骷髏兵",
+    "name": "菁英骷髏兵",
+    "anime": "pat",
+    "properties": [
+      280,
+      145,
+      105,
+      18,
+      3,
+      0,
+      30,
+      1
+    ],
+    "items": [],
+    "system": "無",
+    "skill_tips": "無特別注意的點",
+    "desc": ""
+  },
+  {
+    "id": "靈戰士",
+    "name": "靈戰士",
+    "anime": "ring",
+    "properties": [
+      1400,
+      520,
+      450,
+      35,
+      6,
+      0,
+      30,
+      1
+    ],
+    "items": [],
+    "system": "復活",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
     "id": "初級守衛",
     "name": "初級守衛",
     "anime": "punch",
@@ -518,6 +556,25 @@
     "desc": ""
   },
   {
+    "id": "四手史萊姆人",
+    "name": "四手史萊姆人",
+    "anime": "mpunch",
+    "properties": [
+      250,
+      170,
+      120,
+      14,
+      3,
+      0,
+      30,
+      2
+    ],
+    "items": [],
+    "system": "黏液拳",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
     "id": "騎士",
     "name": "騎士",
     "anime": "sword",
@@ -579,7 +636,16 @@
     "id": "雙手劍士",
     "name": "雙手劍士",
     "anime": "sword",
-    "properties": [],
+    "properties": [
+      200,
+      140,
+      45,
+      13,
+      2,
+      0,
+      40,
+      2
+    ],
     "items": [],
     "system": "無",
     "skill_tips": "",
@@ -636,8 +702,27 @@
     "desc": ""
   },
   {
-    "id": "暗黑大法師",
-    "name": "暗黑大法師",
+    "id": "巨龍",
+    "name": "巨龍",
+    "anime": "rake",
+    "properties": [
+      3000,
+      375,
+      225,
+      300,
+      50,
+      0,
+      50,
+      1
+    ],
+    "items": [],
+    "system": "無",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "黑暗大法師",
+    "name": "黑暗大法師",
     "anime": "blackmagic",
     "properties": [
       750,
@@ -651,6 +736,44 @@
     ],
     "items": [],
     "system": "魔法攻擊,黑魔法",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "魔法警衛",
+    "name": "魔法警衛",
+    "anime": "ripple",
+    "properties": [
+      300,
+      150,
+      300,
+      25,
+      5,
+      0,
+      40,
+      1
+    ],
+    "items": [],
+    "system": "魔法攻擊",
+    "skill_tips": "",
+    "desc": ""
+  },
+  {
+    "id": "八爪魚",
+    "name": "八爪魚",
+    "anime": "pat",
+    "properties": [
+      300,
+      168,
+      150,
+      20,
+      4,
+      0,
+      50,
+      1
+    ],
+    "items": [],
+    "system": "無",
     "skill_tips": "",
     "desc": ""
   }

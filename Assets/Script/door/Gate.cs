@@ -1,82 +1,86 @@
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using LDtkUnity;
-using UnityEditor;
+using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
-    public Animator animator; // 將 Animator 組件拖入此欄位
-    public string triggerName = "StartAnimation"; // Animator 中的觸發器名稱
-    private bool hasPlayed = false; // 紀錄動畫是否已經播放
+    public Animator animator; // 動畫控制器
+    public string triggerName = "StartAnimation";
+    private bool hasPlayed = false; // 避免重複播放
     public float animelength = 0.9f;
     private Inventory inventory;
     private AudioManager audiomanager;
     private LDtkFields _fields;
-    private string result;
-    int key;
+
+    private List<string> unlockResults = new List<string>(); // 存多個 unlock 名稱
 
     private void Start()
     {
-        // 確保 animator 被正確分配
         animator = GetComponent<Animator>();
         inventory = FindFirstObjectByType<Inventory>();
         audiomanager = FindFirstObjectByType<AudioManager>();
         _fields = GetComponent<LDtkFields>();
+
         if (_fields == null)
         {
             Debug.LogError($"LDtkFields component missing on {gameObject.name}");
             return;
         }
-        if (_fields.GetEntityReference("unlock") != null)
-        {
-            LDtkReferenceToAnEntityInstance entity = _fields.GetEntityReference("unlock");
-            LDtkIid name = entity.FindEntity();
-            string abc = name.ToString();
-            result = abc.Split(' ')[0];
-        }
 
+        // 取得全部 unlock 參考
+        var entities = _fields.GetEntityReferenceArray("unlock");
+        if (entities != null && entities.Length > 0)
+        {
+            foreach (var entity in entities)
+            {
+                if (entity == null) continue;
+                LDtkIid name = entity.FindEntity();
+                string abc = name.ToString();
+                string oneResult = abc.Split(' ')[0];
+                unlockResults.Add(oneResult);
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // 檢查碰撞對象是否是玩家（Tag 為 "Player"）
         if (collision.gameObject.CompareTag("Player") && !hasPlayed)
-        {   
-            print(result);
-            if (GameObject.Find(result) == null)
+        {
+            // 檢查所有 unlock 物件是否都不存在
+            bool allCleared = true;
+            foreach (var res in unlockResults)
             {
-                // 播放動畫
+                if (GameObject.Find(res) != null)
+                {
+                    allCleared = false;
+                    break;
+                }
+            }
+
+            if (allCleared)
+            {
                 animator.SetBool("bump", true);
-                Debug.Log("有撞到");
+                Debug.Log("門被撞開");
 
                 audiomanager.PlaySFX("Door");
 
-                // 播放動畫並在動畫結束後銷毀物件
                 StartCoroutine(DestroyAfterAnimation(animelength));
-
-                // 記錄動畫已播放
                 hasPlayed = true;
             }
             else
             {
                 audiomanager.PlaySFX("Stop");
+                Debug.Log("門還被鎖住");
             }
-
-
         }
     }
 
     private IEnumerator DestroyAfterAnimation(float animationLength)
     {
-        // 等待動畫播放完成
         yield return new WaitForSeconds(animationLength);
 
-        // 銷毀物件
-        Destroy(gameObject);
-
-        // 動畫播放結束後將 bump 設置為 false
-        animator.SetBool("bump", false);
+        Destroy(gameObject); // 銷毀門
+        animator.SetBool("bump", false); // 重設動畫狀態
     }
 }
-
-

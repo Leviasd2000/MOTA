@@ -1,0 +1,25 @@
+{
+	"identifier": "Level_17",
+	"uniqueIdentifer": "06626670-5e50-11f0-91d0-058a23549eeb",
+	"x": 0,
+	"y": -7072,
+	"width": 416,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "050d36b0-5e50-11f0-91d0-9fbf883fc52d",
+			"dir": "s"
+		},
+		{
+			"levelIid": "07781c30-5e50-11f0-91d0-4dc5a30bf7dc",
+			"dir": "n"
+		}
+	],
+	"customFields" : {},
+	"layers": [
+		"Bg.png",
+		"AniBg.png"
+	],
+	"entities" : {}
+}

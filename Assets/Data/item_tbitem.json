@@ -179,7 +179,7 @@
     "items": [],
     "system": "",
     "pick_tips": "",
-    "use_tips": "得到一顆紅寶石，攻擊+2",
+    "use_tips": "得到一顆綠寶石，回復氣息一格",
     "desc": ""
   },
   {
@@ -188,17 +188,167 @@
     "icon": "",
     "type": 0,
     "use_type": 1,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "黃寶石",
+    "pick_tips": "",
+    "use_tips": "得到一顆黃寶石，提升了專注力",
+    "desc": ""
+  },
+  {
+    "id": "經驗藥水",
+    "name": "經驗藥水",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
     "properties": [
       {
-        "attribute": "Breath",
-        "count": 40
+        "attribute": "Exp",
+        "count": 5
       }
     ],
     "percent_properties": [],
     "items": [],
     "system": "",
     "pick_tips": "",
-    "use_tips": "得到一顆紅寶石，攻擊+2",
+    "use_tips": "喝到一瓶經驗藥水，經驗+5",
+    "desc": ""
+  },
+  {
+    "id": "神奇藥水",
+    "name": "神奇藥水",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "神奇藥水",
+    "pick_tips": "",
+    "use_tips": "喝到一瓶神奇藥水，加強了力量",
+    "desc": ""
+  },
+  {
+    "id": "聖水",
+    "name": "聖水",
+    "icon": "",
+    "type": 0,
+    "use_type": 2,
+    "properties": [],
+    "percent_properties": [
+      {
+        "attribute": "Hp",
+        "count": 2
+      }
+    ],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "喝到一瓶聖水，生命大幅成長",
+    "desc": ""
+  },
+  {
+    "id": "鋤頭",
+    "name": "鋤頭",
+    "icon": "",
+    "type": 0,
+    "use_type": 0,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "給需要的人，或許會對關卡進展有幫助",
+    "desc": ""
+  },
+  {
+    "id": "寶石鋤頭",
+    "name": "寶石鋤頭",
+    "icon": "",
+    "type": 0,
+    "use_type": 0,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "鑲有寶石的高級鋤頭，寶石散發著神秘又璀璨的光澤",
+    "desc": ""
+  },
+  {
+    "id": "大金幣",
+    "name": "大金幣",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Gold",
+        "count": 200
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "",
+    "pick_tips": "",
+    "use_tips": "得到一顆大金幣，金錢+200",
+    "desc": ""
+  },
+  {
+    "id": "聖劍之證",
+    "name": "聖劍之證",
+    "icon": "",
+    "type": 0,
+    "use_type": 2,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "聖劍之證",
+    "pick_tips": "",
+    "use_tips": "按下O可以使眼前任何怪物變成史萊姆(魔王、幹部無效)",
+    "desc": ""
+  },
+  {
+    "id": "解毒劑",
+    "name": "解毒劑",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "解毒",
+    "pick_tips": "",
+    "use_tips": "使用解毒劑，中毒狀態去除",
+    "desc": ""
+  },
+  {
+    "id": "火酒",
+    "name": "火酒",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "火酒",
+    "pick_tips": "",
+    "use_tips": "使用火酒，衰落狀態去除",
+    "desc": ""
+  },
+  {
+    "id": "永恆冰結晶",
+    "name": "永恆冰結晶",
+    "icon": "",
+    "type": 0,
+    "use_type": 0,
+    "properties": [],
+    "percent_properties": [],
+    "items": [],
+    "system": "永恆冰結晶",
+    "pick_tips": "",
+    "use_tips": "可以永久移除熔岩",
     "desc": ""
   },
   {
@@ -215,9 +365,180 @@
     ],
     "percent_properties": [],
     "items": [],
-    "system": "",
+    "system": "Atkcritical",
     "pick_tips": "",
     "use_tips": "裝備上一把鐵劍，攻擊+10",
+    "desc": ""
+  },
+  {
+    "id": "鋼劍",
+    "name": "鋼劍",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 20
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Atkcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把鋼劍，攻擊+20",
+    "desc": ""
+  },
+  {
+    "id": "黃銅劍",
+    "name": "黃銅劍",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 32
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Atkcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把黃銅劍，攻擊+32",
+    "desc": ""
+  },
+  {
+    "id": "神聖劍",
+    "name": "神聖劍",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 55
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Atkcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把神聖劍，攻擊+55",
+    "desc": ""
+  },
+  {
+    "id": "勇者劍",
+    "name": "勇者劍",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Atk",
+        "count": 100
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Atkcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把勇者劍，攻擊+100",
+    "desc": ""
+  },
+  {
+    "id": "鐵盾",
+    "name": "鐵盾",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 10
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Defcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把鐵盾，防禦+10",
+    "desc": ""
+  },
+  {
+    "id": "鋼盾",
+    "name": "鋼盾",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 20
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Defcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把鋼盾，防禦+20",
+    "desc": ""
+  },
+  {
+    "id": "黃銅盾",
+    "name": "黃銅盾",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 32
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Defcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把黃銅盾，防禦+32",
+    "desc": ""
+  },
+  {
+    "id": "神聖盾",
+    "name": "神聖盾",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 55
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Defcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把神聖盾，防禦+55",
+    "desc": ""
+  },
+  {
+    "id": "勇者盾",
+    "name": "勇者盾",
+    "icon": "",
+    "type": 0,
+    "use_type": 1,
+    "properties": [
+      {
+        "attribute": "Def",
+        "count": 100
+      }
+    ],
+    "percent_properties": [],
+    "items": [],
+    "system": "Defcritical",
+    "pick_tips": "",
+    "use_tips": "裝備上一把勇者盾，防禦+100",
     "desc": ""
   },
   {

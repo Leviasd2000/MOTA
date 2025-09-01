@@ -443,28 +443,6 @@
 				}
 			}
 		],
-		"Gate": [
-			{
-				"id": "Gate",
-				"iid": "019a3a20-1030-11f0-9b0d-05e5e02a4750",
-				"layer": "Entities",
-				"x": 208,
-				"y": 272,
-				"width": 32,
-				"height": 32,
-				"color": 4098376,
-				"customFields": {
-					"Door": "轉閘門",
-					"unlock": {
-						"entityIid": "d24ea720-1030-11f0-8157-a583cae10d51",
-						"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
-						"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
-						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
-					},
-					"ID": null
-				}
-			}
-		],
 		"Mundane": [
 			{
 				"id": "Mundane",
@@ -478,6 +456,36 @@
 				"customFields": {
 					"item": "凡骨",
 					"ID": null
+				}
+			}
+		],
+		"Gate": [
+			{
+				"id": "Gate",
+				"iid": "c09adeb0-5e50-11f0-b86a-f946f675af36",
+				"layer": "Entities",
+				"x": 208,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 4098376,
+				"customFields": {
+					"Door": "轉閘門",
+					"ID": null,
+					"unlock": [
+						{
+							"entityIid": "cef7b3f0-1030-11f0-8157-954e6523f69f",
+							"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+							"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+							"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+						},
+						{
+							"entityIid": "d24ea720-1030-11f0-8157-a583cae10d51",
+							"layerIid": "2a3cd701-e920-11ef-acfb-c11859db4f26",
+							"levelIid": "2a3cd700-e920-11ef-acfb-4f9f68fc6f26",
+							"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
+						}
+					]
 				}
 			}
 		]

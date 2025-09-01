@@ -305,6 +305,20 @@
 					"item": "藍寶石",
 					"ID": null
 				}
+			},
+			{
+				"id": "Bluegem",
+				"iid": "e231dfb0-5e50-11f0-91d0-e9489a694862",
+				"layer": "Entities",
+				"x": 48,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "藍寶石",
+					"ID": null
+				}
 			}
 		],
 		"Bluedoor": [
@@ -515,6 +529,20 @@
 					"item": "紅寶石",
 					"ID": null
 				}
+			},
+			{
+				"id": "Redgem",
+				"iid": "e4aa0ba0-5e50-11f0-91d0-bfbb70d3336d",
+				"layer": "Entities",
+				"x": 112,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 14957380,
+				"customFields": {
+					"item": "紅寶石",
+					"ID": null
+				}
 			}
 		],
 		"Slime3": [
@@ -554,6 +582,97 @@
 						"levelIid": "fab2ce60-1030-11f0-9b0d-b597f740b06e",
 						"worldIid": "156ba0f1-c210-11ef-abfa-9f426f3ab43f"
 					}
+				}
+			}
+		],
+		"Entity26": [
+			{
+				"id": "Entity26",
+				"iid": "c4461d40-5e50-11f0-91d0-4b256e04f771",
+				"layer": "Entities",
+				"x": 240,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"Monster": "騎士",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity26",
+				"iid": "c48c26f0-5e50-11f0-91d0-bb07e6ea9c4a",
+				"layer": "Entities",
+				"x": 272,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"Monster": "騎士",
+					"ID": null
+				}
+			},
+			{
+				"id": "Entity26",
+				"iid": "cf8831c0-5e50-11f0-91d0-738e3cc3c847",
+				"layer": "Entities",
+				"x": 80,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"Monster": "騎士",
+					"ID": null
+				}
+			}
+		],
+		"Entity20": [
+			{
+				"id": "Entity20",
+				"iid": "c94ff090-5e50-11f0-91d0-f50fea71e0aa",
+				"layer": "Entities",
+				"x": 208,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 16690740,
+				"customFields": {
+					"Monster": "石怪",
+					"ID": null
+				}
+			}
+		],
+		"Entity22": [
+			{
+				"id": "Entity22",
+				"iid": "cb0c6da0-5e50-11f0-91d0-1d0c6694d967",
+				"layer": "Entities",
+				"x": 208,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"Monster": "史萊姆人",
+					"ID": null
+				}
+			}
+		],
+		"NPC07": [
+			{
+				"id": "NPC07",
+				"iid": "8b7170a0-8560-11f0-9e1e-07b4471a508b",
+				"layer": "Entities",
+				"x": 144,
+				"y": 48,
+				"width": 32,
+				"height": 32,
+				"color": 16711748,
+				"customFields": {
+					"NPC": "行商1"
 				}
 			}
 		]

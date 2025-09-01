@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 8,
+    "__cWid": 8,
+    "cachedPixelData": {
+      "opaqueTiles": "1111111111111111111111111111111111111111111111111111111111111111",
+      "averageColors": "f765f765f765fd79f765f765fa96fa96fb77f77bf7b7f876f98af88afa76fa66f445f445f546f546f9a8f8a8f879f879f99af99af748f748f897f897f666f775f787f787f766f766f589f589f999fa96f9a8f9a8f669f669f775f775f657f757f886f886f898f898f988f988fa88fa88f88af88af668f667f767f767f867f867"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "All",
+    "padding": 0,
+    "pxHei": 256,
+    "pxWid": 256,
+    "relPath": "../Resource/all.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 32,
+    "uid": 503
+  }
+}

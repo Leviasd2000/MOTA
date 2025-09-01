@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -118,8 +118,8 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dragon_0: 3428391033546482049
+      dragon_1: -3659253432981061226
+      dragon_10: 2908348714287734447
+      dragon_11: 4345083522021541533
+      dragon_12: 8974491787482733472
+      dragon_13: -3736404483819266320
+      dragon_14: 4831162074713596132
+      dragon_15: 5208012078400439402
+      dragon_2: 4787528527978275672
+      dragon_3: -4942630381886749522
+      dragon_4: 1284593036618238296
+      dragon_5: 2630638477016955818
+      dragon_6: 3882194283577183912
+      dragon_7: -8334837670336803960
+      dragon_8: 7591742993644914627
+      dragon_9: -5685498966254118996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

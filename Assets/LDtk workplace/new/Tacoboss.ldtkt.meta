@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: c1e87fbded267b7428ea1fd810812729
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 32
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: Tacoboss_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 96
+      height: 96
+    spriteID: 25881b94284c3df4798c551d8b48c24d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 288
+      width: 96
+      height: 96
+    spriteID: 133aa46ba58d06c44bb89d224bd6b0e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 288
+      width: 96
+      height: 96
+    spriteID: f8b35d2463c01414d8fa81294cf625f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 288
+      width: 96
+      height: 96
+    spriteID: 669ae02c1d576f54aa9dcac2870feab9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 96
+      height: 96
+    spriteID: ba38d7ab12e0c954f9b7aebfcf45d166
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 96
+      height: 96
+    spriteID: 850aaab876bde4542b3d35710d9febf0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 96
+      height: 96
+    spriteID: 9a19351c3fdd9ce49806b7bc7e30149c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 192
+      width: 96
+      height: 96
+    spriteID: b7d54a75c707f2244ad32120ee6633f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 96
+      height: 96
+    spriteID: dadbce0c2bdc6a1459e0bfec81943412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 5fc5a9f77fb2ad74db8b46406137875f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 96
+      height: 96
+    spriteID: f9d9f6dc2d6011040b0c64faa9ded581
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 96
+      height: 96
+    spriteID: 958efd3d97ad38f4fa16be642227ba29
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 96
+      height: 96
+    spriteID: b5e4f653e8a70f943bb456c9488842ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 96
+      height: 96
+    spriteID: 9c428c7a7cd6a3c47871d73677c4b416
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 96
+      height: 96
+    spriteID: ed01612f3df9afc45984adcb7f9dde2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Tacoboss_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 96
+      height: 96
+    spriteID: 5c244e7c11cd5bd408dce786a7d94880
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 4,
+    "__cWid": 4,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000000000000",
+      "averageColors": "5ccc5ccc5ccc5cccbcb4bcb4bcb4bcb4b7deb7deb7deb7dea454a444a454a444"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Dragon",
+    "padding": 0,
+    "pxHei": 384,
+    "pxWid": 384,
+    "relPath": "../Resource/dragon.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 96,
+    "uid": 502
+  }
+}

@@ -164,22 +164,6 @@
 				}
 			}
 		],
-		"Bat2": [
-			{
-				"id": "Bat2",
-				"iid": "cacef960-1030-11f0-9b0d-6f631b60c85c",
-				"layer": "Entities",
-				"x": 112,
-				"y": 80,
-				"width": 32,
-				"height": 32,
-				"color": 3818598,
-				"customFields": {
-					"Monster": "大蝙蝠",
-					"ID": null
-				}
-			}
-		],
 		"Yellowkey": [
 			{
 				"id": "Yellowkey",
@@ -215,6 +199,20 @@
 				"layer": "Entities",
 				"x": 368,
 				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"item": "黃鑰匙",
+					"ID": null
+				}
+			},
+			{
+				"id": "Yellowkey",
+				"iid": "9e7b39b0-5e50-11f0-91d0-a12209e9ebe0",
+				"layer": "Entities",
+				"x": 112,
+				"y": 304,
 				"width": 32,
 				"height": 32,
 				"color": 16705377,
@@ -265,6 +263,197 @@
 				"customFields": {
 					"Monster": "骷髏",
 					"ID": null
+				}
+			}
+		],
+		"Bat1": [
+			{
+				"id": "Bat1",
+				"iid": "54786310-5e50-11f0-91d0-2be8eae5c97a",
+				"layer": "Entities",
+				"x": 112,
+				"y": 80,
+				"width": 32,
+				"height": 32,
+				"color": 16777215,
+				"customFields": {
+					"Monster": "小蝙蝠",
+					"ID": null
+				}
+			}
+		],
+		"Entity10": [
+			{
+				"id": "Entity10",
+				"iid": "593e76a0-5e50-11f0-91d0-65aee232bd47",
+				"layer": "Entities",
+				"x": 112,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 3818598,
+				"customFields": {
+					"Monster": "初級守衛",
+					"ID": null
+				}
+			}
+		],
+		"Potion": [
+			{
+				"id": "Potion",
+				"iid": "7b9d2390-5e50-11f0-91d0-199bd25a7e7e",
+				"layer": "Entities",
+				"x": 80,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 2943221,
+				"customFields": {
+					"item": "普通傷藥",
+					"ID": null
+				}
+			}
+		],
+		"Entity43": [
+			{
+				"id": "Entity43",
+				"iid": "7cec5fe0-5e50-11f0-91d0-03ae78dff28d",
+				"layer": "Entities",
+				"x": 144,
+				"y": 272,
+				"width": 32,
+				"height": 32,
+				"color": 1199753,
+				"customFields": {
+					"item": "經驗藥水",
+					"ID": null
+				}
+			}
+		],
+		"Yellowdoor": [
+			{
+				"id": "Yellowdoor",
+				"iid": "81252790-5e50-11f0-91d0-dd39f64f397a",
+				"layer": "Entities",
+				"x": 112,
+				"y": 240,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"Door": "黃門",
+					"ID": null
+				}
+			},
+			{
+				"id": "Yellowdoor",
+				"iid": "bf8f6540-5e50-11f0-91d0-990c7403827c",
+				"layer": "Entities",
+				"x": 304,
+				"y": 112,
+				"width": 32,
+				"height": 32,
+				"color": 16705377,
+				"customFields": {
+					"Door": "黃門",
+					"ID": null
+				}
+			}
+		],
+		"Entity59": [
+			{
+				"id": "Entity59",
+				"iid": "9a821310-5e50-11f0-91d0-c98917bfb674",
+				"layer": "Entities",
+				"x": 112,
+				"y": 336,
+				"width": 32,
+				"height": 32,
+				"color": 9149364,
+				"customFields": {
+					"item": "綠寶石",
+					"ID": null
+				}
+			}
+		],
+		"Slime1": [
+			{
+				"id": "Slime1",
+				"iid": "b36d5100-5e50-11f0-91d0-f5581be517ce",
+				"layer": "Entities",
+				"x": 336,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 12561130,
+				"customFields": {
+					"anime": 2,
+					"Monster": "綠色史萊姆",
+					"ID": null
+				}
+			}
+		],
+		"Slime2": [
+			{
+				"id": "Slime2",
+				"iid": "b448e3f0-5e50-11f0-91d0-f34b7e6685f0",
+				"layer": "Entities",
+				"x": 368,
+				"y": 144,
+				"width": 32,
+				"height": 32,
+				"color": 15389866,
+				"customFields": {
+					"anime": 2,
+					"Monster": "紅色史萊姆",
+					"ID": null
+				}
+			}
+		],
+		"HighPotion": [
+			{
+				"id": "HighPotion",
+				"iid": "c323af90-5e50-11f0-91d0-17c645d3a80a",
+				"layer": "Entities",
+				"x": 336,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 12087120,
+				"customFields": {
+					"item": "高級傷藥",
+					"ID": null
+				}
+			}
+		],
+		"NPC02_1": [
+			{
+				"id": "NPC02_1",
+				"iid": "2d8a4d80-5e50-11f0-91d0-f993ada0158a",
+				"layer": "Entities",
+				"x": 368,
+				"y": 176,
+				"width": 32,
+				"height": 32,
+				"color": 10626611,
+				"customFields": {
+					"NPC": "商人2"
+				}
+			}
+		],
+		"NPC01_1": [
+			{
+				"id": "NPC01_1",
+				"iid": "30d7a3c0-5e50-11f0-91d0-9d791881430f",
+				"layer": "Entities",
+				"x": 208,
+				"y": 368,
+				"width": 32,
+				"height": 32,
+				"color": 1184393,
+				"customFields": {
+					"anime": 2,
+					"NPC": "老人2"
 				}
 			}
 		]

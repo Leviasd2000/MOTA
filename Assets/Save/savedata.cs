@@ -13,6 +13,7 @@ using UnityEngine.UI;
 public class SaveManager : MonoBehaviour
 {
     public GameObject player;
+    
     public GameObject map;
     public static SaveManager Instance { get; private set; }
 
@@ -30,7 +31,7 @@ public class SaveManager : MonoBehaviour
     private GameObject currentMapInstance;
     public Camera mainCamera;
     public Inventory inventory;
-    public string currentScene => SceneManager.GetActiveScene().name;
+    public string CurrentScene => SceneManager.GetActiveScene().name;
     public GameObject SaveUI;
 
     private int currentPage = 0; // 從第 1 頁開始
@@ -97,6 +98,7 @@ public class SaveManager : MonoBehaviour
         allEntities = FindObjectsByType<LDtkIid>(FindObjectsSortMode.None);
         // 收集目前關卡的所有 Entity ID
         currentIDs = allEntities.Select(e => e.Iid).ToList(); // public static implicit operator string(LDtkIid iid) => iid.Iid; 會直接自動轉成 string
+        player = FindFirstObjectByType<Braveplayer>().gameObject;
         
         // Singleton & Don't Destroy
         if (Instance != null && Instance != this)
@@ -430,7 +432,7 @@ public class SaveManager : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
         for (int i = 0; i < 6; i++)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1 + i) || Input.GetKeyDown(KeyCode.Keypad1 + i))
@@ -441,7 +443,7 @@ public class SaveManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P) & (SaveUI.activeSelf))
         {
             SaveGame(currentIndex);  // 按 P 存檔
             Setproperties(attributes , currentIndex);
@@ -449,7 +451,7 @@ public class SaveManager : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.L) & (SaveUI.activeSelf))
         {
             LoadGame(currentIndex);  // 按 L 讀檔
             StartCoroutine(RefreshAfterDelay());
@@ -458,23 +460,35 @@ public class SaveManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.U))
         {
             ToggleSaveUI(); // 按 U 開/關存檔 UI
-            StartCoroutine(RefreshAfterDelay());
+            if (SaveUI.activeSelf)
+            {
+                player.GetComponent<Braveplayer>().StopCurrentRepeatMovement();
+                player.GetComponent<Braveplayer>().StopMoving();
+                player.GetComponent<Braveplayer>().enabled = false;
+            }
+            else
+            {
+                player.GetComponent<Animator>().enabled = true;
+                player.GetComponent<Braveplayer>().enabled = true;
+            }
+
+                StartCoroutine(RefreshAfterDelay());
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) & (SaveUI.activeSelf))
         {
             DeleteSave(currentIndex); // 按 U 開/關存檔 UI
             StartCoroutine(RefreshAfterDelay());
         }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) & (SaveUI.activeSelf))
         {
             NextPage();
             Setpage(orders);
             slotUIs[currentSlot].SetHighlight(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow) & currentPage>=1)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) & currentPage>=1 & (SaveUI.activeSelf))
         {
             PreviousPage();
             Setpage(orders);
